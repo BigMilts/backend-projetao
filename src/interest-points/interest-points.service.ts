@@ -10,6 +10,8 @@ export class InterestPointsService {
   constructor(
     @InjectRepository(InterestPoint)
     private interestPointsRepository: Repository<InterestPoint>,
+    @InjectRepository(Itinerary)
+    private itinerariesRepository: Repository<Itinerary>,
   ) {}
 
   async findInterestPoints(latitude: number, longitude: number, radius = 30) {
@@ -66,5 +68,10 @@ export class InterestPointsService {
     const d = R * c; // in metres
 
     return d;
+  }
+
+  async findOneItinerary(id: number) {
+    const itinerary = await this.itinerariesRepository.findOne(id);
+    return itinerary;
   }
 }
