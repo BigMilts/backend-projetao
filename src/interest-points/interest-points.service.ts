@@ -1,8 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { CreateInterestPointDto } from './dto/create-interest-point.dto';
-import { UpdateInterestPointDto } from './dto/update-interest-point.dto';
 import { InterestPoint } from './entities/interest-point.entity';
 import { Itinerary } from './entities/itinerary.entity';
 
@@ -10,28 +8,16 @@ import { Itinerary } from './entities/itinerary.entity';
 export class InterestPointsService {
   constructor(
     @InjectRepository(InterestPoint)
-    private usersRepository: Repository<InterestPoint>,
+    private interestPointsRepository: Repository<InterestPoint>,
     @InjectRepository(Itinerary)
-    private profilesRepository: Repository<Itinerary>,
+    private itinerariesRepository: Repository<Itinerary>,
   ) {}
 
-  create(createInterestPointDto: CreateInterestPointDto) {
-    return 'This action adds a new interestPoint';
+  async findInterestPoints() {
+    return this.interestPointsRepository.find();
   }
 
-  findAll() {
-    return `This action returns all interestPoints`;
-  }
-
-  findOne(id: number) {
-    return `This action returns a #${id} interestPoint`;
-  }
-
-  update(id: number, updateInterestPointDto: UpdateInterestPointDto) {
-    return `This action updates a #${id} interestPoint`;
-  }
-
-  remove(id: number) {
-    return `This action removes a #${id} interestPoint`;
+  async findItineraries() {
+    return this.itinerariesRepository.find();
   }
 }
