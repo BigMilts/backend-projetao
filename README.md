@@ -61,9 +61,8 @@ $ npm run test:cov
 ## TODO
 
 Requisições do front para o back
-- Cadastro (POST de cadastro)
-- Requerer usuário autenticado para todas as rotas
 - Coletar e inserir pontos de interesse no MVP
+- Corrigir funcionamento da autenticação
 
 ## Support
 
