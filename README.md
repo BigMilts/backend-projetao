@@ -62,10 +62,7 @@ $ npm run test:cov
 
 Requisições do front para o back
 - Cadastro (POST de cadastro)
-- Edição de perfil (POST de nome, tipo de aventureiro e imagem)
-- Mapa (GET com latitude longitude para pegar pontos de interesse dentro de um raio específico que contem informações a respeito do local)
-- Roteiro (GET com tipo de perfil para pegar os roteiros mais próximos/ GET para pegar o roteiro escolhido que retorna os locais de interesse específicos e em ordem de visita)
-- Revisar entidades para o Banco de Dados
+- Requerer usuário autenticado para todas as rotas
 - Coletar e inserir pontos de interesse no MVP
 
 ## Support
