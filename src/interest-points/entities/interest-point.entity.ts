@@ -6,10 +6,10 @@ export class InterestPoint {
   @PrimaryGeneratedColumn('increment')
   id: number;
 
-  @Column()
+  @Column({type: 'float'})
   latitude: number;
 
-  @Column()
+  @Column({type: 'float'})
   longitude: number;
 
   @Column()
@@ -20,9 +20,6 @@ export class InterestPoint {
 
   @Column({ type: 'text' })
   description: string;
-
-  @Column({ type: 'text' })
-  history: string;
 
   @Column()
   badge: string;

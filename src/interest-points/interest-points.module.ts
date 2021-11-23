@@ -9,5 +9,6 @@ import { TypeOrmModule } from '@nestjs/typeorm';
   imports: [TypeOrmModule.forFeature([InterestPoint, Itinerary])],
   controllers: [InterestPointsController],
   providers: [InterestPointsService],
+  exports: [InterestPointsService],
 })
 export class InterestPointsModule {}

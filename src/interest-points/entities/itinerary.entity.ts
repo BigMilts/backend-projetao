@@ -10,6 +10,6 @@ export class Itinerary {
   @ManyToOne(() => Profile, (profile) => profile.itineraries)
   profile: Profile;
 
-  @OneToMany(() => InterestPoint, (interestPoint) => interestPoint.itinerary)
+  @OneToMany(() => InterestPoint, (interestPoint) => interestPoint.itinerary, {eager: true})
   interestPoints: InterestPoint[];
 }

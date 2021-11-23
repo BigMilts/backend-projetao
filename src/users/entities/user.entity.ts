@@ -4,6 +4,7 @@ import {
   Entity,
   JoinTable,
   ManyToMany,
+  ManyToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { Profile } from './profile.entity';
@@ -20,16 +21,13 @@ export class User {
   @Column()
   password: string;
 
-  @Column()
+  @Column({nullable: true})
   name: string;
 
-  @Column()
+  @Column({nullable: true})
   profilePicture: string;
 
-  @Column()
-  profile: string;
-
-  @Column()
+  @Column({ default: 0 })
   experience: number;
 
   @Column({ default: false })
@@ -39,7 +37,6 @@ export class User {
   @JoinTable()
   interestPoints: InterestPoint[];
 
-  @ManyToMany(() => Profile)
-  @JoinTable()
-  profiles: Profile[];
+  @ManyToOne(() => Profile)
+  profile: Profile;
 }
