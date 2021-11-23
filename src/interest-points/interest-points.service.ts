@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { getConnection, Repository } from 'typeorm';
 import { InterestPoint } from './entities/interest-point.entity';
 import { Itinerary } from './entities/itinerary.entity';
 
@@ -15,7 +15,13 @@ export class InterestPointsService {
   ) {}
 
   async findInterestPoints(latitude: number, longitude: number, radius = 30) {
-    const interestPoints = await this.interestPointsRepository.find();
+    const interestPoints = await getConnection()
+    .createQueryBuilder()
+    .select('ip')
+    .from(InterestPoint, 'ip')
+    .leftJoinAndSelect('ip.itinerary', 'i')
+    .getMany();
+
     const closeInterestPoints: InterestPoint[] = [];
 
     for (let i = 0; i < interestPoints.length; i++) {
@@ -42,10 +48,11 @@ export class InterestPointsService {
       1000,
     );
 
+    // TODO: itinerarios repetidos, um deles é nulo 
     const closeItineraries: Itinerary[] = [];
     for (let i = 0; i < interestPoints.length; i++) {
       const interestPoint = interestPoints[i];
-      if (interestPoint.itinerary !== undefined) {
+      if (interestPoint.itinerary !== undefined && interestPoint.itinerary !== null) {
         closeItineraries.push(interestPoint.itinerary);
       }
     }
