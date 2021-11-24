@@ -34,7 +34,7 @@ $ npm install
 $ docker run --name postgres -e POSTGRES_PASSWORD=docker -e POSTGRES_DB=projetao -e POSTGRES_USER=postgres -p 5432:5432 -d postgres
 ```
 
-## Running the app
+## Preparing the app
 
 ```bash
 # construir a pasta dist
@@ -60,23 +60,9 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
 ## TODO
 
 Requisições do front para o back
-- Coletar e inserir pontos de interesse no MVP
 - Corrigir funcionamento da autenticação
 
 ## Support
