@@ -37,6 +37,22 @@ $ docker run --name postgres -e POSTGRES_PASSWORD=docker -e POSTGRES_DB=projetao
 ## Running the app
 
 ```bash
+# construir a pasta dist
+$ npm run build
+
+# rodar as migrations
+$ npx typeorm migration:run
+
+# reverter migrations
+$ npx typeorm migration:revert
+
+# derrubar banco de dados
+$ npx typeorm schema:drop
+```
+
+## Running the app
+
+```bash
 # development
 $ npm run start
 
