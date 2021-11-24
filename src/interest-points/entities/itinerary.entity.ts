@@ -10,6 +10,9 @@ export class Itinerary {
   @ManyToOne(() => Profile, (profile) => profile.itineraries, {eager:true})
   @JoinColumn()
   profile: Profile;
+  
+  @Column({length: 140, nullable: true})
+  description: string;
 
   @OneToMany(() => InterestPoint, (interestPoint) => interestPoint.itinerary, {eager: true})
   interestPoints: InterestPoint[];
