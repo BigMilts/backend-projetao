@@ -5,7 +5,7 @@ export class Database1637712568713 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.query(`CREATE TABLE "profile" ("id" SERIAL NOT NULL, "description" character varying NOT NULL, CONSTRAINT "PK_3dd8bfc97e4a77c70971591bdcb" PRIMARY KEY ("id"))`);
-        await queryRunner.query(`CREATE TABLE "itinerary" ("id" SERIAL NOT NULL, "profileId" integer, CONSTRAINT "PK_515a9607ae33d4536f40d60f85e" PRIMARY KEY ("id"))`);
+        await queryRunner.query(`CREATE TABLE "itinerary" ("id" SERIAL NOT NULL, "description" character varying(140), "profileId" integer, CONSTRAINT "PK_515a9607ae33d4536f40d60f85e" PRIMARY KEY ("id"))`);
         await queryRunner.query(`CREATE TABLE "interest_point" ("id" SERIAL NOT NULL, "latitude" double precision NOT NULL, "longitude" double precision NOT NULL, "category" character varying NOT NULL, "name" character varying NOT NULL, "description" text NOT NULL, "badge" character varying NOT NULL, "badgeUrl" character varying NOT NULL, "itineraryId" integer, CONSTRAINT "PK_7c470e3cb613c12abc59bf2e3d7" PRIMARY KEY ("id"))`);
         await queryRunner.query(`CREATE TABLE "user" ("id" SERIAL NOT NULL, "email" character varying NOT NULL, "password" character varying NOT NULL, "name" character varying, "profilePicture" character varying, "experience" integer NOT NULL DEFAULT '0', "historian" boolean NOT NULL DEFAULT false, "profileId" integer, CONSTRAINT "PK_cace4a159ff9f2512dd42373760" PRIMARY KEY ("id"))`);
         await queryRunner.query(`CREATE TABLE "user_interest_points_interest_point" ("userId" integer NOT NULL, "interestPointId" integer NOT NULL, CONSTRAINT "PK_1e8d7d0e4aecd692a16cf34c96b" PRIMARY KEY ("userId", "interestPointId"))`);
