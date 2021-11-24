@@ -20,6 +20,7 @@ export class InterestPointsService {
     .select('ip')
     .from(InterestPoint, 'ip')
     .leftJoinAndSelect('ip.itinerary', 'i')
+    .leftJoinAndSelect('i.profile', 'p')
     .getMany();
 
     const closeInterestPoints: InterestPoint[] = [];
@@ -48,12 +49,13 @@ export class InterestPointsService {
       1000,
     );
 
-    // TODO: itinerarios repetidos, um deles é nulo 
+    const itinerariesIds: number[] = [];
     const closeItineraries: Itinerary[] = [];
     for (let i = 0; i < interestPoints.length; i++) {
       const interestPoint = interestPoints[i];
-      if (interestPoint.itinerary !== undefined && interestPoint.itinerary !== null) {
+      if (interestPoint.itinerary !== undefined && interestPoint.itinerary !== null && !(itinerariesIds.includes(interestPoint.itinerary.id))) {
         closeItineraries.push(interestPoint.itinerary);
+        itinerariesIds.push(interestPoint.itinerary.id)
       }
     }
 

@@ -1,4 +1,4 @@
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { Itinerary } from './itinerary.entity';
 
 @Entity()
@@ -28,5 +28,6 @@ export class InterestPoint {
   badgeUrl: string;
 
   @ManyToOne(() => Itinerary, (itinerary) => itinerary.interestPoints)
+  @JoinColumn()
   itinerary: Itinerary;
 }
