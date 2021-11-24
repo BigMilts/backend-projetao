@@ -41,13 +41,10 @@ $ docker run --name postgres -e POSTGRES_PASSWORD=docker -e POSTGRES_DB=projetao
 $ npm run build
 
 # rodar as migrations
-$ npx typeorm migration:run
+$ npm run schema:drop
 
-# reverter migrations
-$ npx typeorm migration:revert
-
-# derrubar banco de dados
-$ npx typeorm schema:drop
+# rodar as migrations
+$ npm run schema:start
 ```
 
 ## Running the app
