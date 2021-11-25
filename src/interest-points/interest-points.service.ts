@@ -14,7 +14,7 @@ export class InterestPointsService {
     private itinerariesRepository: Repository<Itinerary>,
   ) {}
 
-  async findInterestPoints(latitude: number, longitude: number, radius = 30) {
+  async findInterestPoints(latitude: number = -8.06314, longitude: number = -34.87113, radius = 30) {
     const interestPoints = await getConnection()
     .createQueryBuilder()
     .select('ip')
@@ -42,24 +42,31 @@ export class InterestPointsService {
     return interestPoints;
   }
 
-  async findItineraries(latitude: number, longitude: number) {
-    const interestPoints = await this.findInterestPoints(
-      latitude,
-      longitude,
-      1000,
-    );
+  async findItineraries(latitude: number = -8.06314, longitude: number = -34.87113) {
+    // const interestPoints = await this.findInterestPoints(
+    //   latitude,
+    //   longitude,
+    //   10000,
+    // );
 
-    const itinerariesIds: number[] = [];
-    const closeItineraries: Itinerary[] = [];
-    for (let i = 0; i < interestPoints.length; i++) {
-      const interestPoint = interestPoints[i];
-      if (interestPoint.itinerary !== undefined && interestPoint.itinerary !== null && !(itinerariesIds.includes(interestPoint.itinerary.id))) {
-        closeItineraries.push(interestPoint.itinerary);
-        itinerariesIds.push(interestPoint.itinerary.id)
-      }
-    }
+    // const itinerariesIds: number[] = [];
+    // const closeItineraries: Itinerary[] = [];
+    // for (let i = 0; i < interestPoints.length; i++) {
+    //   const interestPoint = interestPoints[i];
+    //   if (interestPoint.itinerary !== undefined && interestPoint.itinerary !== null && !(itinerariesIds.includes(interestPoint.itinerary.id))) {
+    //     closeItineraries.push(interestPoint.itinerary);
+    //     itinerariesIds.push(interestPoint.itinerary.id)
+    //   }
+    // }
 
-    return closeItineraries;
+    // return closeItineraries;
+    return await getConnection()
+    .createQueryBuilder()
+    .select('i')
+    .from(Itinerary, 'i')
+    .leftJoinAndSelect('i.interestPoints', 'ip')
+    .leftJoinAndSelect('i.profile', 'p')
+    .getMany();
   }
 
   checkItemsInUserRadius(la1: number, lo1: number, la2: number, lo2: number) {
