@@ -1,4 +1,4 @@
-import { Column, Entity, JoinColumn, ManyToOne, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, JoinColumn, ManyToOne, OneToMany, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { InterestPoint } from './interest-point.entity';
 import { Itinerary } from './itinerary.entity';
 
@@ -11,8 +11,8 @@ export class InterestPointItineraryOrder {
   @JoinColumn()
   itinerary: Itinerary;
 
-  @OneToMany(() => InterestPoint, (interestPoint) => interestPoint.itineraryOrder, {eager: true})
-  interestPoint: InterestPoint[];
+  @OneToOne(() => InterestPoint, (interestPoint) => interestPoint.itineraryOrder, {eager: true})
+  interestPoint: InterestPoint;
 
   @Column()
   order: number;
