@@ -7,12 +7,12 @@ export class InterestPointItineraryOrder {
   @PrimaryGeneratedColumn('increment')
   id: number;
 
-  // @ManyToOne(() => Itinerary, (itinerary) => itinerary.interestPointItineraryOrder)
-  // @JoinColumn()
-  // itinerary: Itinerary;
+  @ManyToOne(() => Itinerary, (itinerary) => itinerary.interestPointItineraryOrder)
+  @JoinColumn()
+  itinerary: Itinerary;
 
-  // @OneToMany(() => InterestPoint, (interestPoint) => interestPoint.itineraryOrder, {eager: true})
-  // interestPoint: InterestPoint[];
+  @OneToMany(() => InterestPoint, (interestPoint) => interestPoint.itineraryOrder, {eager: true})
+  interestPoint: InterestPoint[];
 
   @Column()
   order: number;
