@@ -4,6 +4,7 @@ import { InterestPointsController } from './interest-points.controller';
 import { InterestPoint } from './entities/interest-point.entity';
 import { Itinerary } from './entities/itinerary.entity';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { InterestPointItineraryOrder } from './entities/interest-point-itinerary-order';
 
 @Module({
   imports: [TypeOrmModule.forFeature([InterestPoint, Itinerary])],

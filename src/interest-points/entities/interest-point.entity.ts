@@ -1,5 +1,5 @@
 import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
-import { Itinerary } from './itinerary.entity';
+import { InterestPointItineraryOrder } from './interest-point-itinerary-order';
 
 @Entity()
 export class InterestPoint {
@@ -30,7 +30,7 @@ export class InterestPoint {
   @Column({default: 'https://arcturusgroup.com.br/wp-content/uploads/2014/07/paisagem-marco-zero-recife.gif'})
   imageUrl: string;
 
-  @ManyToOne(() => Itinerary, (itinerary) => itinerary.interestPoints)
-  @JoinColumn()
-  itinerary: Itinerary;
+  // @ManyToOne(() => InterestPointItineraryOrder, (interestPointItineraryOrder) => interestPointItineraryOrder.interestPoint)
+  // @JoinColumn()
+  // itineraryOrder: InterestPointItineraryOrder;
 }
