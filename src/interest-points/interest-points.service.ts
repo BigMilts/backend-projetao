@@ -64,8 +64,9 @@ export class InterestPointsService {
     .createQueryBuilder()
     .select('i')
     .from(Itinerary, 'i')
-    .leftJoinAndSelect('i.interestPoints', 'ip')
     .leftJoinAndSelect('i.profile', 'p')
+    .leftJoinAndSelect('i.interestPointItineraryOrder', 'order')
+    .leftJoinAndSelect('order.interestPoint', 'ip')
     .getMany();
   }
 
