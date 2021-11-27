@@ -25,6 +25,7 @@ export class InterestPointsService {
 
     const closeInterestPoints: InterestPoint[] = [];
 
+    // for não utilizado
     for (let i = 0; i < interestPoints.length; i++) {
       const interestPoint = interestPoints[i];
       if (
