@@ -27,6 +27,9 @@ export class InterestPoint {
   @Column()
   badgeUrl: string;
 
+  @Column({default: 'https://arcturusgroup.com.br/wp-content/uploads/2014/07/paisagem-marco-zero-recife.gif'})
+  imageUrl: string;
+
   @ManyToOne(() => Itinerary, (itinerary) => itinerary.interestPoints)
   @JoinColumn()
   itinerary: Itinerary;
