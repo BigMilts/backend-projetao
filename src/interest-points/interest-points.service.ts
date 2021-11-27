@@ -19,8 +19,8 @@ export class InterestPointsService {
     .createQueryBuilder()
     .select('ip')
     .from(InterestPoint, 'ip')
-    .leftJoinAndSelect('ip.itinerary', 'i')
-    .leftJoinAndSelect('i.profile', 'p')
+    // .leftJoinAndSelect('ip.itinerary', 'i')
+    // .leftJoinAndSelect('i.profile', 'p')
     .getMany();
 
     const closeInterestPoints: InterestPoint[] = [];
