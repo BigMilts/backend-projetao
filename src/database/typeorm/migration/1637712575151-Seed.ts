@@ -3,8 +3,8 @@ import {MigrationInterface, QueryRunner} from "typeorm";
 export class Seed1637712575151 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {
-        await queryRunner.query(`INSERT INTO public.profile (id, description) VALUES (1, 'Historiador');
-        INSERT INTO public.profile (id, description) VALUES (2, 'Folclórico');`);
+        await queryRunner.query(`INSERT INTO public.profile (id, category) VALUES (1, 'Historiador');
+        INSERT INTO public.profile (id, category) VALUES (2, 'Folclórico');`);
 
         await queryRunner.query(`insert into "itinerary" ("description", "id", "imageUrl", "profileId", "title") 
         values ('Um roteiro histórico da cidade do Recife!', 1, 'https://arcturusgroup.com.br/wp-content/uploads/2014/07/paisagem-marco-zero-recife.gif', 1, 'Placeholder title');

@@ -7,7 +7,7 @@ export class Profile {
   id: number;
 
   @Column()
-  description: string;
+  category: string;
 
   @OneToMany(() => Itinerary, (itinerary) => itinerary.profile)
   itineraries: Itinerary[];
