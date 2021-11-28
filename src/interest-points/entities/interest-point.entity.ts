@@ -37,7 +37,7 @@ export class InterestPoint {
   @Column()
   badgeUrl: string;
 
-  @Column({default: 0})
+  @Column({default: 2})
   likes: number;
 
   @ApiProperty({name: 'imageUrl'})
