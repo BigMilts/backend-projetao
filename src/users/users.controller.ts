@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Patch, Param, Get, Request, UseGuards } from '@nestjs/common';
+import { Controller, Post, Body, Patch, Param, Get, Request, UseGuards, Query } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
@@ -20,6 +20,11 @@ export class UsersController {
   async addInterestPointAndExperienceToUser(@Request() req) {
     await this.usersService.addInterestPointToUser(req.userId, req.interestPointId);
     await this.usersService.addExperienceToUser(req.userId);
+  }
+
+  @Get('favorite')
+  async addFavoriteInterestPointToUser(@Query() query) {
+    return await this.usersService.manageFavoriteFromUser(query.userId, query.interestPointId);
   }
   
   @UseGuards(JwtAuthGuard)

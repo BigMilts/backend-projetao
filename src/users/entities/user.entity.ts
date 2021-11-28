@@ -35,6 +35,10 @@ export class User {
 
   @ManyToMany(() => InterestPoint)
   @JoinTable()
+  favoriteInterestPoints: InterestPoint[];
+
+  @ManyToMany(() => InterestPoint)
+  @JoinTable()
   interestPoints: InterestPoint[];
 
   @ManyToOne(() => Profile)

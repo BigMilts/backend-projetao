@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { InterestPoint } from 'src/interest-points/entities/interest-point.entity';
 import { Itinerary } from 'src/interest-points/entities/itinerary.entity';
 import { InterestPointsService } from 'src/interest-points/interest-points.service';
-import { Repository } from 'typeorm';
+import { getConnection, Repository } from 'typeorm';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { Profile } from './entities/profile.entity';
@@ -63,5 +63,22 @@ export class UsersService {
     }
     
     return itinerariesForUser
+  }
+
+  async manageFavoriteFromUser(userId: number = 4, interestPointId: number) {
+    const connection = getConnection()
+
+    const user = await connection.createQueryBuilder().select('u').from(User, 'u').leftJoinAndSelect('u.favoriteInterestPoints', 'fip').where('u.id=:userId', {userId}).getOne();
+    const interestPoint = await connection.createQueryBuilder().select('ip').from(InterestPoint, 'ip').where('ip.id=:interestPointId', {interestPointId}).getOne();
+
+    for (let i  = 0; i < user.favoriteInterestPoints.length; i++) {
+      const userInterestPoint = user.favoriteInterestPoints[i];
+      if (userInterestPoint.id === interestPoint.id) {
+        user.favoriteInterestPoints.splice(i, 1);
+        return await connection.manager.save(user);
+      }
+    }
+    user.favoriteInterestPoints.push(interestPoint);
+    return await connection.manager.save(user);
   }
 }
