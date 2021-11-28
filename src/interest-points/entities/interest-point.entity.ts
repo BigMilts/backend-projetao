@@ -37,6 +37,9 @@ export class InterestPoint {
   @Column()
   badgeUrl: string;
 
+  @Column({default: 0})
+  likes: number;
+
   @ApiProperty({name: 'imageUrl'})
   @Column({default: 'https://arcturusgroup.com.br/wp-content/uploads/2014/07/paisagem-marco-zero-recife.gif'})
   imageUrl: string;

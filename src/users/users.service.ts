@@ -75,10 +75,14 @@ export class UsersService {
       const userInterestPoint = user.favoriteInterestPoints[i];
       if (userInterestPoint.id === interestPoint.id) {
         user.favoriteInterestPoints.splice(i, 1);
+        interestPoint.likes -= 1;
+        await connection.manager.save(interestPoint);
         return await connection.manager.save(user);
       }
     }
     user.favoriteInterestPoints.push(interestPoint);
+    interestPoint.likes += 1;
+    await connection.manager.save(interestPoint);
     return await connection.manager.save(user);
   }
 }
