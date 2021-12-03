@@ -98,4 +98,10 @@ export class InterestPointsService {
     interestPoint.isFavorite = !interestPoint.isFavorite;
     await this.interestPointsRepository.save(interestPoint);
   }
+
+  async addLike(id: number) {
+    const interestPoint = await this.interestPointsRepository.findOne(id);
+    interestPoint.likes += 1;
+    await this.interestPointsRepository.save(interestPoint);
+  }
 }

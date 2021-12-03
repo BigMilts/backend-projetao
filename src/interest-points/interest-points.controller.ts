@@ -34,6 +34,7 @@ export class InterestPointsController {
   @ApiResponse({})
   @Get('favorite/:id')
   async favoriteInterestPoint(@Param('id') id: number) {
-    return await this.interestPointsService.favorite(id);
+    await this.interestPointsService.favorite(id);
+    await this.interestPointsService.addLike(id);
   }
 }
