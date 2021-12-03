@@ -92,4 +92,10 @@ export class InterestPointsService {
     const itinerary = await this.itinerariesRepository.findOne(id);
     return itinerary;
   }
+
+  async favorite(id: number) {
+    const interestPoint = await this.interestPointsRepository.findOne(id);
+    interestPoint.isFavorite = !interestPoint.isFavorite;
+    await this.interestPointsRepository.save(interestPoint);
+  }
 }
