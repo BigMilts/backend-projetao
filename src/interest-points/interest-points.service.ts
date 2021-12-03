@@ -108,4 +108,8 @@ export class InterestPointsService {
     }
     await this.interestPointsRepository.save(interestPoint);
   }
+
+  async findOneInterestPoint(id: number) {
+    return await this.interestPointsRepository.findOne(id);
+  }
 }

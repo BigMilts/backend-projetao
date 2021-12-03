@@ -36,5 +36,6 @@ export class InterestPointsController {
   async favoriteInterestPoint(@Param('id') id: number) {
     await this.interestPointsService.favorite(id);
     await this.interestPointsService.addLike(id);
+    return await this.interestPointsService.findOneInterestPoint(id);
   }
 }
