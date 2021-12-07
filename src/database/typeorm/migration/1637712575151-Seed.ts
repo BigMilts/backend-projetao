@@ -3,13 +3,13 @@ import {MigrationInterface, QueryRunner} from "typeorm";
 export class Seed1637712575151 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {
-        await queryRunner.query(`INSERT INTO public.profile (id, category) VALUES (1, 'Historiador');
-        INSERT INTO public.profile (id, category) VALUES (2, 'Folclórico');`);
+        await queryRunner.query(`insert into "profile" ("category", "id") values ('Historiador', 1);
+        insert into "profile" ("category", "id") values ('Folclórico', 2);`)
 
         await queryRunner.query(`insert into "itinerary" ("description", "id", "imageUrl", "profileId", "title") 
-        values ('Um roteiro histórico da cidade do Recife!', 1, 'https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2018/01/03/736682/20180103085248486138e.jpg', 1, 'Placeholder title');
+        values ('Um roteiro histórico da cidade do Recife!', 1, 'https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2018/01/03/736682/20180103085248486138e.jpg', 1, 'Roteiro Histórico do Recife');
         insert into "itinerary" ("description", "id", "imageUrl", "profileId", "title") 
-        values ('Um roteiro sobre algumas lendas urbanas da cidade mais assombrada em linha reta do Brasil!', 2, 'https://www.portodorecife.pe.gov.br/images/galeria/noticias/cruz.jpg', 2, 'Placeholder title');`);
+        values ('Um roteiro sobre algumas lendas urbanas da cidade mais assombrada em linha reta do Brasil!', 2, 'https://www.portodorecife.pe.gov.br/images/galeria/noticias/cruz.jpg', 2, 'A cidade mais assombrada do Brasil');`);
 
         await queryRunner.query(`insert into "interest_point_itinerary_order" ("itineraryId", "order") values (1, 1);
         insert into "interest_point_itinerary_order" ("itineraryId", "order") values (1, 2);
