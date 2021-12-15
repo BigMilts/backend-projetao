@@ -60,15 +60,15 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (25,-8.06163,-34.971,'MUSEUS','1)MICHELANGELo (século 16)','r�plica do Davi de Michelangelo
         Local: Instituto Ricardo Brennand 
         Público mensal: 13.997
-        Endereço: Engenho S�o Jo�o,na V�rzea (Alameda Ant�nio Brennand)
+        Endereço: Engenho São João,na V�rzea (Alameda Antônio Brennand)
         Funcionamento: De terça a domingo, das 13h às 17h.
         Informa��es: (81) 2121-0352','obraMichelangelo','google.com',2,'FALSE','https://upload.wikimedia.org/wikipedia/commons/8/8c/Replica_of_Michelangelo%27s_David_in_Instituto_Ricardo_Brennand.jpg',21);`);
 
-        await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (26,-8.06029,-34.87759,'HISTORICO','Primeiro horto zoobot�nico do Brasil','Local: Palácio do Campo das Princesas
+        await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (26,-8.06029,-34.87759,'HISTORICO','Primeiro horto zoobotúnico do Brasil','Local: Palácio do Campo das Princesas
         Ano:1638 - 1645
         
         história:
-        O Palácio do Campo das Princesas era o Palácio de Friburgo, uma das trás residências oficiais do conde holandàs Maurício de Nassau. Na �rea atualmente ocupada por ele, pelo Teatro de Santa Izabel e pela Pra�a da República, foi construído um jardim zoobot�nico. Al�m de pioneiro no Brasil, o local � apontado como o segundo mais antigo das Am�ricas, ficando atrás apenas de um asteca, criado pelos povos amer�ndios. Entre os animais que habitavam o local estavam tucanos, araras, tamanduàs, capivaras, tatus e outras esp�cies da fauna nativa. O espaço era coabitado por animais trazidos da �frica e àsia, como tigres, cabras angolanas e diversas aves. De acordo com a professora do Departamento de Ci�ncias Florestais da Universidade Federal Rural de Pernambuco (UFRPE), Isabelle Meunier, al�m de expor os animais, o parque tinha um car�ter utilit�rio. Algumas esp�cies, como os peixes, eram criadas para fornecer prote�na, al�m disso, havia o cultivo de laranjas e lim�es como armas para combater o escorbuto (doen�a causada pela car�ncia de vitamina C). A inova��o de Nassau, por�m, durou apenas sete anos, sendo destruído pelos portugueses em 1645, um ano apàs a sa�da de Nassau do solo recifense, com a justificativa de que a construção atrapalhava a vista de poss�veis ataques vindos pelo Rio Capibaribe.','zooAntigo','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/01/MaquetePalacioFriburgo_Horto_chamada.jpg',22);
+        O Palácio do Campo das Princesas era o Palácio de Friburgo, uma das trás residências oficiais do conde holandàs Maurício de Nassau. Na área atualmente ocupada por ele, pelo Teatro de Santa Izabel e pela Praça da República, foi construído um jardim zoobotúnico. Al�m de pioneiro no Brasil, o local � apontado como o segundo mais antigo das Am�ricas, ficando atrás apenas de um asteca, criado pelos povos amer�ndios. Entre os animais que habitavam o local estavam tucanos, araras, tamanduàs, capivaras, tatus e outras esp�cies da fauna nativa. O espaço era coabitado por animais trazidos da �frica e àsia, como tigres, cabras angolanas e diversas aves. De acordo com a professora do Departamento de Ci�ncias Florestais da Universidade Federal Rural de Pernambuco (UFRPE), Isabelle Meunier, al�m de expor os animais, o parque tinha um car�ter utilit�rio. Algumas esp�cies, como os peixes, eram criadas para fornecer prote�na, al�m disso, havia o cultivo de laranjas e lim�es como armas para combater o escorbuto (doen�a causada pela car�ncia de vitamina C). A inova��o de Nassau, porém, durou apenas sete anos, sendo destruído pelos portugueses em 1645, um ano apàs a saída de Nassau do solo recifense, com a justificativa de que a construção atrapalhava a vista de possíveis ataques vindos pelo Rio Capibaribe.','zooAntigo','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/01/MaquetePalacioFriburgo_Horto_chamada.jpg',22);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (27,-8.0535,-34.87147,'HISTORICO','Primeiro trem urbano da Am�rica Latina','Local: Entre o bairro portu�rio e o ent�o povoado de Apipucos
         Ano: 1867
         
@@ -76,7 +76,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Em 5 de janeiro de 1867 os recifenses viram a história ser feita. Come�ava
         a circular a maxambomba, o primeiro trem urbano da Am�rica Latina. O
         meio de transporte inovador foi criado por membros da sociedade
-        recifense, sobretudo ingleses. O governo entrou com a concess�o do
+        recifense, sobretudo ingleses. O governo entrou com a concessão do
         espaço que seria percorrido pelo trem, enquanto a implanta��o da
         maxambomba ficou a cargo da empresa Brazilian Street Railwal Company
         Limited. A primeira linha circulou entre o bairro portu�rio e o
@@ -84,98 +84,98 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         e seus 80 mil habitantes. De acordo com o historiador Leonardo Dantas
         Silva, as maxambombas tinham entre dois e quatro vag�es e carregavam
         at� 30 pessoas por viagem, a uma velocidade de 16 km/h, com a
-        passagem custando 200 r�is. Em 1870 a circula��o do trem chegou
+        passagem custando 200 réis. Em 1870 a circula��o do trem chegou
         at� a Estrada da Caxang�, pr�ximo � V�rzea. Depois, Olinda e
         Casa Amarela entraram na rota. A maxambomba foi respons�vel por dar
         nome a v�rios bairros da cidade, como Ponto de Parada, Casa Amarela
         (a parada do trem ficava pr�ximo a uma), Encruzilhada (local de
         cruzamento das linhas f�rreas) e Tamarineira (parada ficava perto de
-        um p� de tamarindo). Atualmente, a Estação Ponte D''uch�a � a
+        um p� de tamarindo). Atualmente, a Estação Ponte D''uchoa � a
         �nica mantida conservada desde as maxambombas.','tremAntigo','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/01/maxambombacapa.jpg',23);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (28,-8.0653,-34.87675,'HISTORICO','Pouso da primeira travessia de avi�o do Atl�ntico Sul','Local: Bairro de Santo Ant�nio
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (28,-8.0653,-34.87675,'HISTORICO','Pouso da primeira travessia de avi�o do Atlântico Sul','Local: Bairro de Santo Antônio
         Ano: 1922
         
         história: O piloto Sacadura Cabral e o navegador Gago
         Coutinho, ambos portugueses, chegaram ao Recife a bordo de um
         hidroavi�o monomotor, realizando a primeira travessia de avi�o do
-        Atl�ntico Sul. A aeronave Lusit�nia saiu de Lisboa, em 30 de mar�o,
+        Atlântico Sul. A aeronave Lusit�nia saiu de Lisboa, em 30 de mar�o,
         e passou por Las Palmas, nas Ilhas Can�rias, seguida pela Ilha de
-        S�o Vicente, em Cabo Verde. A Parada seguinte ocorreu no Arquip�lago
-        de S�o Pedro e S�o Paulo, j� em �guas brasileiras, onde a
+        São Vicente, em Cabo Verde. A Parada seguinte ocorreu no Arquip�lago
+        de São Pedro e São Paulo, j� em �guas brasileiras, onde a
         aeronave sofreu avarias e foi levada at� Fernando de Noronha com o
         aux�lio de um cruzador da Marinha de Portugal. Em Noronha, a dupla
-        recebeu um novo avi�o, batizado de P�tria, que tamb�m apresentou
+        recebeu um novo avi�o, batizado de P�tria, que também apresentou
         problemas, dessa vez no motor. Uma terceira aeronave, nomeada Santa
         Cruz conseguiu realizar o �ltimo trecho da viagem at� o continente,
         chegando ao Recife. "Eles foram recebidos com muita festa pelo
-        povo, foram levados nos bra�os do bairro de Santo Ant�nio at� o
+        povo, foram levados nos bra�os do bairro de Santo Antônio at� o
         Hotel do Parque, que fica pr�ximo onde hoje � o Teatro do Parque,
         na Rua do Hosp�cio", relata o professor da Universidade
         Cat�lica de Pernambuco (Unicap), Fl�vio Cabral. Pelo feito, Gago e
-        Sacadura s�o homenageados com um monumento na Pra�a Dezessete, no
-        bairro de Santo Ant�nio. A parada final do voo ocorreu no Rio de
+        Sacadura são homenageados com um monumento na Praça Dezessete, no
+        bairro de Santo Antônio. A parada final do voo ocorreu no Rio de
         Janeiro.','aviaoAntigo','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/monumento-aviadores-2.jpg',24);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (29,-8.01704,-34.84836,'HISTORICO','A cabe�a de Zumbi dos Palmares foi exposta','Local: Pra�a do Carmo
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (29,-8.01704,-34.84836,'HISTORICO','A cabe�a de Zumbi dos Palmares foi exposta','Local: Praça do Carmo
         Ano: 1695
         
         história: Um dos maiores símbolos da resist�ncia escrava
         durante o Brasil Col�nia foi morto, na Serra Dois Irm�os, na ent�o
         Capitania de Pernambuco. L�der do Quilombo dos Palmares, Zumbi teve
-        a cabe�a cortada e exposta na Pra�a do Carmo at� completa
-        decomposi��o. A decis�o do governador de Pernambuco na ocasi�o,
+        a cabe�a cortada e exposta na Praça do Carmo at� completa
+        decomposi��o. A decisão do governador de Pernambuco na ocasi�o,
         Caetano de Melo Castro, visava acaba com a supersti��o difundida
         entre os escravos de que Zumbi era imortal. �A cabe�a era um
         trof�u, um exemplo para que os negros que por ali passassem tivessem
-        cuidado para n�o ter o mesmo fim�, explica Severino Vicente,
+        cuidado para não ter o mesmo fim�, explica Severino Vicente,
         doutor em história e professor da UFPE.  Zumbi se tornou l�der apàs
         se opor � lideran�a anterior de Ganga Zumba, que havia aceitado uma
         oferta de paz da Coroa Portuguesa. O Quilombo dos Palmares foi o
         grande foco de resist�ncia formado por escravos negros, fugidos de
-        fazendas e senzalas. Ocupava uma �rea equivalente ao tamanho de
-        Portugal, onde atualmente, est� o munic�pio de Uni�o dos Palmares,
+        fazendas e senzalas. Ocupava uma área equivalente ao tamanho de
+        Portugal, onde atualmente, est� o munic�pio de União dos Palmares,
         em Alagoas. Em seu auge, foi composto por 30 mil pessoas. Acabou
-        desfeito por completo em 1710. Atualmente, a Pra�a do Carmo exibe um
+        desfeito por completo em 1710. Atualmente, a Praça do Carmo exibe um
         monumento, construído por Abelardo da Hora.','zumbiDosPalmares','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/est%C3%A1tua-de-zumbi-2.jpg',25);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (30,-8.06394,-34.87535,'HISTORICO','O que � lugar de mem�ria?','A história oficial ajuda a referendar um evento ocorrido, mas nem
-        sempre � componente indispens�vel para a forma��o da mem�ria de
-        um povo. Isso � explicado pelo conceito de lugar de mem�ria que, em
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (30,-8.06394,-34.87535,'HISTORICO','O que � lugar de memória?','A história oficial ajuda a referendar um evento ocorrido, mas nem
+        sempre � componente indispens�vel para a forma��o da memória de
+        um povo. Isso � explicado pelo conceito de lugar de memória que, em
         linhas gerais, reflete eventos que acabam no imagin�rio popular, sem
         necessidade de comprova��o histórica. �A história do boi
-        voador, na �poca de Maurício de Nassau � um exemplo. S�o
+        voador, na época de Maurício de Nassau � um exemplo. São
         experi�ncias de diferentes indiv�duos que formam uma experi�ncia
         histórica. O per�odo holandàs em Pernambuco tem muito disso,
         inclusive a figura do pr�prio Maurício de Nassau�, explica Cibele
         Barbosa, pesquisadora da Funda��o Joaquim Nabuco (Fundaj).  
-        O conceito de lugar de mem�ria defende que, para que haja mem�ria,
-        n�o � preciso uma representa��o fàsica. àS�o refer�ncias
-        culturais. N�o � indispens�vel que exista um monumento numa pra�a,
-        desde que ali se tenha uma mem�ria referendada pela história oral
-        trazida por uma comunidade. Mesmo que n�o se tenha certeza que a
-        cabe�a de zumbi esteve na Pra�a do Carmo, o que importa � o que
-        foi introjetado na mem�ria das pessoas�, exemplifica.','boiVoador','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/boi-voador-ok.jpg',26);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (31,-8.0643,-34.88009,'HISTORICO','Assassinato de Jo�o Pessoa','Local: Rua Nova
+        O conceito de lugar de memória defende que, para que haja memória,
+        não � preciso uma representa��o fàsica. àSão refer�ncias
+        culturais. Não � indispens�vel que exista um monumento numa praça,
+        desde que ali se tenha uma memória referendada pela história oral
+        trazida por uma comunidade. Mesmo que não se tenha certeza que a
+        cabe�a de zumbi esteve na Praça do Carmo, o que importa � o que
+        foi introjetado na memória das pessoas�, exemplifica.','boiVoador','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/boi-voador-ok.jpg',26);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (31,-8.0643,-34.88009,'HISTORICO','Assassinato de João Pessoa','Local: Rua Nova
         Ano: 1930
         
         história:  Na Confeitaria Gl�ria, na Rua Nova, no Recife,
-        enquanto tomava um caf�, Jo�o Pessoa, ent�o governador da Parayba
-        foi assassinado. O autor do disparo foi o deputado Jo�o Dantas. A
+        enquanto tomava um café, João Pessoa, ent�o governador da Parayba
+        foi assassinado. O autor do disparo foi o deputado João Dantas. A
         motiva��o foi pessoal, apesar da rivalidade pol�tica nutrida entre
-        os dois. "Jo�o Pessoa teria ordenado que a pol�cia invadisse a
-        casa de Jo�o Dantas. Os policiais pegaram fotos �ntimas e cartas
+        os dois. "João Pessoa teria ordenado que a pol�cia invadisse a
+        casa de João Dantas. Os policiais pegaram fotos �ntimas e cartas
         que ele trocava com uma mulher e publicaram no jornal", relata
-        Severino Vicente. Acontece que Jo�o Pessoa, no mesmo ano, foi
+        Severino Vicente. Acontece que João Pessoa, no mesmo ano, foi
         candidato a vice-presidente na chapa encabe�ada por Get�lio Vargas,
         que acabou derrotada por J�lio Prestes. "Come�ou a se espalhar
-        a not�cia da morte de Jo�o Pessoa como algo com motiva��o
+        a not�cia da morte de João Pessoa como algo com motiva��o
         pol�tica. A morte foi de ordem pessoal, mas teve efeitos pol�ticos.
         Foi um dos fatores que geraram a Revolu��o de 1930", aponta
         Vicente. A Revolu��o de 30 foi um movimento armado liderado pelo
-        Rio Grande do Sul, Para�ba e Minas Gerais, que usou a morte de Jo�o
+        Rio Grande do Sul, Para�ba e Minas Gerais, que usou a morte de João
         Pessoa como estopim para anular o resultado das elei��es. Ela
         resultou na deposi��o do presidente Washington Luàs e impediu a
         posse do vencedor das elei��es, J�lio Prestes. Em homenagem ao
-        falecido, a capital da ent�o Parayba passou a se chamar Jo�o
-        Pessoa.','joaoPessoa','google.com',2,'FALSE','curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Rua-assassinato-Jo�o-Pessoa.jpg',27);
+        falecido, a capital da ent�o Parayba passou a se chamar João
+        Pessoa.','joaoPessoa','google.com',2,'FALSE','curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Rua-assassinato-João-Pessoa.jpg',27);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (32,-8.05401,-34.87106,'HISTORICO','�Captura do Recife� pelo inglàs James Lancaster','Local: Porto do Recife
         Ano: 1595
         
@@ -197,7 +197,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         soldados e 35 navios, entre pr�prios e capturados por Lancaster e
         seus aliados. No Recife, foram saqueadas lojas, armaz�ns e casas,
         deixando cerca de 120 mortos.','jamesLancaster','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Captura-do-recife.jpg',28);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (33,-8.07217,-34.8818,'HISTORICO','Pris�o e fuzilamento de Frei Caneca','Local: Arquivo Público e proximidades do Forte das Cinco Pontas
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (33,-8.07217,-34.8818,'HISTORICO','Prisão e fuzilamento de Frei Caneca','Local: Arquivo Público e proximidades do Forte das Cinco Pontas
         Ano: 1825
         
         história:  O l�der libert�rio Joaquim do Amor Divino
@@ -206,18 +206,18 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Pernambucana de 1817 e da Confedera��o do Equador, em 1824. No ano
         seguinte � segunda tentativa separatista foi preso onde atualmente,
         na Rua do Imperador, funciona o Arquivo Público de Pernambuco. Pouco
-        mais de um màs apàs a pris�o, deveria ser morto por enforcamento,
+        mais de um màs apàs a prisão, deveria ser morto por enforcamento,
         apesar dos diversos pedidos de clem�ncias de diversas ordens
-        religiosas. No momento do enforcamento, por�m, trás carrascos se
+        religiosas. No momento do enforcamento, porém, trás carrascos se
         recusaram a enforc�-lo, por conta de sua atua��o religiosa � era
         um padre carmelita. Diante disso, foi ordenado pela Casa Militar a
         execu��o por meio de tiros, chamada na ocasi�o por arcabuzamento.
-        "A C�mara Municipal, atual Arquivo Público, tamb�m funcionava
-        como pris�o. Frei Caneca saiu de l� e foi levado andando at� o
+        "A C�mara Municipal, atual Arquivo Público, também funcionava
+        como prisão. Frei Caneca saiu de l� e foi levado andando at� o
         local em que foi executado, que apesar de ter uma placa e um busto,
-        muitos n�o sabem o que aconteceu l�", relata Severino Vicente.
+        muitos não sabem o que aconteceu l�", relata Severino Vicente.
         O local exato da execu��o � um muro que continua erguido, nas
-        proximidades do Forte das Cinco Pontas, no bairro de S�o José.','freiCaneca','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Colagem-frei-caneca.jpg',29);
+        proximidades do Forte das Cinco Pontas, no bairro de São José.','freiCaneca','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Colagem-frei-caneca.jpg',29);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (34,-8.01012,-34.85353,'HISTORICO','Igreja Constru�da por uma irmandade de escravos negros','Local: Igreja de Nossa Senhora do Ros�rio dos Homens Pretos
         Ano: 1630
         
@@ -225,32 +225,32 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         diferentes costumes entre eles, os africanos escravizados no Brasil
         tentaram manter viva da forma mais vi�vel possível suas cren�as.
         Para isso, se inseriram no cen�rio da col�nia. No bairro de Santo
-        Ant�nio, por meio da Irmandade do Ros�rio dos Homens Pretos,
+        Antônio, por meio da Irmandade do Ros�rio dos Homens Pretos,
         escravos constru�ram uma igreja com o intuito de ganhar for�a de
         representa��o e de expressão religiosa.  Em artigo publicado pela
         Funda��o Joaquim Nabuco, a pesquisadora Semira Adler Vainsencher,
         aponta que a igreja manteve a tradi��o do Congo, de coroar um rei e
-        uma rainha, que acabou originando o maracatu. O processo, por�m, foi
+        uma rainha, que acabou originando o maracatu. O processo, porém, foi
         conturbado. Diante dos costumes diferentes para o catolicismo, as
         celebra��es dos negros passaram um per�odo proibidas pela
         Inquisi��o. Isso somado às dificuldades financeiras, afinal a
-        Irmandade era formada por escravos. Por�m, mesmo assim, tentava
+        Irmandade era formada por escravos. Porém, mesmo assim, tentava
         construir igrejas equivalentes às da nobreza, arrecadando por meio
         da venda de artigos, como doces. No altar, o objetivo era manter as
         ra�zes negras. "Excetuando-se Nossa Senhora do Ros�rio, Nossa
-        Senhora da Boa Hora e S�o Domingos, todas as outras imagens
+        Senhora da Boa Hora e São Domingos, todas as outras imagens
         presentes nos altares representam santos negros", aponta a
         pesquisadora. Em Olinda, h� uma igreja com o mesmo nome, fundada na
         segunda metade do século 17.','igrejaNossaSenhoraRosario','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Igreja-de-nossa-senhora-dos-homens-pretos.jpg',30);`);
 
-        await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (35,-8.05482,-34.86535,'FORTES','Forte de S�o Francisco','Localiza��o: No extremo dos arrecifes do Porto do Recife, onde hoje existe um farol
+        await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (35,-8.05482,-34.86535,'FORTES','Forte de São Francisco','Localização: No extremo dos arrecifes do Porto do Recife, onde hoje existe um farol
         Data de construção: 1614
         Situação: O forte foi destruído em 1910 para levantamento dos arrecifes e obras de melhoramento na cidade.
-        história: O forte, de pequenas propor��es (estima-se que cerca de 6 metros em cada lado) tamb�m foi feito para proteger o Porto do Recife. Ele cruzava fogo com o Forte de S�o Jorge Novo para afastar com mais efetividade poss�veis invasores.','fortePicao','google.com',2,'FALSE','http://2.bp.blogspot.com/-e_ZNzzhTb_U/UvimnHuiY0I/AAAAAAAAArQ/GyTltypzMJ0/s1600/Forte+do+Pica%CC%83o.jpg',31);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (36,-8.01589,-34.84633,'FORTES','Forte do Queijo','Localiza��o: Rua Manuel Borba - Carmo, Olinda
+        história: O forte, de pequenas propor��es (estima-se que cerca de 6 metros em cada lado) também foi feito para proteger o Porto do Recife. Ele cruzava fogo com o Forte de São Jorge Novo para afastar com mais efetividade possíveis invasores.','fortePicao','google.com',2,'FALSE','http://2.bp.blogspot.com/-e_ZNzzhTb_U/UvimnHuiY0I/AAAAAAAAArQ/GyTltypzMJ0/s1600/Forte+do+Pica%CC%83o.jpg',31);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (36,-8.01589,-34.84633,'FORTES','Forte do Queijo','Localização: Rua Manuel Borba - Carmo, Olinda
         Data de construção: 1620 (inaugura��o em 1622)
-        Situação: Ainda erguido e, segundo arque�logos, em bom estado de conserva��o
-        história: Inicialmente, o local foi criado pelo Governador de Pernambuco com a denomina��o Forte de S�o Francisco, mas com a ocupa��o holandesa foi reformado e passou por outra mudan�a em 1800. A última restaura��o do forte foi feita no século XX.','forteQueijo','google.com',2,'FALSE','https://media-cdn.tripadvisor.com/media/photo-s/08/cf/8c/60/fortim-de-sao-francisco.jpg',32);
+        Situação: Ainda erguido e, segundo arque�logos, em bom estado de conservação
+        história: Inicialmente, o local foi criado pelo Governador de Pernambuco com a denomina��o Forte de São Francisco, mas com a ocupação holandesa foi reformado e passou por outra mudança em 1800. A última restauração do forte foi feita no século XX.','forteQueijo','google.com',2,'FALSE','https://media-cdn.tripadvisor.com/media/photo-s/08/cf/8c/60/fortim-de-sao-francisco.jpg',32);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (37,-8.05683,-34.93099,'FORTES','Forte Real do Bom Jesus','Data de construção: Por volta de 1630
         
         Situação: Apenas algumas evid�ncias, como o fosso do forte, se mant�m no local
@@ -259,155 +259,155 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         para evitar que invasores holandeses passassem do litoral para o interior, onde
         ficavam os engenhos de a��car. Os pesquisadores acreditam que ele tenha sido
         posicionado estrategicamente para cercar os inimigos com mais facilidade','forteRealBomJesus','google.com',2,'FALSE','https://uploads.knightlab.com/storymapjs/d5cc53d28ab2db871c39e00a9bdd9e6c/fortes-de-pernambuco/_images/forte%20bom%20jesus%20.jpg',33);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (38,-8.05291,-34.87066,'FORTES','Forte do Brum','Localiza��o: Pra�a da Comunidade Luso Brasileira, Bairro do Recife.
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (38,-8.05291,-34.87066,'FORTES','Forte do Brum','Localização: Praça da Comunidade Luso Brasileira, Bairro do Recife.
         Data de construção: 1630
-        Situação: Em bom estado de conserva��o
-        história: Foi uma das primeiras fortifica��es constru�das no Recife quando os holandeses invadiram a �rea. Muitas emboscadas de luso-brasileiros foram feitas para evitar sua construção, sem sucesso.','forteBrum','google.com',2,'FALSE','https://media.sketchfab.com/models/1bf781cd040d424bb7941adcb9fc54f1/thumbnails/5da5400f56f942ab9313a8bd4a44f77f/a4d619a8280544b5a9c0fc1ae23f8ff1.jpeg',34);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (39,-7.91079,-34.82289,'FORTES','Forte de Pau Amarelo','Localiza��o: Rua Paquist�o, S/n - Pau Amarelo, Paulista 
+        Situação: Em bom estado de conservação
+        história: Foi uma das primeiras fortificações construídas no Recife quando os holandeses invadiram a área. Muitas emboscadas de luso-brasileiros foram feitas para evitar sua construção, sem sucesso.','forteBrum','google.com',2,'FALSE','https://media.sketchfab.com/models/1bf781cd040d424bb7941adcb9fc54f1/thumbnails/5da5400f56f942ab9313a8bd4a44f77f/a4d619a8280544b5a9c0fc1ae23f8ff1.jpeg',34);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (39,-7.91079,-34.82289,'FORTES','Forte de Pau Amarelo','Localização: Rua Paquist�o, S/n - Pau Amarelo, Paulista 
         Data de construção: Obras determinadas em 1703, mas s� completamente conclu�da no século 17.
-        Situação: Em bom estado de conserva��o
-        história: O local foi projetado ainda antes dos holandeses chegarem ao Brasil, mas levou anos at� ser construído completamente, com v�rias mudan�as de planta, atingindo sua �forma final�, antes do abandono, em 1866. Foi restaurado em 1973.','fortePauAmarelo','google.com',2,'FALSE','https://s2.glbimg.com/DhpWJlCNvHSqx_mJpBGRbQuQYaU=/0x0:1181x557/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/s/E/lf043DS3SeAmwQKXrUcA/forte-de-pau-amarelo-.jpg',35);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (40,-8.04126,-34.86698,'FORTES','Forte do Buraco','Localiza��o: Divisa entre Recife e Olinda, pr�ximo � Escola de Aprendizes Marinheiros
+        Situação: Em bom estado de conservação
+        história: O local foi projetado ainda antes dos holandeses chegarem ao Brasil, mas levou anos at� ser construído completamente, com v�rias mudanças de planta, atingindo sua �forma final�, antes do abandono, em 1866. Foi restaurado em 1973.','fortePauAmarelo','google.com',2,'FALSE','https://s2.glbimg.com/DhpWJlCNvHSqx_mJpBGRbQuQYaU=/0x0:1181x557/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/s/E/lf043DS3SeAmwQKXrUcA/forte-de-pau-amarelo-.jpg',35);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (40,-8.04126,-34.86698,'FORTES','Forte do Buraco','Localização: Divisa entre Recife e Olinda, pr�ximo � Escola de Aprendizes Marinheiros
         Data de construção: 1630
-        Situação: Conservada parcialmente, algumas ru�nas podem ser encontradas
-        história: Fortifica��o foi constru�da em cima do Forte de S�o Jorge Velho quando os holandeses chegaram ao Brasil.','forteBuraco','google.com',2,'FALSE','https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2016/04/17/normal/9f61f918b37df7aead4beb08c18b11e9.jpg',36);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (41,-8.07181,-34.88071,'FORTES','Forte das Cinco Pontas','Localiza��o: Pra�a das Cinco Pontas, s/n, S�o José
+        Situação: Conservada parcialmente, algumas dddd podem ser encontradas
+        história: Fortifica��o foi construída em cima do Forte de São Jorge Velho quando os holandeses chegaram ao Brasil.','forteBuraco','google.com',2,'FALSE','https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2016/04/17/normal/9f61f918b37df7aead4beb08c18b11e9.jpg',36);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (41,-8.07181,-34.88071,'FORTES','Forte das Cinco Pontas','Localização: Praça das Cinco Pontas, s/n, São José
         Data de construção: 1630
         Situação: Bem conservado
-        história: Tamb�m foi constru�da por holandeses na chegada ao Brasil, para dar apoio ao Forte Ernesto na Ilha de Ant�nio Vaz, hoje, bairro de S�o José. Tamb�m foi alvo de emboscadas luso-brasileiras','forteCincoPontas','google.com',2,'FALSE','https://i0.wp.com/www.conhecendomuseus.com.br/v2/wp-content/uploads/2014/06/vista_do_alto_museu_da_cidade_do_recife_grande.png',37);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (42,-7.81056,-34.83869,'FORTES','Forte Orange','Localiza��o: Acesso ao Forte Orange, s/n�, Ac. ao Forte Orange, Ilha de Itamarac� 
+        história: Também foi construída por holandeses na chegada ao Brasil, para dar apoio ao Forte Ernesto na Ilha de Antônio Vaz, hoje, bairro de São José. Também foi alvo de emboscadas luso-brasileiras','forteCincoPontas','google.com',2,'FALSE','https://i0.wp.com/www.conhecendomuseus.com.br/v2/wp-content/uploads/2014/06/vista_do_alto_museu_da_cidade_do_recife_grande.png',37);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (42,-7.81056,-34.83869,'FORTES','Forte Orange','Localização: Acesso ao Forte Orange, s/n�, Ac. ao Forte Orange, Ilha de Itamarac� 
         Data de construção: 1631
-        Situação: Em bom estado de conserva��o
+        Situação: Em bom estado de conservação
         história: O forte foi construído pelos holandeses para defender as vilas de Itamarac� e Igarassu','forteOrange','google.com',2,'FALSE','https://i.ytimg.com/vi/ckIB2NJNseA/maxresdefault.jpg',38);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (43,-8.75766,-35.09972,'FORTES','Forte de tamandar�','Localiza��o: Onde fica o Farol de Tamandar�
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (43,-8.75766,-35.09972,'FORTES','Forte de tamandar�','Localização: Onde fica o Farol de Tamandar�
         Data de construção: 1691
         Situação: Preservado em estado parcial
-        história: O forte foi construído pelos holandeses depois da ocupa��o da �rea. Pesquisadores ainda n�o conseguiram provar, mas estimama-se &nbsp;que ele tenha alguma rela��o com o Forte de Santa Cruz','forteTamandare','google.com',2,'FALSE','https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2021/07/22/806x444/1_dji_0866-18567785.jpg',39);`);
+        história: O forte foi construído pelos holandeses depois da ocupação da área. Pesquisadores ainda não conseguiram provar, mas estimama-se &nbsp;que ele tenha alguma rela��o com o Forte de Santa Cruz','forteTamandare','google.com',2,'FALSE','https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2021/07/22/806x444/1_dji_0866-18567785.jpg',39);`);
 
-        await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (44,-8.03389,-34.91894,'JARDINS','Pra�a de Casa Forte','A Pra�a de Casa Forte foi constru�da em 1935 na campina do antigo
+        await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (44,-8.03389,-34.91894,'JARDINS','Praça de Casa Forte','A Praça de Casa Forte foi construída em 1935 na campina do antigo
         engenho Casa Forte, edificado em meados do século XVI e onde, em
         1645, aconteceu a Batalha da Casa Forte, luta campal entre portugueses
-        e holandeses durante a Restaura��o Pernambucana. No início do século
-        XX, no seu entorno, foram constru�das a Igreja de Casa Forte, o Colégio
+        e holandeses durante a Restauração Pernambucana. No início do século
+        XX, no seu entorno, foram construídas a Igreja de Casa Forte, o Colégio
         Sagrada Fam�lia e algumas residências, delimitando um grande terreiro retangular onde se realizavam eventos religiosos e festas profanas.
         Em 1935, Burle Marx cria o Jardim da Casa Forte, fruto de uma reforma
-        completa da pra�a existente: um jardim aqu�tico constitu�do por trás
+        completa da praça existente: um jardim aqu�tico constitu�do por trás
         lagos, em perfeita harmonia com esse conjunto edificado.
             Esse � o primeiro jardim moderno brasileiro. Com fun��o educativa
         destaca a vegeta��o de regi�es espec�ficas da Am�rica, incluindo exemplares da Mata Atl�ntica, da Amaz�nia e esp�cies tropicais ex�ticas de
-        outros continentes. Contornando os lagos est�o as esp�cies arb�reas
+        outros continentes. Contornando os lagos estão as esp�cies arbáreas
         formando cen�rios variados de volumes e combina��es de texturas.
         Para o lago central, o paisagista indicou a escultura de uma �ndia a se
         banhar que nunca foi executada. No contorno, duas alamedas de �rvores sombreavam a fileira de bancos. A �gua represada em lagos, por
-        sua vez, produzia efeitos c�nicos e refrescantes e servia como meio de
+        sua vez, produzia efeitos cúnicos e refrescantes e servia como meio de
         cultura bot�nica. Foram introduzidos paus-mulatos e plantas aqu�ticas
         como ninfeas, vit�rias-r�gias e l�tus.','pracaCasaForte','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2015/12/casa-forte.jpg',40);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (45,-8.05841,-34.90357,'JARDINS','Pra�a Euclides da Cunha','A Pra�a Euclides da Cunha foi concebida por Burle Marx tamb�m em
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (45,-8.05841,-34.90357,'JARDINS','Praça Euclides da Cunha','A Praça Euclides da Cunha foi concebida por Burle Marx também em
         1935. Localiza-se no bairro da Madalena, em terras pertencentes ao antigo Engenho da Madalena. Antes de sua construção, o local chamava-se
         Largo do Viveiro. Nesse lugar, existia apenas uma estação elevat�ria da
-        Companhia Pernambucana de Saneamento, constru�da pelo engenheiro
+        Companhia Pernambucana de Saneamento, construída pelo engenheiro
         Francisco Saturnino de Brito em 1909, que funciona at� os dias atuais.
-        Esse Jardim tamb�m � conhecido como Pra�a do Internacional pela
+        Esse Jardim também � conhecido como Praça do Internacional pela
         presen�a do Clube Internacional. Burle Marx tra�ou passeios e gramados em forma de elipse com um canteiro central dedicado às cact�ceas
         � como a coroa-de-frade, o facheiro e o xique-xique, e alamedas nas
         bordas com cortinas de �rvores � como o pau-ferro, o pau-d�arco e o
         juazeiro, todas elas esp�cies vegetais da Caatinga.','pracaEuclidesCunha','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2015/12/euclidesCunha.jpg',41);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (46,-8.06081,-34.87849,'JARDINS','Pra�a da República','A Pra�a da República � o mais antigo jardim público do Recife. Foi
-        constru�da no sítio onde existiu o Parque e o Palácio de Friburgo no
-        século XVII, edificados pelo Conde Jo�o Maurício de Nassau durante o
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (46,-8.06081,-34.87849,'JARDINS','Praça da República','A Praça da República � o mais antigo jardim público do Recife. Foi
+        construída no sítio onde existiu o Parque e o Palácio de Friburgo no
+        século XVII, edificados pelo Conde João Maurício de Nassau durante o
         dom�nio holandàs em Pernambuco (1630/1654). Em substitui��o a esse
         conjunto, em 1841, foi construído o Palácio do Governo e, posteriormente, o Teatro Santa Isabel, dentre outros significativos exemplares
-        da arquitetura. Em 1875, foram executados o projeto de uma pra�a e os
+        da arquitetura. Em 1875, foram executados o projeto de uma praça e os
         jardins do Palácio do Governo, ambos assinados pelo engenheiro Emile
         Beringer, segundo a influ�ncia inglesa adotada no Brasil do século XIX.
-        Naquela �poca, esta Pra�a foi chamada Jardim do Campo das Princesas,
+        Naquela época, esta Praça foi chamada Jardim do Campo das Princesas,
         nome que hoje se d� aos jardins do Palácio do Governo do Estado. Para
-        compor o cen�rio rom�ntico, o mobili�rio reunia esculturas de bronze
+        compor o cen�rio romântico, o mobili�rio reunia esculturas de bronze
         adquiridas na Fran�a e gradil de ferro importado da Inglaterra, al�m de
         coreto e lumin�rias de ferro. Canteiros com vegeta��o de pequeno porte
         e renques de palmeiras imperiais como símbolo de identifica��o com a
-        Corte complementavam aquele ambiente. Na d�cada de 1920, a Pra�a 
+        Corte complementavam aquele ambiente. Na década de 1920, a Praça 
         da República foi reformada e ganhou eixos em cruz, entremeados por
         passeios curvil�neos, quiosque e bancos de cimento armado de inspira��o rom�ntica.
-        Por volta de 1937, Roberto Burle Marx deixa sua marca na Pra�a da
+        Por volta de 1937, Roberto Burle Marx deixa sua marca na Praça da
         República, mantendo as esculturas clàssicas e as palmeiras imperiais e
-        especificando coqueiros, cajueiros e mangabeiras, entre outras esp�cies arb�reas. Substituiu os bancos por outros do mesmo modelo de
-        granito polido que usou na Pra�a de Casa Forte e na Pra�a Euclides da
+        especificando coqueiros, cajueiros e mangabeiras, entre outras esp�cies arbáreas. Substituiu os bancos por outros do mesmo modelo de
+        granito polido que usou na Praça de Casa Forte e na Praça Euclides da
         Cunha. Desanuviou o tra�ado, conferindo-lhe um aspecto monumental
-        ao acrescentar uma fonte luminosa no centro da composi��o. Tamb�m
+        ao acrescentar uma fonte luminosa no centro da composi��o. Também
         definiu passeios largos partindo dessa fonte para os edif�cios do entorno
         e com as �guas dos rios Capibaribe e Beberibe.','pracaRepublica','google.com',2,'FALSE','https://www.feriasbrasil.com.br/fotosfb/802222889-XG.jpg',42);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (47,-8.0598,-34.87804,'JARDINS','Jardins do Campo das Princesas','às margens do Rio Capibaribe, os jardins foram reformados pelo paisagista','campoPrincesas','google.com',2,'FALSE','https://media-cdn.tripadvisor.com/media/photo-s/08/48/1b/13/palacio-do-campo-das.jpg',43);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (48,-8.05632,-34.89915,'JARDINS','Pra�a do Derby','A Pra�a do Derby est� localizada no bairro do mesmo nome, no local
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (48,-8.05632,-34.89915,'JARDINS','Praça do Derby','A Praça do Derby est� localizada no bairro do mesmo nome, no local
         onde existiu um hip�dromo (por volta de 1888) e depois, o Mercado
-        Coelho Cintra e um hotel, construídos por Delmiro Gouveia. Na d�cada
+        Coelho Cintra e um hotel, construídos por Delmiro Gouveia. Na década
         de 1920, o Governo de S�rgio Loreto construiu o Quartel e o Parque
         do Derby, esse �ltimo incluindo um loteamento e a abertura de largas
         avenidas e de um canal de drenagem � que levou em conta a proximidade com o Rio Capibaribe. O projeto inclu�a dois lagos, um em cada
         trecho, bancos de cimento armado de fei��o rom�ntica, esculturas e
         jarros, uma p�rgula d�rica e uma p�rgula cor�ntia. Um dos lagos conformava a ilha de contempla��o, denominada Ilha dos Amores, de formas
-        irregulares e com uma �ponte ràstica� que refor�ava os ares rom�nticos
+        irregulares e com uma �ponte ràstica� que refor�ava os ares românticos
         do conjunto da paisagem. Em 1937, Burle Marx elaborou um projeto de
-        reforma para a Pra�a do Derby, introduzindo linhas curvas ao tra�ado
+        reforma para a Praça do Derby, introduzindo linhas curvas ao tra�ado
         de linhas retas e ampliando a Ilha dos Amores. Manteve o mobili�rio','pracaDerby','google.com',2,'FALSE','https://visit.recife.br/wp-content/uploads/2018/04/o-que-fazer-praca-do-derby-topo-mobile.jpg',44);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (49,-23.43384,-51.90656,'JARDINS','Pra�a Salgado Filho','A Pra�a Ministro Salgado Filho � tamb�m conhecida como Pra�a do
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (49,-23.43384,-51.90656,'JARDINS','Praça Salgado Filho','A Praça Ministro Salgado Filho � também conhecida como Praça do
         Aeroporto, estando localizada no bairro do Ibura, no limite do Recife
         com o munic�pio de Jaboat�o dos Guararapes, em frente � edifica��o do
         antigo Aeroporto Internacional dos Guararapes atualmente Aeroporto
         Internacional dos Guararapes � Gilberto Freyre. Em 1958, quando da
         inaugura��o do Aeroporto, o prefeito Pel�pidas Silveira convidou Burle
-        Marx para projetar uma pra�a com plantas regionais em frente a esse
+        Marx para projetar uma praça com plantas regionais em frente a esse
         equipamento, local ent�o conhecido como Campo do Ibura. O paisagista criou um jardim aqu�tico, cujo elemento principal era um grande
         lago, para ser admirado pelos visitantes e moradores da Cidade. Uma
         larga escadaria dava acesso ao lago, em frente � entrada da Estação de
         Passageiros. Burle Marx emoldurou o lago com canteiros, gramados e
         passeio e criou um pequeno bosque com banco circular. A vegeta��o
-        arb�rea configurava arranjos sinuosos, expressos num tra�ado marcado
-        por uma sucess�o de curvas que se dilu�am no terreno.','pracaSalgadoFilho','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2015/12/salgadoFilho.jpg',45);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (50,-8.01562,-34.94402,'JARDINS','Jardins da Farias Neves','A Pra�a Faria Neves ou Pra�a de Dois Irm�os localiza-se no bairro de
-        Dois Irm�os, em �rea remanescente de Mata Atl�ntica, pertencente ao
+        arbárea configurava arranjos sinuosos, expressos num tra�ado marcado
+        por uma sucessão de curvas que se dilu�am no terreno.','pracaSalgadoFilho','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2015/12/salgadoFilho.jpg',45);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (50,-8.01562,-34.94402,'JARDINS','Jardins da Farias Neves','A Praça Faria Neves ou Praça de Dois Irm�os localiza-se no bairro de
+        Dois Irm�os, em área remanescente de Mata Atl�ntica, pertencente ao
         antigo engenho Dois Irm�os, onde no início do século XX, foi instalado
-        o Jardim Zoobot�nico de Dois Irm�os (ou Horto Florestal). Na d�cada
-        de 1930, no seu entorno, foi constru�da a vila oper�ria de Dois Irm�os,
-        que existe at� hoje. Na gest�o do prefeito Pel�pidas Silveira, em 1958,
+        o Jardim Zoobotúnico de Dois Irm�os (ou Horto Florestal). Na década
+        de 1930, no seu entorno, foi construída a vila oper�ria de Dois Irm�os,
+        que existe at� hoje. Na gestão do prefeito Pel�pidas Silveira, em 1958,
         Burle Marx foi convidado para criar, naquele lugar, um jardim recreativo
         para as crian�as, com um brinquedo desenhado por ele (em forma de
-        escultura), balan�os, gangorras e escorregos, complementados por dois
+        escultura), balanãos, gangorras e escorregos, complementados por dois
         longos bancos.
         O artista contornou os bancos com �rvores como o mulungu, o abric�
-        de macaco, o pau-brasil, o pau-rei e palmeiras. Na d�cada de 1960,
-        esta Pra�a passou a ser chamada Pra�a Faria Neves, em homenagem ao
+        de macaco, o pau-brasil, o pau-rei e palmeiras. Na década de 1960,
+        esta Praça passou a ser chamada Praça Faria Neves, em homenagem ao
         professor de história Natural José Pedro Faria Neves. Por muito tempo,
-        a Pra�a foi utilizada como local para estacionamento de carros e �nibus 
-        dos visitantes do Parque de Dois Irm�os, antigo Zoobot�nico. Festas populares, um terminal de �nibus e um
-        bar contribu�ram para o desgaste da Pra�a. A participa��o da comunidade do entorno foi muito importante
-        para a sua restaura��o pela Prefeitura do Recife que, em 2006, devolveu este lindo Jardim de Burle Marx �
-        população do bairro, com mesinhas para jogos, o brinquedo de concreto recuperado, �reas sombreadas para
+        a Praça foi utilizada como local para estacionamento de carros e �nibus 
+        dos visitantes do Parque de Dois Irm�os, antigo Zoobotúnico. Festas populares, um terminal de �nibus e um
+        bar contribu�ram para o desgaste da Praça. A participa��o da comunidade do entorno foi muito importante
+        para a sua restauração pela Prefeitura do Recife que, em 2006, devolveu este lindo Jardim de Burle Marx �
+        população do bairro, com mesinhas para jogos, o brinquedo de concreto recuperado, áreas sombreadas para
         sentar e conversar e canteiros de cana-da-�ndia. Esta obra de Burle Marx, como entrada do Parque Estadual de
         Dois Irm�os, � um lugar público agrad�vel para o conv�vio social.','pracaFariaNeves','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2015/12/fariasNeves.jpg',46);`);
 
         await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (51,-8.03186,-34.95452,'POESIA','Avenida Caxang�','Avenida Caxang�
         "A seguir, Caxang�,
-        tamb�m velha e recolhida,
+        também velha e recolhida,
         onde come�a a estrada
         dita Nova, ou de Iputinga,
         que quase reta � cidade,
         que � o mar a que se destina,
         leva a gente que veio
         baixando em minha companhia."
-        (Jo�o Cabral de Melo Neto)
+        (João Cabral de Melo Neto)
         
         Obra
         O Rio','avenidaCaxanga','google.com',2,'FALSE','https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2019/04/03/782751/20190403092448693718a.jpg',47);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (52,-8.0453,-34.9695,'POESIA','V�rzea','"Entra-se no Recife
-        pelo Engenho S�o Francisco.
+        pelo Engenho São Francisco.
         J� em terras da V�rzea,
-        est� S�o Jo�o, uma antiga usina.
+        est� São João, uma antiga usina.
         Depois se atinge a V�rzea,
         a vila propriamente dita,
         com suas �rvores velhas
-        que d�o uma sombra tamb�m antiga."
-        (Jo�o Cabral de Melo Neto)
+        que d�o uma sombra também antiga."
+        (João Cabral de Melo Neto)
         
         Obra
         O Rio','varzea','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUGQO1sMDDfzzrU70BJq1GANs5sO9VQqcG73ZUXFMcuhDopMFbCnC71YQukKIWQJnjAgZ_qUK0R0oZr6wBeOejWb8bJ87dpd0Cm60QiTOrQ7xck=s16383',48);
@@ -419,7 +419,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Ah meninos sinos
         De quando eu menino!
         
-        Sinos da Boa Vista e de Santo Ant�nio.
+        Sinos da Boa Vista e de Santo Antônio.
         Sinos do Po�o, do Monteiro e da Igrejinha de Boa Viagem."
         (Manuel Bandeira)
         Obra
@@ -450,7 +450,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         come�a da lama;
         onde come�a o homem
         naquele homem."
-        (Jo�o Cabral de Melo Neto)
+        (João Cabral de Melo Neto)
         
         Obra
         O c�o sem plumas','rioCapibaribe','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUG6x_RGQdYqR36gZOD9WfSFadU3NqlleCjoXRPAoUSUvnHfYLEv_BK18TWzUycnfyd6TvyHwZh7hXdRajQD-FJYkBV-q-pl1zwilPE_qOLIw3rBmkwEFYS1F8XBTwinysXDf0EyLUIXtvfm_kpz_kt3wlluJ7Es-M3b72NZgP_P_5OBecATC9DMJG7VwCBt7aChEDs=s16383',51);
@@ -470,12 +470,12 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (57,-8.07328,-34.89539,'POESIA','Joana Bezerra','"Rasas na altura da �gua
         v�-se brotar outras ilhas:
         ilhas ainda sem nome,
-        ilhas ainda n�o de todo paridas.
+        ilhas ainda não de todo paridas.
         Ilha Joana Bezerra,
         do Leite, do Retiro, do Maruim:
         o touro da mar�
-        a estas j� n�o precisa cobrir. "
-        (Jo�o Cabral de Melo Neto)
+        a estas j� não precisa cobrir. "
+        (João Cabral de Melo Neto)
         
         Obra
         O Rio','joanaBezerra','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUGr-tBMahdEHoz0mS0KFAX5-3v5EImCrQAHPpj2IXuPomRRe8iuVbEytejw9_iF2n30EjMSoCdqRk35Wwiv7qIaTejgpVvrX3xRByJ80oSPrXR-WtH3hxLlqprgy_uLM5K_J2A-J6tHHqgUqUgrRahr7nKBBUKOH4BY6XOyHvu-znJNvxK4rGMwzIfnOMA=s16383',53);
@@ -487,7 +487,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         morou e aprendeu a luz
         das costas do Nordeste,
         mineral de tanto azul."
-        (Jo�o Cabral de Melo Neto)
+        (João Cabral de Melo Neto)
         
         Obra
         O Rio','caisSantaRita','google.com',2,'FALSE','https://i.ytimg.com/vi/-y_R-SW2jec/maxresdefault.jpg',54);
@@ -505,7 +505,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         recife (Pau Brasil)','ruaNova','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUHBzDAcJZuUQzRq87YPJGrHyvAnTO2UAaZiul8ZpZaGhind0AFlDQq8rRrHtRUA_JE69INpLIEJdLKHjI-_2O0Vgd_dirA2TkEKQi6sOKxtjR5auC6UqdbQsYrDdGZP0dM3_wx4ZRsi6KLQSVbmYWzIXL0xUJ8X6bp59iwe4nAx5_8GxhX8=s16383',55);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (60,-21.70216,-45.25743,'POESIA','Avenida Guararapes','"Na Avenida Guararapes,
         o Recife vai marchando.
-        O bairro de Santo Ant�nio,
+        O bairro de Santo Antônio,
         tanto se foi transformando
         que, agora, às cinco da tarde
         mais se assemelha a um festim."
@@ -526,8 +526,8 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         
         Obra
         Guia Prático da Cidade do Recife','trezeMaio','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUH1JwtFJlhOLJ9rJ_-0v8KLvot8pXE7vKeXJ4Ak0S_AP9yZdWT-Alt69n7YPwfi56ZJ1oIpZzj8PGbanuW6wiChvxk3JshA1KXBVTOcGuE9X5Zbs-KLqV38207LVNm1JpDo-WP8zD_AYHbjCMotdOiD5ERz6pdMSP5KaURYj_keaRK2VhcMS3EFJVWPQTrNJw=s16383',57);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (62,-8.05823,-34.87998,'POESIA','Rua da Uni�o','"Recife da minha inf�ncia
-        A rua da Uni�o onde eu brincava de chicote-queimado
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (62,-8.05823,-34.87998,'POESIA','Rua da União','"Recife da minha inf�ncia
+        A rua da União onde eu brincava de chicote-queimado
         e partia as vidra�as da casa de dona Aninha Viegas
         Tot�nio Rodrigues era muito velho e botava o pincen�
         na ponta do nariz
@@ -536,7 +536,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         A gente brincava no meio da rua
         Os meninos gritavam:
         Coelho sai!
-        N�o sai!"
+        Não sai!"
         (Manuel Bandeira)
         
         Obra
@@ -544,24 +544,24 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (63,-8.05774,-34.87887,'POESIA','Rua da Aurora','� Voei ao Recife, no Cais
         Pousei na Rua da Aurora.
         � Aurora da minha vida
-        Que os anos n�o trazem mais!"
+        Que os anos não trazem mais!"
         (Manuel Bandeira)
         
         Obra
         Cotovia','ruaAurora','google.com',2,'FALSE','http://www.ipatrimonio.org/wp-content/uploads/2017/07/Recife-Rua-da-Aurora-Imagem-Fundarpe.jpg',59);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (64,-8.06395,-34.87537,'POESIA','Ponte Maurício de Nassau','"Tarde no Recife.
         Da ponte Maurício o c�u e a cidade.
-        Fachada verde do Caf� Maxime, Cais do Abacaxi. Gameleiras.
+        Fachada verde do Café Maxime, Cais do Abacaxi. Gameleiras.
         
         Tanta gente apressada, tanta mulher bonita;
         Um camel� gritando: - alerta!
         Algazarra. Seis horas. Os sinos.
         
-        Recife rom�ntico dos crepàsculos das pontes,
+        Recife romântico dos crepàsculos das pontes,
         Dos longos crepàsculos que assistiram � passagem dos fidalgos holandeses,
         Que assistem agora ao movimento das ruas tumultuosas,
         Que assistir�o mais tarde � passagem dos avi�es para as costas do Pac�fico;
-        Recife rom�ntico dos crepàsculos das pontes
+        Recife romântico dos crepàsculos das pontes
         E da beleza cat�lica do rio."
         (Joaquim Cardozo)
         
@@ -571,7 +571,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         amar cidade, s� uma � Recife.
         E assim mesmo com as suas pontes
         E os seus rios que cantam
-        E seus jardins leves como son�mbulos
+        E seus jardins leves como sonâmbulos
         E suas esquinas que desdobram os sonhos de Nassau."
         (L�do Ivo)
         
@@ -586,19 +586,19 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Obra
         � cidade poeira','marcoZero','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUGYU17f6k1OKeaPWk0K8gVGD96pA4CX5dz7H-qf0I6DHpHeaMbddMHnGo7MdVQTXL_RN2uRRNur6KQPsmnagYp9zJQmPRrzLMSDJV1dgk-b9TW1OcOYbVnxhaXxbnnQ46htn-k-Hx2H_w=s16383',62);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (67,-8.06293,-34.87413,'POESIA','Cais do Apolo','"Esse � o bairro do Recife
-        que tem um cais debru�ado
-        nas verdes �guas do Atl�ntico
+        que tem um cais debruçado
+        nas verdes �guas do Atlântico
         e ainda tem o cais do Apolo,
-        apodrecido e rom�ntico,
+        apodrecido e romântico,
         beleza que ainda resiste
-        l� nos desv�os da mem�ria
+        l� nos desv�os da memória
         desse bairro que se escoa
-        pela Ponte Girat�ria,
+        pela Ponte Giratória,
         que � uma estranha arma��o
         que aguenta em seu f�rreo dorso
         autom�vel, caminh�o
         e trem de carga bem cheio,
-        mas n�o resiste às barca�as
+        mas não resiste às barca�as
         que a fendem do meio a meio."
         (Carlos Pena Filho)
         
@@ -622,13 +622,13 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         o quarto � o �den."
         (Gast�o de Holanda)','bairroRecife','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUHmit3svI4e633OT_Vyf-rEmCy-xITM9k5QjkGK57oCRr1L8kbVxYv6PUgcCYMsasVjfPkCn23qDUZeeJc59RxmjvYmCdm21weNZAv_n7bz6Vlz94YhhOrorNGWCpCuZM_AVGz-WI5YMMg1aMR3omuItS2GXFXSVPv-2yqrJP3h7AOlJMdBha26NQ=s16383',64);`);
 
-        await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (69,-8.04805,-34.8989,'HISTORICO','Palácio dos Manguinhos','A residência oficial do arcebispo de Olinda e Recife fica no número 409. O imóvel foi construído para ser a residência do comerciante José da Silva Loyo, o Visconde de Loyo. &nbsp;Adquirido pela Arquidiocese, tornou-se a sede da C�ria Metropolitana. Fica ao lado da Igreja de S�o José dos Manguinhos, constru�da, entre 1711 e 1741, para ser uma capela particular. </p><span>Foi no casarão que, na d�cada de 1980, o papa Jo�o Paulo II pernoitou durante visita � capital pernambucana. Antes de dormir no Palácio dos Manguinhos, no 7 de julho de 1980, o papa se dirigiu � sacada superior do imóvel para acenar para duas mil pessoas que gritavam o seu nome. No dia seguinte, antes de seguir para Teresina, o pont�fice experimentou comidas t�picas, como cuscuz e tapioca, no caf� da manh�. A despedida foi com a b�n��o das 32 pessoas que o serviram durante a estada. A cada uma, o papa deu um ter�o.','palacioManguinhos','google.com',2,'FALSE','curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Palacio-Manguinhos-Casaroes-Rui-Barbosa.jpg',65);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (70,-8.0445,-34.90173,'HISTORICO','Museu do Estado de Pernambuco','O casarão do número 960, onde hoje funciona o Museu do Estado de Pernambuco, foi considerado, no século 19, a grande vitrine da alta sociedade pernambucana. As festas promovidas na casa de Francisco Ant�nio de Oliveira, o Bar�o de Beberibe, eram observadas do lado de fora por pessoas das classes mais baixas. Quem conta a história � o monitor do museu, Alexandre Amaral. �Essa casa foi residência da fam�lia e tamb�m j� foi sede do Country Club. As casas ao longo do Rio Capibaribe eram as preferidas dos ricos comerciantes, que davam grandes festas. Muitas pessoas que se deslocavam para ver as celebra��es�, explica. O luxo e requinte ainda podem ser vistos por quem tem curiosidade de saber como viviam os ricos da �poca. O Museu do Estado tem salas que reproduzem c�modos, com objetos originais. O Solar do Bar�o de Beberibe s� foi adquirido pelo estado em 1935 e, em 10 de maio de 1940, virou museu por meio de decis�o publicada no decreto número 491. O casarão tamb�m recebe o nome de Est�cio Coimbra, governador que criou a Inspetoria Estadual dos Monumentos Nacionais de Pernambuco.','museuPernambuco','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/museu-do-estado-casaroes-rui-barbosa.jpg',66);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (71,-8.05252,-34.89624,'HISTORICO','Toyolex','A convivência harmônica entre uma concession�ria de ve�culos moderna e um casarão antigo em estilo colonial provam que � possível preservar os im�veis históricos, mesmo que o uso deles pare�a ser antagônico ao espaço. A uni�o do tradicional com o contempor�neo marcam a arquitetura da Toyolex, no número 1105 da avenida. A loja de ve�culos ocupa um terreno de 10 mil metros quadrados e divide espaço com um casarão da d�cada de 1950. Para preservar a arquitetura original do imóvel, a concession�ria foi levantada nos fundos da casa, na parte do terreno voltada para a Avenida Beira Rio. Quem passa pela Rui Barbosa, por exemplo, nem consegue imaginar que, por trás do jardim e do casarão, exista um pr�dio de vidro representante de uma moderna arquitetura. O �antigo� e o �novo� est�o interligados apenas por uma passarela. Antes da inaugura��o da loja, em 2013, as portas e os pisos do casarão foram restaurados, seguindo as especifica��es originais. As cores que as esquadrias de madeira tinham na d�cada de 1950 tamb�m foram mantidas.','toyolex','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Toyolex-casaroes-rui-barbosa.jpg',67);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (72,-8.04254,-34.90305,'HISTORICO','Mansão dos Gibson','�No sítio de Henry Gibson, na Ponte de Uch�a, precisa-se de trabalhadores de enxada. Sendo bons, paga-se 800 r�is por dia.� O an�ncio estampado na edição de 8 de agosto de 1855 do Diario de Pernambuco se referia a uma das mais importantes propriedades do Recife na �poca. Hoje, a mansão dos Gibson, que atualmente pertence � fam�lia Baptista da Silva, faz parte do imagin�rio de muitos recifenses. A casa de estilo neomanuelino, ou neog�tico, constru�da em 1847 �, sem d�vidas, uma das que mais chamam a atenção de quem passa pela avenida. O jardim bem cuidado, o port�o de ferro e as est�tuas s�o algumas das belezas do casarão que � possível contemplar. O acesso ao imóvel, por�m, � restrito apenas a familiares e amigos dos propriet�rios; avisam os funcion�rios assim que algu�m se aproxima do port�o. �Gibson era um negociante inglàs e essa casa foi a primeira da regi�o projetada com jardins�, explica o arquiteto José Luiz da Mota Menezes. Apàs a sa�da dos Gibson da casa, o imóvel abrigou o Internato Pernambucano, considerado �o mais aristocrático colégio da �poca�.','mansaoGibson','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Mansao-Gibson-Casaroes-Rui-Barbosa.jpg',68);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (73,-8.04138,-34.90337,'HISTORICO','Ponte D''uchoa','Entre os carros que trafegam pela movimentada avenida, um pedacinho do passado chama a atenção. A Estação Ponte d�Uchoa est� l�, lembrando os tempos em que o bonde era um dos meios de transporte mais comuns no Recife. A estação - inserida na Zona Especial de Preserva��o do Patrim�nio histórico da cidade - � um dos exemplos da arquitetura de ferro da cidade. O trecho denominado de Ponte D�Uchoa, situado na �rea compreendida entre a Ponte da Torre e o S�tio da Jaqueira, tem a sua denomina��o origin�ria da segunda metade do século 17, quando o senhor do Engenho da Torre, Ant�nio Borges Uchoa, mandou construir uma ponte de madeira sobre o Rio Capibaribe. A estação da antiga maxambomba, como eram chamados popularmente os trens da Brazilian Street Railway, era ponto de parada dos bondes. Foi constru�da em 1865, pela Empresa de Trilhos Urbanos, mas s� come�ou a funcionar dois anos depois. A maxambomba percorreu os trilhos do Recife at� 1915, quando a estação foi desativada.','ponteUchoa','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/ponte-duchoa-casaroes-rui-barbosa.jpg',69);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (74,-8.04088,-34.902,'HISTORICO','Colégio Damas','Se o Colégio Damas funciona na Avenida Rui Barbosa hoje, o fato se deve � estação de trens urbanos Ponte d''Uchoa, localizada em frente � unidade de ensino. As irmàs belgas respons�veis pela institui��o de instru��o crist� buscavam um imóvel. Ao descer do pequeno trem, maxambomba, e sabendo da procura das religiosas, o c�nego Rechem viu uma placa de �vende-se� no sobrado em frente � estação. Voltou mais tarde com as madres Loyola e Alphonse, que fecharam neg�cio. �O Sobrado de Ponte D�Uchoa, adquirido pelas freiras, pertencera ao comendador Luiz Morais Gomes Ferreira, um dos fundadores da Associa��o Comercial de Pernambuco. O sítio constitu�a, no século 19, uma localidade larga, extensa e bela avenida, ladeada de importantes pr�dios, bem construídos e de variada arquitetura�, mostra o registro do Colégio Damas. Atualmente, o sobrado funciona como um museu, aberto a estudantes, que re�ne objetos da história da casa e do colégio.','colegioDamas','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Colegio-Damas-casaroes-rui-barbosa.jpg',70);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (75,-8.03945,-34.90388,'HISTORICO','Academia Pernambucana de Letras','�nico casarão da Rui Barbosa tombado pelo Instituto de Patrim�nio histórico e Artàstico Nacional (Iphan). No século 19, era residência do portuguàs Jo�o José Rodrigues Mendes, que viveu entre 1827 e 1893. O pràspero comerciante de bacalhau tinha o t�tulo de bar�o e, na viuvez, construiu uma torre para isolar-se da fam�lia e viver os �ltimos anos da vida sem a mulher, Eug�nia da Costa. Nos anos 1960, durante o governo Paulo Gerra, o imóvel foi desapropriado e cedido em comodato � Academia Pernambucana de Letras (APL). Apenas no governo Eraldo Gueiros, na d�cada de 1970, o imóvel foi doado em definitivo � casa dos imortais. �At� hoje, descendentes do bar�o visitam a casa. Recentemente, uma herdeira dele pediu para entrar e contou que viveu aqui at� os 10 anos. Ela veio com os netos e se emocionou lembrando da inf�ncia�, afirma a presidente da APL, Margarida Cantarelli. Em setembro de 2015, uma minuciosa reforma teve início no casarão. Os azulejos portugueses, o piso inglàs e os lustres franceses foram restaurados. �Quando a reforma foi concluída (a previsão é que termine ainda em 2016), vamos abrir a casa à visitação. Toda a população será muito bem-vinda�, garante Cantarelli.','academiaLetras','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/academia-pernambucana-letras-casaroes-rui-barbosa.jpg',71);`);
+        await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (69,-8.04805,-34.8989,'HISTORICO','Palácio dos Manguinhos','A residência oficial do arcebispo de Olinda e Recife fica no número 409. O imóvel foi construído para ser a residência do comerciante José da Silva Loyo, o Visconde de Loyo. &nbsp;Adquirido pela Arquidiocese, tornou-se a sede da C�ria Metropolitana. Fica ao lado da Igreja de São José dos Manguinhos, construída, entre 1711 e 1741, para ser uma capela particular. </p><span>Foi no casarão que, na década de 1980, o papa João Paulo II pernoitou durante visita � capital pernambucana. Antes de dormir no Palácio dos Manguinhos, no 7 de julho de 1980, o papa se dirigiu � sacada superior do imóvel para acenar para duas mil pessoas que gritavam o seu nome. No dia seguinte, antes de seguir para Teresina, o pont�fice experimentou comidas típicas, como cuscuz e tapioca, no café da manh�. A despedida foi com a b�n��o das 32 pessoas que o serviram durante a estada. A cada uma, o papa deu um ter�o.','palacioManguinhos','google.com',2,'FALSE','curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Palacio-Manguinhos-Casaroes-Rui-Barbosa.jpg',65);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (70,-8.0445,-34.90173,'HISTORICO','Museu do Estado de Pernambuco','O casarão do número 960, onde hoje funciona o Museu do Estado de Pernambuco, foi considerado, no século 19, a grande vitrine da alta sociedade pernambucana. As festas promovidas na casa de Francisco Antônio de Oliveira, o Barão de Beberibe, eram observadas do lado de fora por pessoas das classes mais baixas. Quem conta a história � o monitor do museu, Alexandre Amaral. �Essa casa foi residência da família e também j� foi sede do Country Club. As casas ao longo do Rio Capibaribe eram as preferidas dos ricos comerciantes, que davam grandes festas. Muitas pessoas que se deslocavam para ver as celebra��es�, explica. O luxo e requinte ainda podem ser vistos por quem tem curiosidade de saber como viviam os ricos da época. O Museu do Estado tem salas que reproduzem cômodos, com objetos originais. O Solar do Barão de Beberibe s� foi adquirido pelo estado em 1935 e, em 10 de maio de 1940, virou museu por meio de decisão publicada no decreto número 491. O casarão também recebe o nome de Est�cio Coimbra, governador que criou a Inspetoria Estadual dos Monumentos Nacionais de Pernambuco.','museuPernambuco','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/museu-do-estado-casaroes-rui-barbosa.jpg',66);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (71,-8.05252,-34.89624,'HISTORICO','Toyolex','A convivência harmônica entre uma concessionária de veículos moderna e um casarão antigo em estilo colonial provam que é possível preservar os imóveis históricos, mesmo que o uso deles pareça ser antagônico ao espaço. A união do tradicional com o contemporâneo marcam a arquitetura da Toyolex, no número 1105 da avenida. A loja de veículos ocupa um terreno de 10 mil metros quadrados e divide espaço com um casarão da década de 1950. Para preservar a arquitetura original do imóvel, a concessionária foi levantada nos fundos da casa, na parte do terreno voltada para a Avenida Beira Rio. Quem passa pela Rui Barbosa, por exemplo, nem consegue imaginar que, por trás do jardim e do casarão, exista um pr�dio de vidro representante de uma moderna arquitetura. O �antigo� e o �novo� estão interligados apenas por uma passarela. Antes da inaugura��o da loja, em 2013, as portas e os pisos do casarão foram restaurados, seguindo as especifica��es originais. As cores que as esquadrias de madeira tinham na década de 1950 também foram mantidas.','toyolex','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Toyolex-casaroes-rui-barbosa.jpg',67);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (72,-8.04254,-34.90305,'HISTORICO','Mansão dos Gibson','�No sítio de Henry Gibson, na Ponte de Uchoa, precisa-se de trabalhadores de enxada. Sendo bons, paga-se 800 réis por dia.� O an�ncio estampado na edição de 8 de agosto de 1855 do Diario de Pernambuco se referia a uma das mais importantes propriedades do Recife na época. Hoje, a mansão dos Gibson, que atualmente pertence � família Baptista da Silva, faz parte do imagin�rio de muitos recifenses. A casa de estilo neomanuelino, ou neogótico, construída em 1847 �, sem dúvidas, uma das que mais chamam a atenção de quem passa pela avenida. O jardim bem cuidado, o portão de ferro e as estátuas são algumas das belezas do casarão que � possível contemplar. O acesso ao imóvel, porém, � restrito apenas a familiares e amigos dos propriet�rios; avisam os funcionários assim que alguém se aproxima do portão. �Gibson era um negociante inglàs e essa casa foi a primeira da regi�o projetada com jardins�, explica o arquiteto José Luiz da Mota Menezes. Apàs a saída dos Gibson da casa, o imóvel abrigou o Internato Pernambucano, considerado �o mais aristocrático colégio da época�.','mansaoGibson','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Mansao-Gibson-Casaroes-Rui-Barbosa.jpg',68);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (73,-8.04138,-34.90337,'HISTORICO','Ponte D''uchoa','Entre os carros que trafegam pela movimentada avenida, um pedacinho do passado chama a atenção. A Estação Ponte d�Uchoa est� l�, lembrando os tempos em que o bonde era um dos meios de transporte mais comuns no Recife. A estação - inserida na Zona Especial de Preserva��o do Patrim�nio histórico da cidade - � um dos exemplos da arquitetura de ferro da cidade. O trecho denominado de Ponte D�Uchoa, situado na área compreendida entre a Ponte da Torre e o S�tio da Jaqueira, tem a sua denomina��o origin�ria da segunda metade do século 17, quando o senhor do Engenho da Torre, Antônio Borges Uchoa, mandou construir uma ponte de madeira sobre o Rio Capibaribe. A estação da antiga maxambomba, como eram chamados popularmente os trens da Brazilian Street Railway, era ponto de parada dos bondes. Foi construída em 1865, pela Empresa de Trilhos Urbanos, mas s� come�ou a funcionar dois anos depois. A maxambomba percorreu os trilhos do Recife at� 1915, quando a estação foi desativada.','ponteUchoa','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/ponte-duchoa-casaroes-rui-barbosa.jpg',69);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (74,-8.04088,-34.902,'HISTORICO','Colégio Damas','Se o Colégio Damas funciona na Avenida Rui Barbosa hoje, o fato se deve � estação de trens urbanos Ponte d''Uchoa, localizada em frente � unidade de ensino. As irmàs belgas responsáveis pela instituição de instrução cristã buscavam um imóvel. Ao descer do pequeno trem, maxambomba, e sabendo da procura das religiosas, o cônego Rechem viu uma placa de �vende-se� no sobrado em frente � estação. Voltou mais tarde com as madres Loyola e Alphonse, que fecharam neg�cio. �O Sobrado de Ponte D�Uchoa, adquirido pelas freiras, pertencera ao comendador Luiz Morais Gomes Ferreira, um dos fundadores da Associa��o Comercial de Pernambuco. O sítio constituía, no século 19, uma localidade larga, extensa e bela avenida, ladeada de importantes prédios, bem construídos e de variada arquitetura�, mostra o registro do Colégio Damas. Atualmente, o sobrado funciona como um museu, aberto a estudantes, que re�ne objetos da história da casa e do colégio.','colegioDamas','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Colegio-Damas-casaroes-rui-barbosa.jpg',70);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (75,-8.03945,-34.90388,'HISTORICO','Academia Pernambucana de Letras','único casarão da Rui Barbosa tombado pelo Instituto de Patrim�nio histórico e Artàstico Nacional (Iphan). No século 19, era residência do portuguàs João José Rodrigues Mendes, que viveu entre 1827 e 1893. O pràspero comerciante de bacalhau tinha o título de barão e, na viuvez, construiu uma torre para isolar-se da família e viver os �ltimos anos da vida sem a mulher, Eug�nia da Costa. Nos anos 1960, durante o governo Paulo Gerra, o imóvel foi desapropriado e cedido em comodato � Academia Pernambucana de Letras (APL). Apenas no governo Eraldo Gueiros, na década de 1970, o imóvel foi doado em definitivo � casa dos imortais. �At� hoje, descendentes do barão visitam a casa. Recentemente, uma herdeira dele pediu para entrar e contou que viveu aqui at� os 10 anos. Ela veio com os netos e se emocionou lembrando da inf�ncia�, afirma a presidente da APL, Margarida Cantarelli. Em setembro de 2015, uma minuciosa reforma teve início no casarão. Os azulejos portugueses, o piso inglàs e os lustres franceses foram restaurados. �Quando a reforma foi concluída (a previsão é que termine ainda em 2016), vamos abrir a casa à visitação. Toda a população será muito bem-vinda�, garante Cantarelli.','academiaLetras','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/academia-pernambucana-letras-casaroes-rui-barbosa.jpg',71);`);
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
