@@ -218,26 +218,26 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         muitos não sabem o que aconteceu lá", relata Severino Vicente.
         O local exato da execução é um muro que continua erguido, nas
         proximidades do Forte das Cinco Pontas, no bairro de São José.','freiCaneca','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Colagem-frei-caneca.jpg',29);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (34,-8.01012,-34.85353,'HISTORICO','Igreja Constru�da por uma irmandade de escravos negros','Local: Igreja de Nossa Senhora do Ros�rio dos Homens Pretos
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (34,-8.01012,-34.85353,'HISTORICO','Igreja Construída por uma irmandade de escravos negros','Local: Igreja de Nossa Senhora do Rosário dos Homens Pretos
         Ano: 1630
         
-        história: Trazidos � força do seu continente, com
+        história: Trazidos à força do seu continente, com
         diferentes costumes entre eles, os africanos escravizados no Brasil
-        tentaram manter viva da forma mais vi�vel possível suas crenças.
+        tentaram manter viva da forma mais viável possível suas crenças.
         Para isso, se inseriram no cenário da colônia. No bairro de Santo
-        Antônio, por meio da Irmandade do Ros�rio dos Homens Pretos,
-        escravos constru�ram uma igreja com o intuito de ganhar força de
+        Antônio, por meio da Irmandade do Rosário dos Homens Pretos,
+        escravos construíram uma igreja com o intuito de ganhar força de
         representação e de expressão religiosa.  Em artigo publicado pela
         Fundação Joaquim Nabuco, a pesquisadora Semira Adler Vainsencher,
         aponta que a igreja manteve a tradição do Congo, de coroar um rei e
         uma rainha, que acabou originando o maracatu. O processo, porém, foi
         conturbado. Diante dos costumes diferentes para o catolicismo, as
-        celebra��es dos negros passaram um período proibidas pela
+        celebrações dos negros passaram um período proibidas pela
         Inquisição. Isso somado às dificuldades financeiras, afinal a
         Irmandade era formada por escravos. Porém, mesmo assim, tentava
         construir igrejas equivalentes às da nobreza, arrecadando por meio
         da venda de artigos, como doces. No altar, o objetivo era manter as
-        ra�zes negras. "Excetuando-se Nossa Senhora do Ros�rio, Nossa
+        raízes negras. "Excetuando-se Nossa Senhora do Rosário, Nossa
         Senhora da Boa Hora e São Domingos, todas as outras imagens
         presentes nos altares representam santos negros", aponta a
         pesquisadora. Em Olinda, há uma igreja com o mesmo nome, fundada na
@@ -246,14 +246,14 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (35,-8.05482,-34.86535,'FORTES','Forte de São Francisco','Localização: No extremo dos arrecifes do Porto do Recife, onde hoje existe um farol
         Data de construção: 1614
         Situação: O forte foi destruído em 1910 para levantamento dos arrecifes e obras de melhoramento na cidade.
-        história: O forte, de pequenas propor��es (estima-se que cerca de 6 metros em cada lado) também foi feito para proteger o Porto do Recife. Ele cruzava fogo com o Forte de São Jorge Novo para afastar com mais efetividade possíveis invasores.','fortePicao','google.com',2,'FALSE','http://2.bp.blogspot.com/-e_ZNzzhTb_U/UvimnHuiY0I/AAAAAAAAArQ/GyTltypzMJ0/s1600/Forte+do+Pica%CC%83o.jpg',31);
+        história: O forte, de pequenas proporções (estima-se que cerca de 6 metros em cada lado) também foi feito para proteger o Porto do Recife. Ele cruzava fogo com o Forte de São Jorge Novo para afastar com mais efetividade possíveis invasores.','fortePicao','google.com',2,'FALSE','http://2.bp.blogspot.com/-e_ZNzzhTb_U/UvimnHuiY0I/AAAAAAAAArQ/GyTltypzMJ0/s1600/Forte+do+Pica%CC%83o.jpg',31);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (36,-8.01589,-34.84633,'FORTES','Forte do Queijo','Localização: Rua Manuel Borba - Carmo, Olinda
         Data de construção: 1620 (inauguração em 1622)
-        Situação: Ainda erguido e, segundo arque�logos, em bom estado de conservação
-        história: Inicialmente, o local foi criado pelo Governador de Pernambuco com a denomina��o Forte de São Francisco, mas com a ocupação holandesa foi reformado e passou por outra mudança em 1800. A última restauração do forte foi feita no século XX.','forteQueijo','google.com',2,'FALSE','https://media-cdn.tripadvisor.com/media/photo-s/08/cf/8c/60/fortim-de-sao-francisco.jpg',32);
+        Situação: Ainda erguido e, segundo arqueólogos, em bom estado de conservação
+        história: Inicialmente, o local foi criado pelo Governador de Pernambuco com a denominação Forte de São Francisco, mas com a ocupação holandesa foi reformado e passou por outra mudança em 1800. A última restauração do forte foi feita no século XX.','forteQueijo','google.com',2,'FALSE','https://media-cdn.tripadvisor.com/media/photo-s/08/cf/8c/60/fortim-de-sao-francisco.jpg',32);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (37,-8.05683,-34.93099,'FORTES','Forte Real do Bom Jesus','Data de construção: Por volta de 1630
         
-        Situação: Apenas algumas evid�ncias, como o fosso do forte, se mant�m no local
+        Situação: Apenas algumas evidências, como o fosso do forte, se mantém no local
         
         história: O local, longe da costa pernambucana, foi escolhido
         para evitar que invasores holandeses passassem do litoral para o interior, onde
@@ -263,23 +263,23 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Data de construção: 1630
         Situação: Em bom estado de conservação
         história: Foi uma das primeiras fortificações construídas no Recife quando os holandeses invadiram a área. Muitas emboscadas de luso-brasileiros foram feitas para evitar sua construção, sem sucesso.','forteBrum','google.com',2,'FALSE','https://media.sketchfab.com/models/1bf781cd040d424bb7941adcb9fc54f1/thumbnails/5da5400f56f942ab9313a8bd4a44f77f/a4d619a8280544b5a9c0fc1ae23f8ff1.jpeg',34);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (39,-7.91079,-34.82289,'FORTES','Forte de Pau Amarelo','Localização: Rua Paquist�o, S/n - Pau Amarelo, Paulista 
-        Data de construção: Obras determinadas em 1703, mas s� completamente conclu�da no século 17.
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (39,-7.91079,-34.82289,'FORTES','Forte de Pau Amarelo','Localização: Rua Paquistão, S/n - Pau Amarelo, Paulista 
+        Data de construção: Obras determinadas em 1703, mas s� completamente concluída no século 17.
         Situação: Em bom estado de conservação
-        história: O local foi projetado ainda antes dos holandeses chegarem ao Brasil, mas levou anos até ser construído completamente, com v�rias mudanças de planta, atingindo sua �forma final�, antes do abandono, em 1866. Foi restaurado em 1973.','fortePauAmarelo','google.com',2,'FALSE','https://s2.glbimg.com/DhpWJlCNvHSqx_mJpBGRbQuQYaU=/0x0:1181x557/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/s/E/lf043DS3SeAmwQKXrUcA/forte-de-pau-amarelo-.jpg',35);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (40,-8.04126,-34.86698,'FORTES','Forte do Buraco','Localização: Divisa entre Recife e Olinda, próximo � Escola de Aprendizes Marinheiros
+        história: O local foi projetado ainda antes dos holandeses chegarem ao Brasil, mas levou anos até ser construído completamente, com várias mudanças de planta, atingindo sua forma final, antes do abandono, em 1866. Foi restaurado em 1973.','fortePauAmarelo','google.com',2,'FALSE','https://s2.glbimg.com/DhpWJlCNvHSqx_mJpBGRbQuQYaU=/0x0:1181x557/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/s/E/lf043DS3SeAmwQKXrUcA/forte-de-pau-amarelo-.jpg',35);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (40,-8.04126,-34.86698,'FORTES','Forte do Buraco','Localização: Divisa entre Recife e Olinda, próximo à Escola de Aprendizes Marinheiros
         Data de construção: 1630
         Situação: Conservada parcialmente, algumas dddd podem ser encontradas
-        história: Fortifica��o foi construída em cima do Forte de São Jorge Velho quando os holandeses chegaram ao Brasil.','forteBuraco','google.com',2,'FALSE','https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2016/04/17/normal/9f61f918b37df7aead4beb08c18b11e9.jpg',36);
+        história: Fortificação foi construída em cima do Forte de São Jorge Velho quando os holandeses chegaram ao Brasil.','forteBuraco','google.com',2,'FALSE','https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2016/04/17/normal/9f61f918b37df7aead4beb08c18b11e9.jpg',36);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (41,-8.07181,-34.88071,'FORTES','Forte das Cinco Pontas','Localização: Praça das Cinco Pontas, s/n, São José
         Data de construção: 1630
         Situação: Bem conservado
         história: Também foi construída por holandeses na chegada ao Brasil, para dar apoio ao Forte Ernesto na Ilha de Antônio Vaz, hoje, bairro de São José. Também foi alvo de emboscadas luso-brasileiras','forteCincoPontas','google.com',2,'FALSE','https://i0.wp.com/www.conhecendomuseus.com.br/v2/wp-content/uploads/2014/06/vista_do_alto_museu_da_cidade_do_recife_grande.png',37);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (42,-7.81056,-34.83869,'FORTES','Forte Orange','Localização: Acesso ao Forte Orange, s/n�, Ac. ao Forte Orange, Ilha de Itamarac� 
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (42,-7.81056,-34.83869,'FORTES','Forte Orange','Localização: Acesso ao Forte Orange, s/n, Ac. ao Forte Orange, Ilha de Itamaracá 
         Data de construção: 1631
         Situação: Em bom estado de conservação
-        história: O forte foi construído pelos holandeses para defender as vilas de Itamarac� e Igarassu','forteOrange','google.com',2,'FALSE','https://i.ytimg.com/vi/ckIB2NJNseA/maxresdefault.jpg',38);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (43,-8.75766,-35.09972,'FORTES','Forte de tamandaré','Localização: Onde fica o Farol de Tamandar�
+        história: O forte foi construído pelos holandeses para defender as vilas de Itamaracá e Igarassu','forteOrange','google.com',2,'FALSE','https://i.ytimg.com/vi/ckIB2NJNseA/maxresdefault.jpg',38);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (43,-8.75766,-35.09972,'FORTES','Forte de tamandaré','Localização: Onde fica o Farol de Tamandaré
         Data de construção: 1691
         Situação: Preservado em estado parcial
         história: O forte foi construído pelos holandeses depois da ocupação da área. Pesquisadores ainda não conseguiram provar, mas estimama-se &nbsp;que ele tenha alguma relação com o Forte de Santa Cruz','forteTamandare','google.com',2,'FALSE','https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2021/07/22/806x444/1_dji_0866-18567785.jpg',39);`);
@@ -308,7 +308,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Companhia Pernambucana de Saneamento, construída pelo engenheiro
         Francisco Saturnino de Brito em 1909, que funciona até os dias atuais.
         Esse Jardim também é conhecido como Praça do Internacional pela
-        presença do Clube Internacional. Burle Marx tra�ou passeios e gramados em forma de elipse com um canteiro central dedicado às cact�ceas
+        presença do Clube Internacional. Burle Marx traçou passeios e gramados em forma de elipse com um canteiro central dedicado às cactáceas
         � como a coroa-de-frade, o facheiro e o xique-xique, e alamedas nas
         bordas com cortinas de árvores é como o pau-ferro, o pau-d�arco e o
         juazeiro, todas elas espécies vegetais da Caatinga.','pracaEuclidesCunha','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2015/12/euclidesCunha.jpg',41);
@@ -368,23 +368,23 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Dois Irmãos, em área remanescente de Mata Atlântica, pertencente ao
         antigo engenho Dois Irmãos, onde no início do século XX, foi instalado
         o Jardim Zoobotúnico de Dois Irmãos (ou Horto Florestal). Na década
-        de 1930, no seu entorno, foi construída a vila oper�ria de Dois Irmãos,
+        de 1930, no seu entorno, foi construída a vila operária de Dois Irmãos,
         que existe até hoje. Na gestão do prefeito Pelópidas Silveira, em 1958,
         Burle Marx foi convidado para criar, naquele lugar, um jardim recreativo
-        para as crian�as, com um brinquedo desenhado por ele (em forma de
+        para as crianças, com um brinquedo desenhado por ele (em forma de
         escultura), balanãos, gangorras e escorregos, complementados por dois
         longos bancos.
-        O artista contornou os bancos com �rvores como o mulungu, o abric�
+        O artista contornou os bancos com árvores como o mulungu, o abric�
         de macaco, o pau-brasil, o pau-rei e palmeiras. Na década de 1960,
         esta Praça passou a ser chamada Praça Faria Neves, em homenagem ao
         professor de história Natural José Pedro Faria Neves. Por muito tempo,
-        a Praça foi utilizada como local para estacionamento de carros e �nibus 
-        dos visitantes do Parque de Dois Irmãos, antigo Zoobotúnico. Festas populares, um terminal de �nibus e um
-        bar contribu�ram para o desgaste da Praça. A participa��o da comunidade do entorno foi muito importante
+        a Praça foi utilizada como local para estacionamento de carros e ônibus 
+        dos visitantes do Parque de Dois Irmãos, antigo Zoobotúnico. Festas populares, um terminal de ônibus e um
+        bar contribuíram para o desgaste da Praça. A participação da comunidade do entorno foi muito importante
         para a sua restauração pela Prefeitura do Recife que, em 2006, devolveu este lindo Jardim de Burle Marx �
         população do bairro, com mesinhas para jogos, o brinquedo de concreto recuperado, áreas sombreadas para
         sentar e conversar e canteiros de cana-da-índia. Esta obra de Burle Marx, como entrada do Parque Estadual de
-        Dois Irmãos, � um lugar público agrad�vel para o conv�vio social.','pracaFariaNeves','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2015/12/fariasNeves.jpg',46);`);
+        Dois Irmãos, é um lugar público agradável para o convívio social.','pracaFariaNeves','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2015/12/fariasNeves.jpg',46);`);
 
         await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (51,-8.03186,-34.95452,'POESIA','Avenida Caxangá','Avenida Caxangá
         "A seguir, Caxangá,
@@ -405,7 +405,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         está São João, uma antiga usina.
         Depois se atinge a Várzea,
         a vila propriamente dita,
-        com suas �rvores velhas
+        com suas árvores velhas
         que d�o uma sombra também antiga."
         (João Cabral de Melo Neto)
         
@@ -439,7 +439,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Obra
         O Poço da Panela','pocoPanela','google.com',2,'FALSE','http://blog.eduardofeitosa.com.br/wp-content/uploads/2015/12/ESTRADA-REAL.jpg',50);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (55,-8.02439,-34.9332,'POESIA','Rio Capibaribe','"Na paisagem do rio
-        difícil � saber
+        difícil é saber
         onde começa o rio;
         onde a lama
         começa do rio;
@@ -493,9 +493,9 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         O Rio','caisSantaRita','google.com',2,'FALSE','https://i.ytimg.com/vi/-y_R-SW2jec/maxresdefault.jpg',54);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (59,-8.06412,-34.88008,'POESIA','Rua Nova','"Os prazeres civilizados
         Da Rua Nova
-        Nos teus paralelep�pedos
+        Nos teus paralelepípedos
         Os melhores do mundo
-        Os autom�veis
+        Os automóveis
         Do Novo Mundo
         Cortar as pontes ancestrais
         Do Capiberibe."
@@ -517,10 +517,10 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         feito de folhas e flores,
         � o Jardim Treze de Maio,
         onde os nossos oradores
-        v�o um ao outro contar
+        vão um ao outro contar
         como foi que conseguiram
         a vida inteira passar
-        nas trevas da ignor�ncia
+        nas trevas da ignorância
         sem nunca desconfiar. "
         (Carlos Pena Filho)
         
@@ -528,10 +528,10 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Guia Prático da Cidade do Recife','trezeMaio','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUH1JwtFJlhOLJ9rJ_-0v8KLvot8pXE7vKeXJ4Ak0S_AP9yZdWT-Alt69n7YPwfi56ZJ1oIpZzj8PGbanuW6wiChvxk3JshA1KXBVTOcGuE9X5Zbs-KLqV38207LVNm1JpDo-WP8zD_AYHbjCMotdOiD5ERz6pdMSP5KaURYj_keaRK2VhcMS3EFJVWPQTrNJw=s16383',57);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (62,-8.05823,-34.87998,'POESIA','Rua da União','"Recife da minha inf�ncia
         A rua da União onde eu brincava de chicote-queimado
-        e partia as vidra�as da casa de dona Aninha Viegas
+        e partia as vidraças da casa de dona Aninha Viegas
         Tot�nio Rodrigues era muito velho e botava o pincen�
         na ponta do nariz
-        Depois do jantar as famílias tomavam a cal�ada com cadeiras
+        Depois do jantar as famílias tomavam a calçada com cadeiras
         mexericos namoros risadas
         A gente brincava no meio da rua
         Os meninos gritavam:
@@ -567,7 +567,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         
         Obra
         Tarde no Recife','ponteMauricioNassau','google.com',2,'FALSE','https://revista.algomais.com/wp-content/uploads/2020/02/ponte-mauricio-de-nassau-1.jpg',60);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (65,-8.06198,-34.87531,'POESIA','Pontes do Recife','"Amar mulheres, v�rias
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (65,-8.06198,-34.87531,'POESIA','Pontes do Recife','"Amar mulheres, várias
         amar cidade, s� uma � Recife.
         E assim mesmo com as suas pontes
         E os seus rios que cantam
@@ -622,13 +622,13 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         o quarto é o Éden."
         (Gastão de Holanda)','bairroRecife','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUHmit3svI4e633OT_Vyf-rEmCy-xITM9k5QjkGK57oCRr1L8kbVxYv6PUgcCYMsasVjfPkCn23qDUZeeJc59RxmjvYmCdm21weNZAv_n7bz6Vlz94YhhOrorNGWCpCuZM_AVGz-WI5YMMg1aMR3omuItS2GXFXSVPv-2yqrJP3h7AOlJMdBha26NQ=s16383',64);`);
 
-        await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (69,-8.04805,-34.8989,'HISTORICO','Palácio dos Manguinhos','A residência oficial do arcebispo de Olinda e Recife fica no número 409. O imóvel foi construído para ser a residência do comerciante José da Silva Loyo, o Visconde de Loyo. &nbsp;Adquirido pela Arquidiocese, tornou-se a sede da C�ria Metropolitana. Fica ao lado da Igreja de São José dos Manguinhos, construída, entre 1711 e 1741, para ser uma capela particular. </p><span>Foi no casarão que, na década de 1980, o papa João Paulo II pernoitou durante visita � capital pernambucana. Antes de dormir no Palácio dos Manguinhos, no 7 de julho de 1980, o papa se dirigiu � sacada superior do imóvel para acenar para duas mil pessoas que gritavam o seu nome. No dia seguinte, antes de seguir para Teresina, o pont�fice experimentou comidas típicas, como cuscuz e tapioca, no café da manh�. A despedida foi com a b�n��o das 32 pessoas que o serviram durante a estada. A cada uma, o papa deu um ter�o.','palacioManguinhos','google.com',2,'FALSE','curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Palacio-Manguinhos-Casaroes-Rui-Barbosa.jpg',65);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (70,-8.0445,-34.90173,'HISTORICO','Museu do Estado de Pernambuco','O casarão do número 960, onde hoje funciona o Museu do Estado de Pernambuco, foi considerado, no século 19, a grande vitrine da alta sociedade pernambucana. As festas promovidas na casa de Francisco Antônio de Oliveira, o Barão de Beberibe, eram observadas do lado de fora por pessoas das classes mais baixas. Quem conta a história � o monitor do museu, Alexandre Amaral. �Essa casa foi residência da família e também já foi sede do Country Club. As casas ao longo do Rio Capibaribe eram as preferidas dos ricos comerciantes, que davam grandes festas. Muitas pessoas que se deslocavam para ver as celebra��es�, explica. O luxo e requinte ainda podem ser vistos por quem tem curiosidade de saber como viviam os ricos da época. O Museu do Estado tem salas que reproduzem cômodos, com objetos originais. O Solar do Barão de Beberibe s� foi adquirido pelo estado em 1935 e, em 10 de maio de 1940, virou museu por meio de decisão publicada no decreto número 491. O casarão também recebe o nome de Estácio Coimbra, governador que criou a Inspetoria Estadual dos Monumentos Nacionais de Pernambuco.','museuPernambuco','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/museu-do-estado-casaroes-rui-barbosa.jpg',66);
+        await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (69,-8.04805,-34.8989,'HISTORICO','Palácio dos Manguinhos','A residência oficial do arcebispo de Olinda e Recife fica no número 409. O imóvel foi construído para ser a residência do comerciante José da Silva Loyo, o Visconde de Loyo. &nbsp;Adquirido pela Arquidiocese, tornou-se a sede da C�ria Metropolitana. Fica ao lado da Igreja de São José dos Manguinhos, construída, entre 1711 e 1741, para ser uma capela particular. </p><span>Foi no casarão que, na década de 1980, o papa João Paulo II pernoitou durante visita à capital pernambucana. Antes de dormir no Palácio dos Manguinhos, no 7 de julho de 1980, o papa se dirigiu à sacada superior do imóvel para acenar para duas mil pessoas que gritavam o seu nome. No dia seguinte, antes de seguir para Teresina, o pont�fice experimentou comidas típicas, como cuscuz e tapioca, no café da manh�. A despedida foi com a b�n��o das 32 pessoas que o serviram durante a estada. A cada uma, o papa deu um ter�o.','palacioManguinhos','google.com',2,'FALSE','curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Palacio-Manguinhos-Casaroes-Rui-Barbosa.jpg',65);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (70,-8.0445,-34.90173,'HISTORICO','Museu do Estado de Pernambuco','O casarão do número 960, onde hoje funciona o Museu do Estado de Pernambuco, foi considerado, no século 19, a grande vitrine da alta sociedade pernambucana. As festas promovidas na casa de Francisco Antônio de Oliveira, o Barão de Beberibe, eram observadas do lado de fora por pessoas das classes mais baixas. Quem conta a história é o monitor do museu, Alexandre Amaral. Essa casa foi residência da família e também já foi sede do Country Club. As casas ao longo do Rio Capibaribe eram as preferidas dos ricos comerciantes, que davam grandes festas. Muitas pessoas que se deslocavam para ver as celebrações, explica. O luxo e requinte ainda podem ser vistos por quem tem curiosidade de saber como viviam os ricos da época. O Museu do Estado tem salas que reproduzem cômodos, com objetos originais. O Solar do Barão de Beberibe s� foi adquirido pelo estado em 1935 e, em 10 de maio de 1940, virou museu por meio de decisão publicada no decreto número 491. O casarão também recebe o nome de Estácio Coimbra, governador que criou a Inspetoria Estadual dos Monumentos Nacionais de Pernambuco.','museuPernambuco','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/museu-do-estado-casaroes-rui-barbosa.jpg',66);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (71,-8.05252,-34.89624,'HISTORICO','Toyolex','A convivência harmônica entre uma concessionária de veículos moderna e um casarão antigo em estilo colonial provam que é possível preservar os imóveis históricos, mesmo que o uso deles pareça ser antagônico ao espaço. A união do tradicional com o contemporâneo marcam a arquitetura da Toyolex, no número 1105 da avenida. A loja de veículos ocupa um terreno de 10 mil metros quadrados e divide espaço com um casarão da década de 1950. Para preservar a arquitetura original do imóvel, a concessionária foi levantada nos fundos da casa, na parte do terreno voltada para a Avenida Beira Rio. Quem passa pela Rui Barbosa, por exemplo, nem consegue imaginar que, por trás do jardim e do casarão, exista um pr�dio de vidro representante de uma moderna arquitetura. O �antigo� e o �novo� estão interligados apenas por uma passarela. Antes da inauguração da loja, em 2013, as portas e os pisos do casarão foram restaurados, seguindo as especifica��es originais. As cores que as esquadrias de madeira tinham na década de 1950 também foram mantidas.','toyolex','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Toyolex-casaroes-rui-barbosa.jpg',67);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (72,-8.04254,-34.90305,'HISTORICO','Mansão dos Gibson','�No sítio de Henry Gibson, na Ponte de Uchoa, precisa-se de trabalhadores de enxada. Sendo bons, paga-se 800 réis por dia.� O an�ncio estampado na edição de 8 de agosto de 1855 do Diario de Pernambuco se referia a uma das mais importantes propriedades do Recife na época. Hoje, a mansão dos Gibson, que atualmente pertence � família Baptista da Silva, faz parte do imaginário de muitos recifenses. A casa de estilo neomanuelino, ou neogótico, construída em 1847 �, sem dúvidas, uma das que mais chamam a atenção de quem passa pela avenida. O jardim bem cuidado, o portão de ferro e as estátuas são algumas das belezas do casarão que � possível contemplar. O acesso ao imóvel, porém, � restrito apenas a familiares e amigos dos propriet�rios; avisam os funcionários assim que alguém se aproxima do portão. �Gibson era um negociante inglàs e essa casa foi a primeira da regi�o projetada com jardins�, explica o arquiteto José Luiz da Mota Menezes. Apàs a saída dos Gibson da casa, o imóvel abrigou o Internato Pernambucano, considerado �o mais aristocrático colégio da época�.','mansaoGibson','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Mansao-Gibson-Casaroes-Rui-Barbosa.jpg',68);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (73,-8.04138,-34.90337,'HISTORICO','Ponte D''uchoa','Entre os carros que trafegam pela movimentada avenida, um pedacinho do passado chama a atenção. A Estação Ponte d�Uchoa está lá, lembrando os tempos em que o bonde era um dos meios de transporte mais comuns no Recife. A estação - inserida na Zona Especial de Preserva��o do Patrim�nio histórico da cidade - � um dos exemplos da arquitetura de ferro da cidade. O trecho denominado de Ponte D�Uchoa, situado na área compreendida entre a Ponte da Torre e o S�tio da Jaqueira, tem a sua denomina��o origin�ria da segunda metade do século 17, quando o senhor do Engenho da Torre, Antônio Borges Uchoa, mandou construir uma ponte de madeira sobre o Rio Capibaribe. A estação da antiga maxambomba, como eram chamados popularmente os trens da Brazilian Street Railway, era ponto de parada dos bondes. Foi construída em 1865, pela Empresa de Trilhos Urbanos, mas s� começou a funcionar dois anos depois. A maxambomba percorreu os trilhos do Recife até 1915, quando a estação foi desativada.','ponteUchoa','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/ponte-duchoa-casaroes-rui-barbosa.jpg',69);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (74,-8.04088,-34.902,'HISTORICO','Colégio Damas','Se o Colégio Damas funciona na Avenida Rui Barbosa hoje, o fato se deve � estação de trens urbanos Ponte d''Uchoa, localizada em frente � unidade de ensino. As irmàs belgas responsáveis pela instituição de instrução cristã buscavam um imóvel. Ao descer do pequeno trem, maxambomba, e sabendo da procura das religiosas, o cônego Rechem viu uma placa de �vende-se� no sobrado em frente � estação. Voltou mais tarde com as madres Loyola e Alphonse, que fecharam neg�cio. �O Sobrado de Ponte D�Uchoa, adquirido pelas freiras, pertencera ao comendador Luiz Morais Gomes Ferreira, um dos fundadores da Associa��o Comercial de Pernambuco. O sítio constituía, no século 19, uma localidade larga, extensa e bela avenida, ladeada de importantes prédios, bem construídos e de variada arquitetura�, mostra o registro do Colégio Damas. Atualmente, o sobrado funciona como um museu, aberto a estudantes, que re�ne objetos da história da casa e do colégio.','colegioDamas','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Colegio-Damas-casaroes-rui-barbosa.jpg',70);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (75,-8.03945,-34.90388,'HISTORICO','Academia Pernambucana de Letras','único casarão da Rui Barbosa tombado pelo Instituto de Patrim�nio histórico e Artàstico Nacional (Iphan). No século 19, era residência do portuguàs João José Rodrigues Mendes, que viveu entre 1827 e 1893. O pràspero comerciante de bacalhau tinha o título de barão e, na viuvez, construiu uma torre para isolar-se da família e viver os últimos anos da vida sem a mulher, Eug�nia da Costa. Nos anos 1960, durante o governo Paulo Gerra, o imóvel foi desapropriado e cedido em comodato � Academia Pernambucana de Letras (APL). Apenas no governo Eraldo Gueiros, na década de 1970, o imóvel foi doado em definitivo � casa dos imortais. �Até hoje, descendentes do barão visitam a casa. Recentemente, uma herdeira dele pediu para entrar e contou que viveu aqui até os 10 anos. Ela veio com os netos e se emocionou lembrando da inf�ncia�, afirma a presidente da APL, Margarida Cantarelli. Em setembro de 2015, uma minuciosa reforma teve início no casarão. Os azulejos portugueses, o piso inglàs e os lustres franceses foram restaurados. �Quando a reforma foi concluída (a previsão é que termine ainda em 2016), vamos abrir a casa à visitação. Toda a população será muito bem-vinda�, garante Cantarelli.','academiaLetras','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/academia-pernambucana-letras-casaroes-rui-barbosa.jpg',71);`);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (72,-8.04254,-34.90305,'HISTORICO','Mansão dos Gibson','�No sítio de Henry Gibson, na Ponte de Uchoa, precisa-se de trabalhadores de enxada. Sendo bons, paga-se 800 réis por dia.� O an�ncio estampado na edição de 8 de agosto de 1855 do Diario de Pernambuco se referia a uma das mais importantes propriedades do Recife na época. Hoje, a mansão dos Gibson, que atualmente pertence à família Baptista da Silva, faz parte do imaginário de muitos recifenses. A casa de estilo neomanuelino, ou neogótico, construída em 1847, sem dúvidas, uma das que mais chamam a atenção de quem passa pela avenida. O jardim bem cuidado, o portão de ferro e as estátuas são algumas das belezas do casarão que � possível contemplar. O acesso ao imóvel, porém, � restrito apenas a familiares e amigos dos propriet�rios; avisam os funcionários assim que alguém se aproxima do portão. �Gibson era um negociante inglàs e essa casa foi a primeira da regi�o projetada com jardins�, explica o arquiteto José Luiz da Mota Menezes. Apàs a saída dos Gibson da casa, o imóvel abrigou o Internato Pernambucano, considerado �o mais aristocrático colégio da época�.','mansaoGibson','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Mansao-Gibson-Casaroes-Rui-Barbosa.jpg',68);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (73,-8.04138,-34.90337,'HISTORICO','Ponte D''uchoa','Entre os carros que trafegam pela movimentada avenida, um pedacinho do passado chama a atenção. A Estação Ponte d�Uchoa está lá, lembrando os tempos em que o bonde era um dos meios de transporte mais comuns no Recife. A estação - inserida na Zona Especial de Preservação do Patrimônio histórico da cidade - é um dos exemplos da arquitetura de ferro da cidade. O trecho denominado de Ponte D'Uchoa, situado na área compreendida entre a Ponte da Torre e o Sítio da Jaqueira, tem a sua denominação originária da segunda metade do século 17, quando o senhor do Engenho da Torre, Antônio Borges Uchoa, mandou construir uma ponte de madeira sobre o Rio Capibaribe. A estação da antiga maxambomba, como eram chamados popularmente os trens da Brazilian Street Railway, era ponto de parada dos bondes. Foi construída em 1865, pela Empresa de Trilhos Urbanos, mas s� começou a funcionar dois anos depois. A maxambomba percorreu os trilhos do Recife até 1915, quando a estação foi desativada.','ponteUchoa','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/ponte-duchoa-casaroes-rui-barbosa.jpg',69);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (74,-8.04088,-34.902,'HISTORICO','Colégio Damas','Se o Colégio Damas funciona na Avenida Rui Barbosa hoje, o fato se deve � estação de trens urbanos Ponte d''Uchoa, localizada em frente � unidade de ensino. As irmàs belgas responsáveis pela instituição de instrução cristã buscavam um imóvel. Ao descer do pequeno trem, maxambomba, e sabendo da procura das religiosas, o cônego Rechem viu uma placa de 'vende-se' no sobrado em frente à estação. Voltou mais tarde com as madres Loyola e Alphonse, que fecharam negócio. O Sobrado de Ponte D'Uchoa, adquirido pelas freiras, pertencera ao comendador Luiz Morais Gomes Ferreira, um dos fundadores da Associação Comercial de Pernambuco. O sítio constituía, no século 19, uma localidade larga, extensa e bela avenida, ladeada de importantes prédios, bem construídos e de variada arquitetura�, mostra o registro do Colégio Damas. Atualmente, o sobrado funciona como um museu, aberto a estudantes, que re�ne objetos da história da casa e do colégio.','colegioDamas','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Colegio-Damas-casaroes-rui-barbosa.jpg',70);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (75,-8.03945,-34.90388,'HISTORICO','Academia Pernambucana de Letras','único casarão da Rui Barbosa tombado pelo Instituto de Patrim�nio histórico e Artàstico Nacional (Iphan). No século 19, era residência do portuguàs João José Rodrigues Mendes, que viveu entre 1827 e 1893. O pràspero comerciante de bacalhau tinha o título de barão e, na viuvez, construiu uma torre para isolar-se da família e viver os últimos anos da vida sem a mulher, Eug�nia da Costa. Nos anos 1960, durante o governo Paulo Gerra, o imóvel foi desapropriado e cedido em comodato à Academia Pernambucana de Letras (APL). Apenas no governo Eraldo Gueiros, na década de 1970, o imóvel foi doado em definitivo � casa dos imortais. �Até hoje, descendentes do barão visitam a casa. Recentemente, uma herdeira dele pediu para entrar e contou que viveu aqui até os 10 anos. Ela veio com os netos e se emocionou lembrando da inf�ncia�, afirma a presidente da APL, Margarida Cantarelli. Em setembro de 2015, uma minuciosa reforma teve início no casarão. Os azulejos portugueses, o piso inglàs e os lustres franceses foram restaurados. �Quando a reforma foi concluída (a previsão é que termine ainda em 2016), vamos abrir a casa à visitação. Toda a população será muito bem-vinda�, garante Cantarelli.','academiaLetras','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/academia-pernambucana-letras-casaroes-rui-barbosa.jpg',71);`);
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
