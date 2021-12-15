@@ -50,7 +50,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Endereço: Av. Dezessete de Agosto, 2187 - Casa Forte, Recife - PE
         Entrada: Visitação: terça a sexta, das 8h30 às 17h. Sábados e Domingos, das 14h às 18h.
         Visita noturna nas últimas quartas e quintas-feiras de cada
-        màs (desde setembro), o Museu disp�e de hor�rio estendido (das 8h30 às 20h)','moedaAntiga','google.com',2,'FALSE','https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2015/09/22/normal/12d82db0ae21cd44da07ccd722bc8d61.jpg',19);
+        màs (desde setembro), o Museu dispõe de horário estendido (das 8h30 às 20h)','moedaAntiga','google.com',2,'FALSE','https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2015/09/22/normal/12d82db0ae21cd44da07ccd722bc8d61.jpg',19);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (24,-8.06185,-34.87142,'MUSEUS','2)mikve/bor','Registros arqueol�gicos que comprovam a presen�a judaica no estado no século 17
         Local: Sinagoga Kahal Zur Israel
         Público mensal: 1.500
@@ -62,7 +62,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Público mensal: 13.997
         Endereço: Engenho São João,na Várzea (Alameda Antônio Brennand)
         Funcionamento: De terça a domingo, das 13h às 17h.
-        Informa��es: (81) 2121-0352','obraMichelangelo','google.com',2,'FALSE','https://upload.wikimedia.org/wikipedia/commons/8/8c/Replica_of_Michelangelo%27s_David_in_Instituto_Ricardo_Brennand.jpg',21);`);
+        Informações: (81) 2121-0352','obraMichelangelo','google.com',2,'FALSE','https://upload.wikimedia.org/wikipedia/commons/8/8c/Replica_of_Michelangelo%27s_David_in_Instituto_Ricardo_Brennand.jpg',21);`);
 
         await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (26,-8.06029,-34.87759,'HISTORICO','Primeiro horto zoobotúnico do Brasil','Local: Palácio do Campo das Princesas
         Ano:1638 - 1645
@@ -104,14 +104,14 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         de São Pedro e São Paulo, já em águas brasileiras, onde a
         aeronave sofreu avarias e foi levada até Fernando de Noronha com o
         auxílio de um cruzador da Marinha de Portugal. Em Noronha, a dupla
-        recebeu um novo avião, batizado de P�tria, que também apresentou
+        recebeu um novo avião, batizado de Pátria, que também apresentou
         problemas, dessa vez no motor. Uma terceira aeronave, nomeada Santa
         Cruz conseguiu realizar o último trecho da viagem até o continente,
         chegando ao Recife. "Eles foram recebidos com muita festa pelo
         povo, foram levados nos braços do bairro de Santo Antônio até o
         Hotel do Parque, que fica próximo onde hoje é o Teatro do Parque,
         na Rua do Hospício", relata o professor da Universidade
-        Catélica de Pernambuco (Unicap), Fl�vio Cabral. Pelo feito, Gago e
+        Catélica de Pernambuco (Unicap), Flávio Cabral. Pelo feito, Gago e
         Sacadura são homenageados com um monumento na Praça Dezessete, no
         bairro de Santo Antônio. A parada final do voo ocorreu no Rio de
         Janeiro.','aviaoAntigo','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/monumento-aviadores-2.jpg',24);
@@ -119,16 +119,16 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Ano: 1695
         
         história: Um dos maiores símbolos da resist�ncia escrava
-        durante o Brasil Col�nia foi morto, na Serra Dois Irmãos, na então
-        Capitania de Pernambuco. L�der do Quilombo dos Palmares, Zumbi teve
+        durante o Brasil Colônia foi morto, na Serra Dois Irmãos, na então
+        Capitania de Pernambuco. Líder do Quilombo dos Palmares, Zumbi teve
         a cabeça cortada e exposta na Praça do Carmo até completa
         decomposição. A decisão do governador de Pernambuco na ocasião,
-        Caetano de Melo Castro, visava acaba com a supersti��o difundida
+        Caetano de Melo Castro, visava acaba com a superstição difundida
         entre os escravos de que Zumbi era imortal. �A cabeça era um
-        trof�u, um exemplo para que os negros que por ali passassem tivessem
+        troféu, um exemplo para que os negros que por ali passassem tivessem
         cuidado para não ter o mesmo fim�, explica Severino Vicente,
-        doutor em história e professor da UFPE.  Zumbi se tornou l�der apàs
-        se opor � lideran�a anterior de Ganga Zumba, que havia aceitado uma
+        doutor em história e professor da UFPE.  Zumbi se tornou líder apàs
+        se opor � liderança anterior de Ganga Zumba, que havia aceitado uma
         oferta de paz da Coroa Portuguesa. O Quilombo dos Palmares foi o
         grande foco de resist�ncia formado por escravos negros, fugidos de
         fazendas e senzalas. Ocupava uma área equivalente ao tamanho de
@@ -137,21 +137,21 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         desfeito por completo em 1710. Atualmente, a Praça do Carmo exibe um
         monumento, construído por Abelardo da Hora.','zumbiDosPalmares','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/est%C3%A1tua-de-zumbi-2.jpg',25);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (30,-8.06394,-34.87535,'HISTORICO','O que � lugar de memória?','A história oficial ajuda a referendar um evento ocorrido, mas nem
-        sempre � componente indispensável para a forma��o da memória de
+        sempre � componente indispensável para a formação da memória de
         um povo. Isso � explicado pelo conceito de lugar de memória que, em
         linhas gerais, reflete eventos que acabam no imagin�rio popular, sem
-        necessidade de comprova��o histórica. �A história do boi
-        voador, na época de Maurício de Nassau � um exemplo. São
-        experi�ncias de diferentes indiv�duos que formam uma experi�ncia
+        necessidade de comprovação histórica. A história do boi
+        voador, na época de Maurício de Nassau é um exemplo. São
+        experiências de diferentes indivíduos que formam uma experiência
         histórica. O período holandàs em Pernambuco tem muito disso,
-        inclusive a figura do pr�prio Maurício de Nassau�, explica Cibele
+        inclusive a figura do próprio Maurício de Nassau�, explica Cibele
         Barbosa, pesquisadora da Fundação Joaquim Nabuco (Fundaj).  
         O conceito de lugar de memória defende que, para que haja memória,
-        não � preciso uma representação fàsica. àSão refer�ncias
-        culturais. Não � indispensável que exista um monumento numa praça,
+        não é preciso uma representação fàsica. àSão referências
+        culturais. Não é indispensável que exista um monumento numa praça,
         desde que ali se tenha uma memória referendada pela história oral
         trazida por uma comunidade. Mesmo que não se tenha certeza que a
-        cabeça de zumbi esteve na Praça do Carmo, o que importa � o que
+        cabeça de zumbi esteve na Praça do Carmo, o que importa é o que
         foi introjetado na memória das pessoas�, exemplifica.','boiVoador','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/boi-voador-ok.jpg',26);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (31,-8.0643,-34.88009,'HISTORICO','Assassinato de João Pessoa','Local: Rua Nova
         Ano: 1930
@@ -185,7 +185,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         pot�ncia mar�tima. Segundo: o a��car valia como ouro. Nesse
         cenário, os cors�rios ingleses, piratas que atuavam a mando da
         rainha Elizabete I, agiam saqueando embarca��es e portos de
-        col�nias portuguesas e espanholas em busca de riquezas. "Recife
+        colônias portuguesas e espanholas em busca de riquezas. "Recife
         e Olinda estavam entre os locais mais ricos do mundo ocidental. Um
         quilo de a��car já era riqueza, imagine um carregamento de
         a��car", destaca Severino Vicente. James Lancaster chegou ao
@@ -194,15 +194,15 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         quantidade de a��car, pau-brasil e algod�o saqueada foi t�o
         grande que foram fretados navios holandeses e franceses pela frota
         pela coroa inglesa. Ao todo foram mobilizados em torno de 750
-        soldados e 35 navios, entre pr�prios e capturados por Lancaster e
+        soldados e 35 navios, entre próprios e capturados por Lancaster e
         seus aliados. No Recife, foram saqueadas lojas, armaz�ns e casas,
         deixando cerca de 120 mortos.','jamesLancaster','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Captura-do-recife.jpg',28);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (33,-8.07217,-34.8818,'HISTORICO','Prisão e fuzilamento de Frei Caneca','Local: Arquivo Público e proximidades do Forte das Cinco Pontas
         Ano: 1825
         
-        história:  O l�der libert�rio Joaquim do Amor Divino
+        história:  O líder libert�rio Joaquim do Amor Divino
         Rabelo, mais conhecido por Frei Caneca tem a sua história misturada
-        com a do Recife. Esteve entre as principais lideran�as da Revolução
+        com a do Recife. Esteve entre as principais lideranças da Revolução
         Pernambucana de 1817 e da Confederação do Equador, em 1824. No ano
         seguinte � segunda tentativa separatista foi preso onde atualmente,
         na Rua do Imperador, funciona o Arquivo Público de Pernambuco. Pouco
@@ -213,9 +213,9 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         um padre carmelita. Diante disso, foi ordenado pela Casa Militar a
         execu��o por meio de tiros, chamada na ocasião por arcabuzamento.
         "A C�mara Municipal, atual Arquivo Público, também funcionava
-        como prisão. Frei Caneca saiu de l� e foi levado andando até o
+        como prisão. Frei Caneca saiu de lá e foi levado andando até o
         local em que foi executado, que apesar de ter uma placa e um busto,
-        muitos não sabem o que aconteceu l�", relata Severino Vicente.
+        muitos não sabem o que aconteceu lá", relata Severino Vicente.
         O local exato da execu��o � um muro que continua erguido, nas
         proximidades do Forte das Cinco Pontas, no bairro de São José.','freiCaneca','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Colagem-frei-caneca.jpg',29);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (34,-8.01012,-34.85353,'HISTORICO','Igreja Constru�da por uma irmandade de escravos negros','Local: Igreja de Nossa Senhora do Ros�rio dos Homens Pretos
@@ -224,7 +224,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         história: Trazidos � força do seu continente, com
         diferentes costumes entre eles, os africanos escravizados no Brasil
         tentaram manter viva da forma mais vi�vel possível suas crenças.
-        Para isso, se inseriram no cenário da col�nia. No bairro de Santo
+        Para isso, se inseriram no cenário da colônia. No bairro de Santo
         Antônio, por meio da Irmandade do Ros�rio dos Homens Pretos,
         escravos constru�ram uma igreja com o intuito de ganhar força de
         representação e de expressão religiosa.  Em artigo publicado pela
@@ -389,7 +389,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (51,-8.03186,-34.95452,'POESIA','Avenida Caxangá','Avenida Caxangá
         "A seguir, Caxangá,
         também velha e recolhida,
-        onde come�a a estrada
+        onde começa a estrada
         dita Nova, ou de Iputinga,
         que quase reta � cidade,
         que � o mar a que se destina,
@@ -420,16 +420,16 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         De quando eu menino!
         
         Sinos da Boa Vista e de Santo Antônio.
-        Sinos do Po�o, do Monteiro e da Igrejinha de Boa Viagem."
+        Sinos do Poço, do Monteiro e da Igrejinha de Boa Viagem."
         (Manuel Bandeira)
         Obra
         Natal sem sinos','monteiro','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUGRe2yJu0GmgH5bvxCHglE3pv1I_8S9BPFucZnDuFdgyw-naprIjAoDc8aYB1HhHhmh8u_XMiudu9Qej7mYtXbX76ccBqkk9JAzl2Spe_vzwAr1BVRiww=s16383',49);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (54,-8.0352,-34.9239,'POESIA','Po�o da Panela','"Num remanso buc�lico e sombrio
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (54,-8.0352,-34.9239,'POESIA','Poço da Panela','"Num remanso buc�lico e sombrio
         Onde atenua a marcha o grande rio,
         � sombra de recurvas ingazeiras,
         Batem roupa, cantando as lavadeiras.
         Trago ainda nos olhos: � bem ela,
-        A paisagem do Po�o da Panela:
+        A paisagem do Poço da Panela:
         A igreja, a casa grande, as gameleiras
         E ao fundo o p�tio verde e as ribanceiras
         que afagam, num l�brico arrepio,
@@ -437,18 +437,18 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         (Oleg�rio Mariano)
         
         Obra
-        O Po�o da Panela','pocoPanela','google.com',2,'FALSE','http://blog.eduardofeitosa.com.br/wp-content/uploads/2015/12/ESTRADA-REAL.jpg',50);
+        O Poço da Panela','pocoPanela','google.com',2,'FALSE','http://blog.eduardofeitosa.com.br/wp-content/uploads/2015/12/ESTRADA-REAL.jpg',50);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (55,-8.02439,-34.9332,'POESIA','Rio Capibaribe','"Na paisagem do rio
-        dif�cil � saber
-        onde come�a o rio;
+        difícil � saber
+        onde começa o rio;
         onde a lama
-        come�a do rio;
+        começa do rio;
         onde a terra
-        come�a da lama;
+        começa da lama;
         onde o homem,
         onde a pele
-        come�a da lama;
-        onde come�a o homem
+        começa da lama;
+        onde começa o homem
         naquele homem."
         (João Cabral de Melo Neto)
         
@@ -457,7 +457,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (56,-8.0633,-34.88861,'POESIA','Mercado da Boa Vista','"Levanto-me neste dia que amanhece
         E atravesso o portal de ferro
         E as pilastras : ''ma�às portuguesas''
-        Símbolos dos leil�es de sombras.
+        Símbolos dos leilões de sombras.
         
         Onde já foi mercado de escravos
         Hoje vendem-se cravos e canelas,
@@ -468,12 +468,12 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Obra
         Mercado da Boa Vista','mercadoBoaVista','google.com',2,'FALSE','http://www2.recife.pe.gov.br/sites/default/files/styles/imagem_slide_home/public/_mercado_da_boa_vista.jpg?itok=m0zu5MSd',52);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (57,-8.07328,-34.89539,'POESIA','Joana Bezerra','"Rasas na altura da água
-        v�-se brotar outras ilhas:
+        vá-se brotar outras ilhas:
         ilhas ainda sem nome,
         ilhas ainda não de todo paridas.
         Ilha Joana Bezerra,
         do Leite, do Retiro, do Maruim:
-        o touro da mar�
+        o touro da maré
         a estas já não precisa cobrir. "
         (João Cabral de Melo Neto)
         
@@ -540,7 +540,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         (Manuel Bandeira)
         
         Obra
-        Evoca��o do Recife','ruaUniao','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUGCfwPuQzDyaMz7sC21QZkaL48tx5Hbdz5FL9qBnJZ7YeUhgzeaQ0EenDNTFsqesPUsI3srsUNS9jiznDI4xhjI9GQUPll7D-Kk1jblz3M657WCR5xokyooagxODQSKfpn7NKnA=s16383',58);
+        Evocação do Recife','ruaUniao','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUGCfwPuQzDyaMz7sC21QZkaL48tx5Hbdz5FL9qBnJZ7YeUhgzeaQ0EenDNTFsqesPUsI3srsUNS9jiznDI4xhjI9GQUPll7D-Kk1jblz3M657WCR5xokyooagxODQSKfpn7NKnA=s16383',58);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (63,-8.05774,-34.87887,'POESIA','Rua da Aurora','� Voei ao Recife, no Cais
         Pousei na Rua da Aurora.
         � Aurora da minha vida
@@ -550,17 +550,17 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Obra
         Cotovia','ruaAurora','google.com',2,'FALSE','http://www.ipatrimonio.org/wp-content/uploads/2017/07/Recife-Rua-da-Aurora-Imagem-Fundarpe.jpg',59);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (64,-8.06395,-34.87537,'POESIA','Ponte Maurício de Nassau','"Tarde no Recife.
-        Da ponte Maurício o c�u e a cidade.
+        Da ponte Maurício o céu e a cidade.
         Fachada verde do Café Maxime, Cais do Abacaxi. Gameleiras.
         
         Tanta gente apressada, tanta mulher bonita;
-        Um camel� gritando: - alerta!
+        Um camelô gritando: - alerta!
         Algazarra. Seis horas. Os sinos.
         
         Recife romântico dos crepàsculos das pontes,
         Dos longos crepàsculos que assistiram � passagem dos fidalgos holandeses,
         Que assistem agora ao movimento das ruas tumultuosas,
-        Que assistir�o mais tarde � passagem dos avi�es para as costas do Pac�fico;
+        Que assistirão mais tarde � passagem dos aviões para as costas do Pacífico;
         Recife romântico dos crepàsculos das pontes
         E da beleza catélica do rio."
         (Joaquim Cardozo)
@@ -591,12 +591,12 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         e ainda tem o cais do Apolo,
         apodrecido e romântico,
         beleza que ainda resiste
-        l� nos desv�os da memória
+        lá nos desv�os da memória
         desse bairro que se escoa
         pela Ponte Giratória,
-        que � uma estranha arma��o
-        que aguenta em seu f�rreo dorso
-        autom�vel, caminh�o
+        que � uma estranha armação
+        que aguenta em seu férreo dorso
+        automóvel, caminhão
         e trem de carga bem cheio,
         mas não resiste às barca�as
         que a fendem do meio a meio."
@@ -607,26 +607,26 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (68,-8.0635,-34.8729,'POESIA','Bairro do Recife','"Zona portu�ria, espectro de blenorragia
         e cargueiros.
         A puta se mira no espelho
-        m�o no queixo, como se perguntasse:
-        � Que meios, para atravess�-lo?
+        mão no queixo, como se perguntasse:
+        � Que meios, para atravessá-lo?
         Eu responderia:
         � Mil vezes, o outro lado.
         Ela sorri pelo canto amargo da boca
         e desaparece atrás do biombo chinàs.
-        Ou�o o chocalhar das ablu��es
+        Ouço o chocalhar das ablu��es
         como as mareias no casco do cargueiro.
         Considero o toucador colorido,
         espectro de enormes vidros de lo��o.
         Estou nu como uma garrafa,
         nudez de vidro,
-        o quarto � o �den."
-        (Gast�o de Holanda)','bairroRecife','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUHmit3svI4e633OT_Vyf-rEmCy-xITM9k5QjkGK57oCRr1L8kbVxYv6PUgcCYMsasVjfPkCn23qDUZeeJc59RxmjvYmCdm21weNZAv_n7bz6Vlz94YhhOrorNGWCpCuZM_AVGz-WI5YMMg1aMR3omuItS2GXFXSVPv-2yqrJP3h7AOlJMdBha26NQ=s16383',64);`);
+        o quarto é o Éden."
+        (Gastão de Holanda)','bairroRecife','google.com',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUHmit3svI4e633OT_Vyf-rEmCy-xITM9k5QjkGK57oCRr1L8kbVxYv6PUgcCYMsasVjfPkCn23qDUZeeJc59RxmjvYmCdm21weNZAv_n7bz6Vlz94YhhOrorNGWCpCuZM_AVGz-WI5YMMg1aMR3omuItS2GXFXSVPv-2yqrJP3h7AOlJMdBha26NQ=s16383',64);`);
 
         await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (69,-8.04805,-34.8989,'HISTORICO','Palácio dos Manguinhos','A residência oficial do arcebispo de Olinda e Recife fica no número 409. O imóvel foi construído para ser a residência do comerciante José da Silva Loyo, o Visconde de Loyo. &nbsp;Adquirido pela Arquidiocese, tornou-se a sede da C�ria Metropolitana. Fica ao lado da Igreja de São José dos Manguinhos, construída, entre 1711 e 1741, para ser uma capela particular. </p><span>Foi no casarão que, na década de 1980, o papa João Paulo II pernoitou durante visita � capital pernambucana. Antes de dormir no Palácio dos Manguinhos, no 7 de julho de 1980, o papa se dirigiu � sacada superior do imóvel para acenar para duas mil pessoas que gritavam o seu nome. No dia seguinte, antes de seguir para Teresina, o pont�fice experimentou comidas típicas, como cuscuz e tapioca, no café da manh�. A despedida foi com a b�n��o das 32 pessoas que o serviram durante a estada. A cada uma, o papa deu um ter�o.','palacioManguinhos','google.com',2,'FALSE','curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Palacio-Manguinhos-Casaroes-Rui-Barbosa.jpg',65);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (70,-8.0445,-34.90173,'HISTORICO','Museu do Estado de Pernambuco','O casarão do número 960, onde hoje funciona o Museu do Estado de Pernambuco, foi considerado, no século 19, a grande vitrine da alta sociedade pernambucana. As festas promovidas na casa de Francisco Antônio de Oliveira, o Barão de Beberibe, eram observadas do lado de fora por pessoas das classes mais baixas. Quem conta a história � o monitor do museu, Alexandre Amaral. �Essa casa foi residência da família e também já foi sede do Country Club. As casas ao longo do Rio Capibaribe eram as preferidas dos ricos comerciantes, que davam grandes festas. Muitas pessoas que se deslocavam para ver as celebra��es�, explica. O luxo e requinte ainda podem ser vistos por quem tem curiosidade de saber como viviam os ricos da época. O Museu do Estado tem salas que reproduzem cômodos, com objetos originais. O Solar do Barão de Beberibe s� foi adquirido pelo estado em 1935 e, em 10 de maio de 1940, virou museu por meio de decisão publicada no decreto número 491. O casarão também recebe o nome de Estácio Coimbra, governador que criou a Inspetoria Estadual dos Monumentos Nacionais de Pernambuco.','museuPernambuco','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/museu-do-estado-casaroes-rui-barbosa.jpg',66);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (71,-8.05252,-34.89624,'HISTORICO','Toyolex','A convivência harmônica entre uma concessionária de veículos moderna e um casarão antigo em estilo colonial provam que é possível preservar os imóveis históricos, mesmo que o uso deles pareça ser antagônico ao espaço. A união do tradicional com o contemporâneo marcam a arquitetura da Toyolex, no número 1105 da avenida. A loja de veículos ocupa um terreno de 10 mil metros quadrados e divide espaço com um casarão da década de 1950. Para preservar a arquitetura original do imóvel, a concessionária foi levantada nos fundos da casa, na parte do terreno voltada para a Avenida Beira Rio. Quem passa pela Rui Barbosa, por exemplo, nem consegue imaginar que, por trás do jardim e do casarão, exista um pr�dio de vidro representante de uma moderna arquitetura. O �antigo� e o �novo� estão interligados apenas por uma passarela. Antes da inauguração da loja, em 2013, as portas e os pisos do casarão foram restaurados, seguindo as especifica��es originais. As cores que as esquadrias de madeira tinham na década de 1950 também foram mantidas.','toyolex','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Toyolex-casaroes-rui-barbosa.jpg',67);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (72,-8.04254,-34.90305,'HISTORICO','Mansão dos Gibson','�No sítio de Henry Gibson, na Ponte de Uchoa, precisa-se de trabalhadores de enxada. Sendo bons, paga-se 800 réis por dia.� O an�ncio estampado na edição de 8 de agosto de 1855 do Diario de Pernambuco se referia a uma das mais importantes propriedades do Recife na época. Hoje, a mansão dos Gibson, que atualmente pertence � família Baptista da Silva, faz parte do imagin�rio de muitos recifenses. A casa de estilo neomanuelino, ou neogótico, construída em 1847 �, sem dúvidas, uma das que mais chamam a atenção de quem passa pela avenida. O jardim bem cuidado, o portão de ferro e as estátuas são algumas das belezas do casarão que � possível contemplar. O acesso ao imóvel, porém, � restrito apenas a familiares e amigos dos propriet�rios; avisam os funcionários assim que alguém se aproxima do portão. �Gibson era um negociante inglàs e essa casa foi a primeira da regi�o projetada com jardins�, explica o arquiteto José Luiz da Mota Menezes. Apàs a saída dos Gibson da casa, o imóvel abrigou o Internato Pernambucano, considerado �o mais aristocrático colégio da época�.','mansaoGibson','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Mansao-Gibson-Casaroes-Rui-Barbosa.jpg',68);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (73,-8.04138,-34.90337,'HISTORICO','Ponte D''uchoa','Entre os carros que trafegam pela movimentada avenida, um pedacinho do passado chama a atenção. A Estação Ponte d�Uchoa está l�, lembrando os tempos em que o bonde era um dos meios de transporte mais comuns no Recife. A estação - inserida na Zona Especial de Preserva��o do Patrim�nio histórico da cidade - � um dos exemplos da arquitetura de ferro da cidade. O trecho denominado de Ponte D�Uchoa, situado na área compreendida entre a Ponte da Torre e o S�tio da Jaqueira, tem a sua denomina��o origin�ria da segunda metade do século 17, quando o senhor do Engenho da Torre, Antônio Borges Uchoa, mandou construir uma ponte de madeira sobre o Rio Capibaribe. A estação da antiga maxambomba, como eram chamados popularmente os trens da Brazilian Street Railway, era ponto de parada dos bondes. Foi construída em 1865, pela Empresa de Trilhos Urbanos, mas s� começou a funcionar dois anos depois. A maxambomba percorreu os trilhos do Recife até 1915, quando a estação foi desativada.','ponteUchoa','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/ponte-duchoa-casaroes-rui-barbosa.jpg',69);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (73,-8.04138,-34.90337,'HISTORICO','Ponte D''uchoa','Entre os carros que trafegam pela movimentada avenida, um pedacinho do passado chama a atenção. A Estação Ponte d�Uchoa está lá, lembrando os tempos em que o bonde era um dos meios de transporte mais comuns no Recife. A estação - inserida na Zona Especial de Preserva��o do Patrim�nio histórico da cidade - � um dos exemplos da arquitetura de ferro da cidade. O trecho denominado de Ponte D�Uchoa, situado na área compreendida entre a Ponte da Torre e o S�tio da Jaqueira, tem a sua denomina��o origin�ria da segunda metade do século 17, quando o senhor do Engenho da Torre, Antônio Borges Uchoa, mandou construir uma ponte de madeira sobre o Rio Capibaribe. A estação da antiga maxambomba, como eram chamados popularmente os trens da Brazilian Street Railway, era ponto de parada dos bondes. Foi construída em 1865, pela Empresa de Trilhos Urbanos, mas s� começou a funcionar dois anos depois. A maxambomba percorreu os trilhos do Recife até 1915, quando a estação foi desativada.','ponteUchoa','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/ponte-duchoa-casaroes-rui-barbosa.jpg',69);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (74,-8.04088,-34.902,'HISTORICO','Colégio Damas','Se o Colégio Damas funciona na Avenida Rui Barbosa hoje, o fato se deve � estação de trens urbanos Ponte d''Uchoa, localizada em frente � unidade de ensino. As irmàs belgas responsáveis pela instituição de instrução cristã buscavam um imóvel. Ao descer do pequeno trem, maxambomba, e sabendo da procura das religiosas, o cônego Rechem viu uma placa de �vende-se� no sobrado em frente � estação. Voltou mais tarde com as madres Loyola e Alphonse, que fecharam neg�cio. �O Sobrado de Ponte D�Uchoa, adquirido pelas freiras, pertencera ao comendador Luiz Morais Gomes Ferreira, um dos fundadores da Associa��o Comercial de Pernambuco. O sítio constituía, no século 19, uma localidade larga, extensa e bela avenida, ladeada de importantes prédios, bem construídos e de variada arquitetura�, mostra o registro do Colégio Damas. Atualmente, o sobrado funciona como um museu, aberto a estudantes, que re�ne objetos da história da casa e do colégio.','colegioDamas','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Colegio-Damas-casaroes-rui-barbosa.jpg',70);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (75,-8.03945,-34.90388,'HISTORICO','Academia Pernambucana de Letras','único casarão da Rui Barbosa tombado pelo Instituto de Patrim�nio histórico e Artàstico Nacional (Iphan). No século 19, era residência do portuguàs João José Rodrigues Mendes, que viveu entre 1827 e 1893. O pràspero comerciante de bacalhau tinha o título de barão e, na viuvez, construiu uma torre para isolar-se da família e viver os últimos anos da vida sem a mulher, Eug�nia da Costa. Nos anos 1960, durante o governo Paulo Gerra, o imóvel foi desapropriado e cedido em comodato � Academia Pernambucana de Letras (APL). Apenas no governo Eraldo Gueiros, na década de 1970, o imóvel foi doado em definitivo � casa dos imortais. �Até hoje, descendentes do barão visitam a casa. Recentemente, uma herdeira dele pediu para entrar e contou que viveu aqui até os 10 anos. Ela veio com os netos e se emocionou lembrando da inf�ncia�, afirma a presidente da APL, Margarida Cantarelli. Em setembro de 2015, uma minuciosa reforma teve início no casarão. Os azulejos portugueses, o piso inglàs e os lustres franceses foram restaurados. �Quando a reforma foi concluída (a previsão é que termine ainda em 2016), vamos abrir a casa à visitação. Toda a população será muito bem-vinda�, garante Cantarelli.','academiaLetras','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/academia-pernambucana-letras-casaroes-rui-barbosa.jpg',71);`);
     }
