@@ -35,29 +35,29 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Público mensal: 400
         Endereço: Rua Benfica, 1150. Madalena
         Funcionamento: seg. a sex. das 9h às 17h. Sábado, das 13h às 17h','joiaAntiga','google.com',2,'FALSE','https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/cffdf853310578a66c81882ca49dec7e/museus-do-recife/_images/Joias%20mineiras%20editadas.jpg',16);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (21,-8.01342,-34.85025,'MUSEUS','5) SACR�RIO','A obra do século 18 pertence � Igreja da Madre de Deus. Foi recuperada em 2014, apàs ser furtada h� 40 anos
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (21,-8.01342,-34.85025,'MUSEUS','5) SACR�RIO','A obra do século 18 pertence à Igreja da Madre de Deus. Foi recuperada em 2014, apàs ser furtada há 40 anos
         Local: Museu de Arte Sacra
         Público mensal: 800
-        Endereço: Rua Bispo Coutinho, 726 - Alto da S� - Olinda.
+        Endereço: Rua Bispo Coutinho, 726 - Alto da Sé - Olinda.
         Funcionamento: Terça a domingo, de 10 às 17h.','sacrario','google.com',2,'FALSE','https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/cffdf853310578a66c81882ca49dec7e/museus-do-recife/_images/Sacr%C3%A1rio%20editado.jpg',17);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (22,-8.04451,-34.90174,'MUSEUS','4)PAIN�IS(séc. 18)','Feitos em adoração a Nossa Senhora dos Prazeres, em alusão a Batalha dos Guararapes.
         Local: Museu do Estado de Pernambuco
         Público mensal: 392
         Funcionamento: Terça à sexta das 9h às 17h e sábado e domingo das 14h às 17h
         Entrada:custa R$ 6,00 (inteira) e R$ 3,00 (estudantes)',NULL,'google.com',2,'FALSE','https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/cffdf853310578a66c81882ca49dec7e/museus-do-recife/_images/Ex-voto%20c%C3%AAnico%20Sec%20XVIII.jpg',18);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (23,-8.03085,-34.92541,'MUSEUS','3)moedas(séc.17)','Cole��o numism�tica (moedas) que indica a presen�a holandesa no Brasil do século 17
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (23,-8.03085,-34.92541,'MUSEUS','3)moedas(séc.17)','Coleção numismítica (moedas) que indica a presença holandesa no Brasil do século 17
         Local: Museu do Homem do Nordeste
         Endereço: Av. Dezessete de Agosto, 2187 - Casa Forte, Recife - PE
         Entrada: Visitação: terça a sexta, das 8h30 às 17h. Sábados e Domingos, das 14h às 18h.
         Visita noturna nas últimas quartas e quintas-feiras de cada
         màs (desde setembro), o Museu dispõe de horário estendido (das 8h30 às 20h)','moedaAntiga','google.com',2,'FALSE','https://jconlineimagem.ne10.uol.com.br/imagem/noticia/2015/09/22/normal/12d82db0ae21cd44da07ccd722bc8d61.jpg',19);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (24,-8.06185,-34.87142,'MUSEUS','2)mikve/bor','Registros arqueol�gicos que comprovam a presen�a judaica no estado no século 17
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (24,-8.06185,-34.87142,'MUSEUS','2)mikve/bor','Registros arqueológicos que comprovam a presença judaica no estado no século 17
         Local: Sinagoga Kahal Zur Israel
         Público mensal: 1.500
         Endereço: Rua do Bom Jesus, 197.Recife - PE
         Funcionamento: terça a sexta-feira, das 9h às 17h; aos domingos, das 13h às 18h
         Entrada: R$ 6 (inteira) e R$ 3 (meia-entrada)','algoJudeu','google.com',2,'FALSE','https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/cffdf853310578a66c81882ca49dec7e/museus-do-recife/_images/mikve%20editado.jpg',20);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (25,-8.06163,-34.971,'MUSEUS','1)MICHELANGELo (século 16)','r�plica do Davi de Michelangelo
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (25,-8.06163,-34.971,'MUSEUS','1)MICHELANGELo (século 16)','réplica do Davi de Michelangelo
         Local: Instituto Ricardo Brennand 
         Público mensal: 13.997
         Endereço: Engenho São João,na Várzea (Alameda Antônio Brennand)
@@ -68,7 +68,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Ano:1638 - 1645
         
         história:
-        O Palácio do Campo das Princesas era o Palácio de Friburgo, uma das trás residências oficiais do conde holandàs Maurício de Nassau. Na área atualmente ocupada por ele, pelo Teatro de Santa Izabel e pela Praça da República, foi construído um jardim zoobotúnico. Além de pioneiro no Brasil, o local � apontado como o segundo mais antigo das Am�ricas, ficando atrás apenas de um asteca, criado pelos povos amer�ndios. Entre os animais que habitavam o local estavam tucanos, araras, tamanduàs, capivaras, tatus e outras espécies da fauna nativa. O espaço era coabitado por animais trazidos da �frica e àsia, como tigres, cabras angolanas e diversas aves. De acordo com a professora do Departamento de Ci�ncias Florestais da Universidade Federal Rural de Pernambuco (UFRPE), Isabelle Meunier, além de expor os animais, o parque tinha um car�ter utilit�rio. Algumas espécies, como os peixes, eram criadas para fornecer prote�na, além disso, havia o cultivo de laranjas e lim�es como armas para combater o escorbuto (doen�a causada pela car�ncia de vitamina C). A inova��o de Nassau, porém, durou apenas sete anos, sendo destruído pelos portugueses em 1645, um ano apàs a saída de Nassau do solo recifense, com a justificativa de que a construção atrapalhava a vista de possíveis ataques vindos pelo Rio Capibaribe.','zooAntigo','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/01/MaquetePalacioFriburgo_Horto_chamada.jpg',22);
+        O Palácio do Campo das Princesas era o Palácio de Friburgo, uma das trás residências oficiais do conde holandàs Maurício de Nassau. Na área atualmente ocupada por ele, pelo Teatro de Santa Izabel e pela Praça da República, foi construído um jardim zoobotúnico. Além de pioneiro no Brasil, o local é apontado como o segundo mais antigo das Américas, ficando atrás apenas de um asteca, criado pelos povos ameríndios. Entre os animais que habitavam o local estavam tucanos, araras, tamanduàs, capivaras, tatus e outras espécies da fauna nativa. O espaço era coabitado por animais trazidos da África e àsia, como tigres, cabras angolanas e diversas aves. De acordo com a professora do Departamento de Ciências Florestais da Universidade Federal Rural de Pernambuco (UFRPE), Isabelle Meunier, além de expor os animais, o parque tinha um caráter utilitário. Algumas espécies, como os peixes, eram criadas para fornecer proteína, além disso, havia o cultivo de laranjas e limões como armas para combater o escorbuto (doença causada pela carência de vitamina C). A inovação de Nassau, porém, durou apenas sete anos, sendo destruído pelos portugueses em 1645, um ano apàs a saída de Nassau do solo recifense, com a justificativa de que a construção atrapalhava a vista de possíveis ataques vindos pelo Rio Capibaribe.','zooAntigo','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/01/MaquetePalacioFriburgo_Horto_chamada.jpg',22);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (27,-8.0535,-34.87147,'HISTORICO','Primeiro trem urbano da América Latina','Local: Entre o bairro portuário e o então povoado de Apipucos
         Ano: 1867
         
@@ -85,22 +85,22 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         Silva, as maxambombas tinham entre dois e quatro vagões e carregavam
         até 30 pessoas por viagem, a uma velocidade de 16 km/h, com a
         passagem custando 200 réis. Em 1870 a circulação do trem chegou
-        até a Estrada da Caxangá, próximo � Várzea. Depois, Olinda e
-        Casa Amarela entraram na rota. A maxambomba foi respons�vel por dar
-        nome a v�rios bairros da cidade, como Ponto de Parada, Casa Amarela
+        até a Estrada da Caxangá, próximo à Várzea. Depois, Olinda e
+        Casa Amarela entraram na rota. A maxambomba foi responsável por dar
+        nome a vários bairros da cidade, como Ponto de Parada, Casa Amarela
         (a parada do trem ficava próximo a uma), Encruzilhada (local de
-        cruzamento das linhas f�rreas) e Tamarineira (parada ficava perto de
-        um p� de tamarindo). Atualmente, a Estação Ponte D''uchoa � a
-        �nica mantida conservada desde as maxambombas.','tremAntigo','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/01/maxambombacapa.jpg',23);
+        cruzamento das linhas férreas) e Tamarineira (parada ficava perto de
+        um pé de tamarindo). Atualmente, a Estação Ponte D''uchoa é a
+        única mantida conservada desde as maxambombas.','tremAntigo','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/01/maxambombacapa.jpg',23);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (28,-8.0653,-34.87675,'HISTORICO','Pouso da primeira travessia de avião do Atlântico Sul','Local: Bairro de Santo Antônio
         Ano: 1922
         
         história: O piloto Sacadura Cabral e o navegador Gago
         Coutinho, ambos portugueses, chegaram ao Recife a bordo de um
         hidroavião monomotor, realizando a primeira travessia de avião do
-        Atlântico Sul. A aeronave Lusitânia saiu de Lisboa, em 30 de mar�o,
+        Atlântico Sul. A aeronave Lusitânia saiu de Lisboa, em 30 de março,
         e passou por Las Palmas, nas Ilhas Canárias, seguida pela Ilha de
-        São Vicente, em Cabo Verde. A Parada seguinte ocorreu no Arquip�lago
+        São Vicente, em Cabo Verde. A Parada seguinte ocorreu no Arquipélago
         de São Pedro e São Paulo, já em águas brasileiras, onde a
         aeronave sofreu avarias e foi levada até Fernando de Noronha com o
         auxílio de um cruzador da Marinha de Portugal. Em Noronha, a dupla
@@ -118,33 +118,33 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (29,-8.01704,-34.84836,'HISTORICO','A cabeça de Zumbi dos Palmares foi exposta','Local: Praça do Carmo
         Ano: 1695
         
-        história: Um dos maiores símbolos da resist�ncia escrava
+        história: Um dos maiores símbolos da resistência escrava
         durante o Brasil Colônia foi morto, na Serra Dois Irmãos, na então
         Capitania de Pernambuco. Líder do Quilombo dos Palmares, Zumbi teve
         a cabeça cortada e exposta na Praça do Carmo até completa
         decomposição. A decisão do governador de Pernambuco na ocasião,
         Caetano de Melo Castro, visava acaba com a superstição difundida
-        entre os escravos de que Zumbi era imortal. �A cabeça era um
+        entre os escravos de que Zumbi era imortal. A cabeça era um
         troféu, um exemplo para que os negros que por ali passassem tivessem
-        cuidado para não ter o mesmo fim�, explica Severino Vicente,
+        cuidado para não ter o mesmo fim, explica Severino Vicente,
         doutor em história e professor da UFPE.  Zumbi se tornou líder apàs
-        se opor � liderança anterior de Ganga Zumba, que havia aceitado uma
+        se opor à liderança anterior de Ganga Zumba, que havia aceitado uma
         oferta de paz da Coroa Portuguesa. O Quilombo dos Palmares foi o
-        grande foco de resist�ncia formado por escravos negros, fugidos de
+        grande foco de resistência formado por escravos negros, fugidos de
         fazendas e senzalas. Ocupava uma área equivalente ao tamanho de
         Portugal, onde atualmente, está o município de União dos Palmares,
         em Alagoas. Em seu auge, foi composto por 30 mil pessoas. Acabou
         desfeito por completo em 1710. Atualmente, a Praça do Carmo exibe um
         monumento, construído por Abelardo da Hora.','zumbiDosPalmares','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/est%C3%A1tua-de-zumbi-2.jpg',25);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (30,-8.06394,-34.87535,'HISTORICO','O que � lugar de memória?','A história oficial ajuda a referendar um evento ocorrido, mas nem
-        sempre � componente indispensável para a formação da memória de
-        um povo. Isso � explicado pelo conceito de lugar de memória que, em
-        linhas gerais, reflete eventos que acabam no imagin�rio popular, sem
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (30,-8.06394,-34.87535,'HISTORICO','O que é lugar de memória?','A história oficial ajuda a referendar um evento ocorrido, mas nem
+        sempre é componente indispensável para a formação da memória de
+        um povo. Isso é explicado pelo conceito de lugar de memória que, em
+        linhas gerais, reflete eventos que acabam no imaginário popular, sem
         necessidade de comprovação histórica. A história do boi
         voador, na época de Maurício de Nassau é um exemplo. São
         experiências de diferentes indivíduos que formam uma experiência
         histórica. O período holandàs em Pernambuco tem muito disso,
-        inclusive a figura do próprio Maurício de Nassau�, explica Cibele
+        inclusive a figura do próprio Maurício de Nassau, explica Cibele
         Barbosa, pesquisadora da Fundação Joaquim Nabuco (Fundaj).  
         O conceito de lugar de memória defende que, para que haja memória,
         não é preciso uma representação fàsica. àSão referências
@@ -152,71 +152,71 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         desde que ali se tenha uma memória referendada pela história oral
         trazida por uma comunidade. Mesmo que não se tenha certeza que a
         cabeça de zumbi esteve na Praça do Carmo, o que importa é o que
-        foi introjetado na memória das pessoas�, exemplifica.','boiVoador','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/boi-voador-ok.jpg',26);
+        foi introjetado na memória das pessoas, exemplifica.','boiVoador','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/boi-voador-ok.jpg',26);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (31,-8.0643,-34.88009,'HISTORICO','Assassinato de João Pessoa','Local: Rua Nova
         Ano: 1930
         
-        história:  Na Confeitaria Gl�ria, na Rua Nova, no Recife,
+        história:  Na Confeitaria Glória, na Rua Nova, no Recife,
         enquanto tomava um café, João Pessoa, então governador da Parayba
         foi assassinado. O autor do disparo foi o deputado João Dantas. A
         motivação foi pessoal, apesar da rivalidade política nutrida entre
         os dois. "João Pessoa teria ordenado que a polícia invadisse a
-        casa de João Dantas. Os policiais pegaram fotos �ntimas e cartas
+        casa de João Dantas. Os policiais pegaram fotos íntimas e cartas
         que ele trocava com uma mulher e publicaram no jornal", relata
         Severino Vicente. Acontece que João Pessoa, no mesmo ano, foi
-        candidato a vice-presidente na chapa encabeçada por Get�lio Vargas,
+        candidato a vice-presidente na chapa encabeçada por Getúlio Vargas,
         que acabou derrotada por Júlio Prestes. "Começou a se espalhar
         a notícia da morte de João Pessoa como algo com motivação
-        política. A morte foi de ordem pessoal, mas teve efeitos pol�ticos.
+        política. A morte foi de ordem pessoal, mas teve efeitos políticos.
         Foi um dos fatores que geraram a Revolução de 1930", aponta
         Vicente. A Revolução de 30 foi um movimento armado liderado pelo
-        Rio Grande do Sul, Para�ba e Minas Gerais, que usou a morte de João
+        Rio Grande do Sul, Paraíba e Minas Gerais, que usou a morte de João
         Pessoa como estopim para anular o resultado das eleições. Ela
-        resultou na deposi��o do presidente Washington Luàs e impediu a
+        resultou na deposição do presidente Washington Luàs e impediu a
         posse do vencedor das eleições, Júlio Prestes. Em homenagem ao
         falecido, a capital da então Parayba passou a se chamar João
         Pessoa.','joaoPessoa','google.com',2,'FALSE','curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Rua-assassinato-João-Pessoa.jpg',27);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (32,-8.05401,-34.87106,'HISTORICO','�Captura do Recife� pelo inglàs James Lancaster','Local: Porto do Recife
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (32,-8.05401,-34.87106,'HISTORICO','Captura do Recife pelo inglàs James Lancaster','Local: Porto do Recife
         Ano: 1595
         
         história:  Dois fatos precisam ser entendidos antes dos
         relatos sobre o que foi a "Captura do Recife". Primeiro: a
         Inglaterra começaava a dar os primeiros passos para se tornar uma
-        pot�ncia mar�tima. Segundo: o a��car valia como ouro. Nesse
-        cenário, os cors�rios ingleses, piratas que atuavam a mando da
-        rainha Elizabete I, agiam saqueando embarca��es e portos de
+        potência marítima. Segundo: o açúcar valia como ouro. Nesse
+        cenário, os corsários ingleses, piratas que atuavam a mando da
+        rainha Elizabete I, agiam saqueando embarcações e portos de
         colônias portuguesas e espanholas em busca de riquezas. "Recife
         e Olinda estavam entre os locais mais ricos do mundo ocidental. Um
-        quilo de a��car já era riqueza, imagine um carregamento de
-        a��car", destaca Severino Vicente. James Lancaster chegou ao
+        quilo de açúcar já era riqueza, imagine um carregamento de
+        açúcar", destaca Severino Vicente. James Lancaster chegou ao
         Recife em abril de 1595, comandando uma expedição militar inglesa.
         Em cerca de um màs em que estiveram em águas e solo recifenses, a
-        quantidade de a��car, pau-brasil e algod�o saqueada foi t�o
+        quantidade de açúcar, pau-brasil e algodão saqueada foi tão
         grande que foram fretados navios holandeses e franceses pela frota
         pela coroa inglesa. Ao todo foram mobilizados em torno de 750
         soldados e 35 navios, entre próprios e capturados por Lancaster e
-        seus aliados. No Recife, foram saqueadas lojas, armaz�ns e casas,
+        seus aliados. No Recife, foram saqueadas lojas, armazéns e casas,
         deixando cerca de 120 mortos.','jamesLancaster','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Captura-do-recife.jpg',28);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (33,-8.07217,-34.8818,'HISTORICO','Prisão e fuzilamento de Frei Caneca','Local: Arquivo Público e proximidades do Forte das Cinco Pontas
         Ano: 1825
         
-        história:  O líder libert�rio Joaquim do Amor Divino
+        história:  O líder libertário Joaquim do Amor Divino
         Rabelo, mais conhecido por Frei Caneca tem a sua história misturada
         com a do Recife. Esteve entre as principais lideranças da Revolução
         Pernambucana de 1817 e da Confederação do Equador, em 1824. No ano
-        seguinte � segunda tentativa separatista foi preso onde atualmente,
+        seguinte à segunda tentativa separatista foi preso onde atualmente,
         na Rua do Imperador, funciona o Arquivo Público de Pernambuco. Pouco
         mais de um màs apàs a prisão, deveria ser morto por enforcamento,
-        apesar dos diversos pedidos de clem�ncias de diversas ordens
+        apesar dos diversos pedidos de clemências de diversas ordens
         religiosas. No momento do enforcamento, porém, trás carrascos se
-        recusaram a enforc�-lo, por conta de sua atua��o religiosa � era
+        recusaram a enforcá-lo, por conta de sua atuação religiosa � era
         um padre carmelita. Diante disso, foi ordenado pela Casa Militar a
-        execu��o por meio de tiros, chamada na ocasião por arcabuzamento.
-        "A C�mara Municipal, atual Arquivo Público, também funcionava
+        execução por meio de tiros, chamada na ocasião por arcabuzamento.
+        "A Câmara Municipal, atual Arquivo Público, também funcionava
         como prisão. Frei Caneca saiu de lá e foi levado andando até o
         local em que foi executado, que apesar de ter uma placa e um busto,
         muitos não sabem o que aconteceu lá", relata Severino Vicente.
-        O local exato da execu��o � um muro que continua erguido, nas
+        O local exato da execução é um muro que continua erguido, nas
         proximidades do Forte das Cinco Pontas, no bairro de São José.','freiCaneca','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Colagem-frei-caneca.jpg',29);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (34,-8.01012,-34.85353,'HISTORICO','Igreja Constru�da por uma irmandade de escravos negros','Local: Igreja de Nossa Senhora do Ros�rio dos Homens Pretos
         Ano: 1630
@@ -240,7 +240,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         ra�zes negras. "Excetuando-se Nossa Senhora do Ros�rio, Nossa
         Senhora da Boa Hora e São Domingos, todas as outras imagens
         presentes nos altares representam santos negros", aponta a
-        pesquisadora. Em Olinda, h� uma igreja com o mesmo nome, fundada na
+        pesquisadora. Em Olinda, há uma igreja com o mesmo nome, fundada na
         segunda metade do século 17.','igrejaNossaSenhoraRosario','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Igreja-de-nossa-senhora-dos-homens-pretos.jpg',30);`);
 
         await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (35,-8.05482,-34.86535,'FORTES','Forte de São Francisco','Localização: No extremo dos arrecifes do Porto do Recife, onde hoje existe um farol
@@ -257,7 +257,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         
         história: O local, longe da costa pernambucana, foi escolhido
         para evitar que invasores holandeses passassem do litoral para o interior, onde
-        ficavam os engenhos de a��car. Os pesquisadores acreditam que ele tenha sido
+        ficavam os engenhos de açúcar. Os pesquisadores acreditam que ele tenha sido
         posicionado estrategicamente para cercar os inimigos com mais facilidade','forteRealBomJesus','google.com',2,'FALSE','https://uploads.knightlab.com/storymapjs/d5cc53d28ab2db871c39e00a9bdd9e6c/fortes-de-pernambuco/_images/forte%20bom%20jesus%20.jpg',33);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (38,-8.05291,-34.87066,'FORTES','Forte do Brum','Localização: Praça da Comunidade Luso Brasileira, Bairro do Recife.
         Data de construção: 1630
@@ -296,39 +296,39 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
             Esse é o primeiro jardim moderno brasileiro. Com função educativa
         destaca a vegetação de regiões específicas da América, incluindo exemplares da Mata Atlântica, da Amazônia e espécies tropicais exóticas de
         outros continentes. Contornando os lagos estão as espécies arbáreas
-        formando cenários variados de volumes e combina��es de texturas.
+        formando cenários variados de volumes e combinações de texturas.
         Para o lago central, o paisagista indicou a escultura de uma índia a se
-        banhar que nunca foi executada. No contorno, duas alamedas de �rvores sombreavam a fileira de bancos. A água represada em lagos, por
+        banhar que nunca foi executada. No contorno, duas alamedas de árvores sombreavam a fileira de bancos. A água represada em lagos, por
         sua vez, produzia efeitos cúnicos e refrescantes e servia como meio de
         cultura botânica. Foram introduzidos paus-mulatos e plantas aquáticas
-        como ninfeas, vit�rias-r�gias e l�tus.','pracaCasaForte','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2015/12/casa-forte.jpg',40);
+        como ninfeas, vitórias-régias e lótus.','pracaCasaForte','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2015/12/casa-forte.jpg',40);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (45,-8.05841,-34.90357,'JARDINS','Praça Euclides da Cunha','A Praça Euclides da Cunha foi concebida por Burle Marx também em
         1935. Localiza-se no bairro da Madalena, em terras pertencentes ao antigo Engenho da Madalena. Antes de sua construção, o local chamava-se
         Largo do Viveiro. Nesse lugar, existia apenas uma estação elevatéria da
         Companhia Pernambucana de Saneamento, construída pelo engenheiro
         Francisco Saturnino de Brito em 1909, que funciona até os dias atuais.
-        Esse Jardim também � conhecido como Praça do Internacional pela
-        presen�a do Clube Internacional. Burle Marx tra�ou passeios e gramados em forma de elipse com um canteiro central dedicado às cact�ceas
+        Esse Jardim também é conhecido como Praça do Internacional pela
+        presença do Clube Internacional. Burle Marx tra�ou passeios e gramados em forma de elipse com um canteiro central dedicado às cact�ceas
         � como a coroa-de-frade, o facheiro e o xique-xique, e alamedas nas
-        bordas com cortinas de �rvores � como o pau-ferro, o pau-d�arco e o
+        bordas com cortinas de árvores é como o pau-ferro, o pau-d�arco e o
         juazeiro, todas elas espécies vegetais da Caatinga.','pracaEuclidesCunha','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2015/12/euclidesCunha.jpg',41);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (46,-8.06081,-34.87849,'JARDINS','Praça da República','A Praça da República � o mais antigo jardim público do Recife. Foi
         construída no sítio onde existiu o Parque e o Palácio de Friburgo no
         século XVII, edificados pelo Conde João Maurício de Nassau durante o
-        dom�nio holandàs em Pernambuco (1630/1654). Em substitui��o a esse
+        dom�nio holandàs em Pernambuco (1630/1654). Em substituição a esse
         conjunto, em 1841, foi construído o Palácio do Governo e, posteriormente, o Teatro Santa Isabel, dentre outros significativos exemplares
         da arquitetura. Em 1875, foram executados o projeto de uma praça e os
         jardins do Palácio do Governo, ambos assinados pelo engenheiro Emile
-        Beringer, segundo a influ�ncia inglesa adotada no Brasil do século XIX.
+        Beringer, segundo a influência inglesa adotada no Brasil do século XIX.
         Naquela época, esta Praça foi chamada Jardim do Campo das Princesas,
         nome que hoje se d� aos jardins do Palácio do Governo do Estado. Para
         compor o cenário romântico, o mobiliário reunia esculturas de bronze
-        adquiridas na Fran�a e gradil de ferro importado da Inglaterra, além de
+        adquiridas na França e gradil de ferro importado da Inglaterra, além de
         coreto e luminárias de ferro. Canteiros com vegetação de pequeno porte
         e renques de palmeiras imperiais como símbolo de identificação com a
         Corte complementavam aquele ambiente. Na década de 1920, a Praça 
         da República foi reformada e ganhou eixos em cruz, entremeados por
-        passeios curvil�neos, quiosque e bancos de cimento armado de inspira��o romântica.
+        passeios curvil�neos, quiosque e bancos de cimento armado de inspiração romântica.
         Por volta de 1937, Roberto Burle Marx deixa sua marca na Praça da
         República, mantendo as esculturas clàssicas e as palmeiras imperiais e
         especificando coqueiros, cajueiros e mangabeiras, entre outras espécies arbáreas. Substituiu os bancos por outros do mesmo modelo de
@@ -341,7 +341,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (48,-8.05632,-34.89915,'JARDINS','Praça do Derby','A Praça do Derby está localizada no bairro do mesmo nome, no local
         onde existiu um hipódromo (por volta de 1888) e depois, o Mercado
         Coelho Cintra e um hotel, construídos por Delmiro Gouveia. Na década
-        de 1920, o Governo de S�rgio Loreto construiu o Quartel e o Parque
+        de 1920, o Governo de Sérgio Loreto construiu o Quartel e o Parque
         do Derby, esse último incluindo um loteamento e a abertura de largas
         avenidas e de um canal de drenagem � que levou em conta a proximidade com o Rio Capibaribe. O projeto inclu�a dois lagos, um em cada
         trecho, bancos de cimento armado de fei��o romântica, esculturas e
@@ -625,7 +625,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         await queryRunner.query(`INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (69,-8.04805,-34.8989,'HISTORICO','Palácio dos Manguinhos','A residência oficial do arcebispo de Olinda e Recife fica no número 409. O imóvel foi construído para ser a residência do comerciante José da Silva Loyo, o Visconde de Loyo. &nbsp;Adquirido pela Arquidiocese, tornou-se a sede da C�ria Metropolitana. Fica ao lado da Igreja de São José dos Manguinhos, construída, entre 1711 e 1741, para ser uma capela particular. </p><span>Foi no casarão que, na década de 1980, o papa João Paulo II pernoitou durante visita � capital pernambucana. Antes de dormir no Palácio dos Manguinhos, no 7 de julho de 1980, o papa se dirigiu � sacada superior do imóvel para acenar para duas mil pessoas que gritavam o seu nome. No dia seguinte, antes de seguir para Teresina, o pont�fice experimentou comidas típicas, como cuscuz e tapioca, no café da manh�. A despedida foi com a b�n��o das 32 pessoas que o serviram durante a estada. A cada uma, o papa deu um ter�o.','palacioManguinhos','google.com',2,'FALSE','curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Palacio-Manguinhos-Casaroes-Rui-Barbosa.jpg',65);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (70,-8.0445,-34.90173,'HISTORICO','Museu do Estado de Pernambuco','O casarão do número 960, onde hoje funciona o Museu do Estado de Pernambuco, foi considerado, no século 19, a grande vitrine da alta sociedade pernambucana. As festas promovidas na casa de Francisco Antônio de Oliveira, o Barão de Beberibe, eram observadas do lado de fora por pessoas das classes mais baixas. Quem conta a história � o monitor do museu, Alexandre Amaral. �Essa casa foi residência da família e também já foi sede do Country Club. As casas ao longo do Rio Capibaribe eram as preferidas dos ricos comerciantes, que davam grandes festas. Muitas pessoas que se deslocavam para ver as celebra��es�, explica. O luxo e requinte ainda podem ser vistos por quem tem curiosidade de saber como viviam os ricos da época. O Museu do Estado tem salas que reproduzem cômodos, com objetos originais. O Solar do Barão de Beberibe s� foi adquirido pelo estado em 1935 e, em 10 de maio de 1940, virou museu por meio de decisão publicada no decreto número 491. O casarão também recebe o nome de Estácio Coimbra, governador que criou a Inspetoria Estadual dos Monumentos Nacionais de Pernambuco.','museuPernambuco','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/museu-do-estado-casaroes-rui-barbosa.jpg',66);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (71,-8.05252,-34.89624,'HISTORICO','Toyolex','A convivência harmônica entre uma concessionária de veículos moderna e um casarão antigo em estilo colonial provam que é possível preservar os imóveis históricos, mesmo que o uso deles pareça ser antagônico ao espaço. A união do tradicional com o contemporâneo marcam a arquitetura da Toyolex, no número 1105 da avenida. A loja de veículos ocupa um terreno de 10 mil metros quadrados e divide espaço com um casarão da década de 1950. Para preservar a arquitetura original do imóvel, a concessionária foi levantada nos fundos da casa, na parte do terreno voltada para a Avenida Beira Rio. Quem passa pela Rui Barbosa, por exemplo, nem consegue imaginar que, por trás do jardim e do casarão, exista um pr�dio de vidro representante de uma moderna arquitetura. O �antigo� e o �novo� estão interligados apenas por uma passarela. Antes da inauguração da loja, em 2013, as portas e os pisos do casarão foram restaurados, seguindo as especifica��es originais. As cores que as esquadrias de madeira tinham na década de 1950 também foram mantidas.','toyolex','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Toyolex-casaroes-rui-barbosa.jpg',67);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (72,-8.04254,-34.90305,'HISTORICO','Mansão dos Gibson','�No sítio de Henry Gibson, na Ponte de Uchoa, precisa-se de trabalhadores de enxada. Sendo bons, paga-se 800 réis por dia.� O an�ncio estampado na edição de 8 de agosto de 1855 do Diario de Pernambuco se referia a uma das mais importantes propriedades do Recife na época. Hoje, a mansão dos Gibson, que atualmente pertence � família Baptista da Silva, faz parte do imagin�rio de muitos recifenses. A casa de estilo neomanuelino, ou neogótico, construída em 1847 �, sem dúvidas, uma das que mais chamam a atenção de quem passa pela avenida. O jardim bem cuidado, o portão de ferro e as estátuas são algumas das belezas do casarão que � possível contemplar. O acesso ao imóvel, porém, � restrito apenas a familiares e amigos dos propriet�rios; avisam os funcionários assim que alguém se aproxima do portão. �Gibson era um negociante inglàs e essa casa foi a primeira da regi�o projetada com jardins�, explica o arquiteto José Luiz da Mota Menezes. Apàs a saída dos Gibson da casa, o imóvel abrigou o Internato Pernambucano, considerado �o mais aristocrático colégio da época�.','mansaoGibson','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Mansao-Gibson-Casaroes-Rui-Barbosa.jpg',68);
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (72,-8.04254,-34.90305,'HISTORICO','Mansão dos Gibson','�No sítio de Henry Gibson, na Ponte de Uchoa, precisa-se de trabalhadores de enxada. Sendo bons, paga-se 800 réis por dia.� O an�ncio estampado na edição de 8 de agosto de 1855 do Diario de Pernambuco se referia a uma das mais importantes propriedades do Recife na época. Hoje, a mansão dos Gibson, que atualmente pertence � família Baptista da Silva, faz parte do imaginário de muitos recifenses. A casa de estilo neomanuelino, ou neogótico, construída em 1847 �, sem dúvidas, uma das que mais chamam a atenção de quem passa pela avenida. O jardim bem cuidado, o portão de ferro e as estátuas são algumas das belezas do casarão que � possível contemplar. O acesso ao imóvel, porém, � restrito apenas a familiares e amigos dos propriet�rios; avisam os funcionários assim que alguém se aproxima do portão. �Gibson era um negociante inglàs e essa casa foi a primeira da regi�o projetada com jardins�, explica o arquiteto José Luiz da Mota Menezes. Apàs a saída dos Gibson da casa, o imóvel abrigou o Internato Pernambucano, considerado �o mais aristocrático colégio da época�.','mansaoGibson','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Mansao-Gibson-Casaroes-Rui-Barbosa.jpg',68);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (73,-8.04138,-34.90337,'HISTORICO','Ponte D''uchoa','Entre os carros que trafegam pela movimentada avenida, um pedacinho do passado chama a atenção. A Estação Ponte d�Uchoa está lá, lembrando os tempos em que o bonde era um dos meios de transporte mais comuns no Recife. A estação - inserida na Zona Especial de Preserva��o do Patrim�nio histórico da cidade - � um dos exemplos da arquitetura de ferro da cidade. O trecho denominado de Ponte D�Uchoa, situado na área compreendida entre a Ponte da Torre e o S�tio da Jaqueira, tem a sua denomina��o origin�ria da segunda metade do século 17, quando o senhor do Engenho da Torre, Antônio Borges Uchoa, mandou construir uma ponte de madeira sobre o Rio Capibaribe. A estação da antiga maxambomba, como eram chamados popularmente os trens da Brazilian Street Railway, era ponto de parada dos bondes. Foi construída em 1865, pela Empresa de Trilhos Urbanos, mas s� começou a funcionar dois anos depois. A maxambomba percorreu os trilhos do Recife até 1915, quando a estação foi desativada.','ponteUchoa','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/ponte-duchoa-casaroes-rui-barbosa.jpg',69);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (74,-8.04088,-34.902,'HISTORICO','Colégio Damas','Se o Colégio Damas funciona na Avenida Rui Barbosa hoje, o fato se deve � estação de trens urbanos Ponte d''Uchoa, localizada em frente � unidade de ensino. As irmàs belgas responsáveis pela instituição de instrução cristã buscavam um imóvel. Ao descer do pequeno trem, maxambomba, e sabendo da procura das religiosas, o cônego Rechem viu uma placa de �vende-se� no sobrado em frente � estação. Voltou mais tarde com as madres Loyola e Alphonse, que fecharam neg�cio. �O Sobrado de Ponte D�Uchoa, adquirido pelas freiras, pertencera ao comendador Luiz Morais Gomes Ferreira, um dos fundadores da Associa��o Comercial de Pernambuco. O sítio constituía, no século 19, uma localidade larga, extensa e bela avenida, ladeada de importantes prédios, bem construídos e de variada arquitetura�, mostra o registro do Colégio Damas. Atualmente, o sobrado funciona como um museu, aberto a estudantes, que re�ne objetos da história da casa e do colégio.','colegioDamas','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/Colegio-Damas-casaroes-rui-barbosa.jpg',70);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (75,-8.03945,-34.90388,'HISTORICO','Academia Pernambucana de Letras','único casarão da Rui Barbosa tombado pelo Instituto de Patrim�nio histórico e Artàstico Nacional (Iphan). No século 19, era residência do portuguàs João José Rodrigues Mendes, que viveu entre 1827 e 1893. O pràspero comerciante de bacalhau tinha o título de barão e, na viuvez, construiu uma torre para isolar-se da família e viver os últimos anos da vida sem a mulher, Eug�nia da Costa. Nos anos 1960, durante o governo Paulo Gerra, o imóvel foi desapropriado e cedido em comodato � Academia Pernambucana de Letras (APL). Apenas no governo Eraldo Gueiros, na década de 1970, o imóvel foi doado em definitivo � casa dos imortais. �Até hoje, descendentes do barão visitam a casa. Recentemente, uma herdeira dele pediu para entrar e contou que viveu aqui até os 10 anos. Ela veio com os netos e se emocionou lembrando da inf�ncia�, afirma a presidente da APL, Margarida Cantarelli. Em setembro de 2015, uma minuciosa reforma teve início no casarão. Os azulejos portugueses, o piso inglàs e os lustres franceses foram restaurados. �Quando a reforma foi concluída (a previsão é que termine ainda em 2016), vamos abrir a casa à visitação. Toda a população será muito bem-vinda�, garante Cantarelli.','academiaLetras','google.com',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/09/academia-pernambucana-letras-casaroes-rui-barbosa.jpg',71);`);
