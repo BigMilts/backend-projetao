@@ -30,7 +30,7 @@ export class InterestPoint {
   description: string;
 
   @ApiProperty({name: 'badge'})
-  @Column()
+  @Column({'nullable': true})
   badge: string;
 
   @ApiProperty({name: 'badgeUrl'})
