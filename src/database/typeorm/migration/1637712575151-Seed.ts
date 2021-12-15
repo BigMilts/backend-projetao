@@ -6,22 +6,21 @@ export class Seed1637712575151 implements MigrationInterface {
         await queryRunner.query(`
         insert into "profile" ("category", "id") values ('Historiador', 1);
         insert into "profile" ("category", "id") values ('Folclórico', 2);
-        insert into "profile" ("category", "id") values ('Perfil3', 3);
-        insert into "profile" ("category", "id") values ('Perfil4', 4);
-        insert into "profile" ("category", "id") values ('Perfil5', 5);
-        insert into "profile" ("category", "id") values ('Perfil6', 6);
-        insert into "profile" ("category", "id") values ('Perfil7', 7);
-        insert into "profile" ("category", "id") values ('Perfil8', 8);`)
+        insert into "profile" ("category", "id") values ('Museus', 3);
+        insert into "profile" ("category", "id") values ('Fortes', 4);
+        insert into "profile" ("category", "id") values ('Jardins', 5);
+        insert into "profile" ("category", "id") values ('Musical', 6);
+        `)
 
         await queryRunner.query(`
         INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (1,'História do Recife','Um roteiro histórico da cidade do Recife!','https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2018/01/03/736682/20180103085248486138e.jpg',1);
         INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (2,'O Recife Assombrado','Um roteiro sobre algumas lendas urbanas da cidade mais assombrada em linha reta do Brasil!','https://www.portodorecife.pe.gov.br/images/galeria/noticias/cruz.jpg',2);
-        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (3,'As 8 Obras Mais Antigas nos Museus da Regi�o Metropolitana','Um bom roteiro para quem pretende ocupar o final de semana com visitas aos museus.','https://images.adsttc.com/media/images/5c11/967e/08a5/e54b/ad00/0941/newsletter/5MG_4293.jpg?1544656467',3);
-        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (4,'O Recife Pouco Conhecido','Em um raio inferior a dois quil�metros � poss�vel percorrer cinco s�culos de hist�ria pelo Recife.','https://upload.wikimedia.org/wikipedia/commons/3/3d/Recife_Antigo%2C_Recife_%28PE%29.jpg',4);
-        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (5,'Fortes de Pernambuco','Com passado de lutas, Pernambuco recebeu diversos fortes ao longo da hist�ria. Alguns sobreviveram at� hoje.','uploads.knightlab.com/storymapjs/d5cc53d28ab2db871c39e00a9bdd9e6c/fortes-de-pernambuco/_images/hui.JPG',5);
-        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (6,'O Recife de Burle Marx','Paisagista, arquiteto e artista pl�stico, Roberto Burle Marx � um dos profissionais com maior express�o no urbanismo nacional.','http://www.ccba.org.br/public/upload/noticias/images/ARTE_Kulturforum_Burle_Marx1.jpg',6);
-        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (7,'Poesia sobre o Recife: os locais que inspiraram grandes poetas brasileiros','Os recantos da capital pernambucana presentes em obras de autores consagrados da literatura nacional.','https://saopaulosao.com.br/images/a_estetica/joaocabral_recife.jpg',7);
-        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (8,'A hist�ria por tr�s dos casar�es da Rui Barbosa','Conhe�a a hist�ria desses im�veis antigos da capital pernambucana','https://jconlineimagem.ne10.uol.com.br/imagem/galeria/2016/09/30/6330_avulsa/normal/42d577941d42ba1de11e23427f6e5d4c.jpg',8);`);
+        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (3,'As 8 Obras Mais Antigas nos Museus da Região Metropolitana','Um bom roteiro para quem pretende ocupar o final de semana com visitas aos museus.','https://images.adsttc.com/media/images/5c11/967e/08a5/e54b/ad00/0941/newsletter/5MG_4293.jpg?1544656467',3);
+        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (4,'O Recife Pouco Conhecido','Em um raio inferior a dois quilômetros é possível percorrer cinco séculos de história pelo Recife.','https://upload.wikimedia.org/wikipedia/commons/3/3d/Recife_Antigo%2C_Recife_%28PE%29.jpg',1);
+        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (5,'Fortes de Pernambuco','Com passado de lutas, Pernambuco recebeu diversos fortes ao longo da história. Alguns sobreviveram até hoje.','uploads.knightlab.com/storymapjs/d5cc53d28ab2db871c39e00a9bdd9e6c/fortes-de-pernambuco/_images/hui.JPG',4);
+        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (6,'O Recife de Burle Marx','Paisagista, arquiteto e artista plástico, Roberto Burle Marx é um dos profissionais com maior expressão no urbanismo nacional.','http://www.ccba.org.br/public/upload/noticias/images/ARTE_Kulturforum_Burle_Marx1.jpg',5);
+        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (7,'Poesia sobre o Recife: os locais que inspiraram grandes poetas brasileiros','Os recantos da capital pernambucana presentes em obras de autores consagrados da literatura nacional.','https://saopaulosao.com.br/images/a_estetica/joaocabral_recife.jpg',6);
+        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (8,'A história por trás dos casarões da Rui Barbosa','Conheça a história desses imóveis antigos da capital pernambucana','https://jconlineimagem.ne10.uol.com.br/imagem/galeria/2016/09/30/6330_avulsa/normal/42d577941d42ba1de11e23427f6e5d4c.jpg',1);`);
 
         await queryRunner.query(`INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (1,1,1);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (2,2,1);
