@@ -112,4 +112,10 @@ export class InterestPointsService {
   async findOneInterestPoint(id: number) {
     return await this.interestPointsRepository.findOne(id);
   }
+
+  async unlock(id: number) {
+    const interestPoint = await this.interestPointsRepository.findOne(id);
+    interestPoint.isUnlocked = !interestPoint.isUnlocked;
+    await getConnection().manager.save(interestPoint);
+  }
 }

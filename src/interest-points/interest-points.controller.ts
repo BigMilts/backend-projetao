@@ -40,4 +40,10 @@ export class InterestPointsController {
     console.log(ip);
     return ip
   }
+
+  @ApiResponse({})
+  @Get('unlock/:id')
+  async unlockInterestPoint(@Param('id') id: number) {
+    await this.interestPointsService.unlock(id);
+  }
 }
