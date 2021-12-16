@@ -45,6 +45,10 @@ export class InterestPoint {
   @Column({default: false})
   isFavorite: boolean;
 
+  @ApiProperty({name: 'isFavorite', type: Boolean})
+  @Column({default: false})
+  isUnlocked: boolean;
+
   @ApiProperty({name: 'imageUrl'})
   @Column({default: 'https://arcturusgroup.com.br/wp-content/uploads/2014/07/paisagem-marco-zero-recife.gif'})
   imageUrl: string;
