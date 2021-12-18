@@ -175,7 +175,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         resultou na deposição do presidente Washington Luàs e impediu a
         posse do vencedor das eleições, Júlio Prestes. Em homenagem ao
         falecido, a capital da então Parayba passou a se chamar João
-        Pessoa.','joaoPessoa','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLKnRV9oXShszNiRrzTq09jmCBAA2xGICDA&usqp=CAU',2,'FALSE','curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Rua-assassinato-João-Pessoa.jpg',27);
+        Pessoa.','joaoPessoa','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLKnRV9oXShszNiRrzTq09jmCBAA2xGICDA&usqp=CAU',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Rua-assassinato-Jo%C3%A3o-Pessoa.jpg',27);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (32,-8.05401,-34.87106,'HISTORICO','Captura do Recife pelo inglàs James Lancaster','Local: Porto do Recife
         Ano: 1595
         
@@ -410,7 +410,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         (João Cabral de Melo Neto)
         
         Obra
-        O Rio','varzea','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLKnRV9oXShszNiRrzTq09jmCBAA2xGICDA&usqp=CAU',2,'FALSE','https://lh3.googleusercontent.com/umsh/AFiHsUGQO1sMDDfzzrU70BJq1GANs5sO9VQqcG73ZUXFMcuhDopMFbCnC71YQukKIWQJnjAgZ_qUK0R0oZr6wBeOejWb8bJ87dpd0Cm60QiTOrQ7xck=s16383',48);
+        O Rio','varzea','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLKnRV9oXShszNiRrzTq09jmCBAA2xGICDA&usqp=CAU',2,'FALSE','https://live.staticflickr.com/3801/11839706876_f17c8d8e03_b.jpg',48);
         INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (53,-8.02635,-34.9288,'POESIA','Monteiro','"No pátio a noite é sem silêncio.
         E que é a noite sem silêncio?
         A noite é sem silêncio e no entanto onde os sinos
