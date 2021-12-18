@@ -31,6 +31,12 @@ export class InterestPointsController {
     return await this.interestPointsService.findItineraries(req.body.latitude, req.body.longitude);
   }
 
+  @ApiResponse({type: [InterestPoint]})
+  @Get('stamps')
+  async getStamps() {
+    return await this.interestPointsService.getStamps();
+  }
+
   @ApiResponse({})
   @Get('favorite/:id')
   async favoriteInterestPoint(@Param('id') id: number) {

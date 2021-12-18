@@ -118,4 +118,8 @@ export class InterestPointsService {
     interestPoint.isUnlocked = !interestPoint.isUnlocked;
     await getConnection().manager.save(interestPoint);
   }
+
+  async getStamps() {
+    return await this.interestPointsRepository.find({where: {isUnlocked: true}})
+  }
 }

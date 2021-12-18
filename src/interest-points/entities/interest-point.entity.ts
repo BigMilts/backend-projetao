@@ -34,7 +34,7 @@ export class InterestPoint {
   badge: string;
 
   @ApiProperty({name: 'badgeUrl'})
-  @Column()
+  @Column({default: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLKnRV9oXShszNiRrzTq09jmCBAA2xGICDA&usqp=CAU'})
   badgeUrl: string;
 
   @ApiProperty({name: 'likes', type: Number})
