@@ -409,12 +409,12 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         // que dão uma sombra também antiga."
         // (João Cabral de Melo Neto)
         
-        Obra
-        O Rio','varzea','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLKnRV9oXShszNiRrzTq09jmCBAA2xGICDA&usqp=CAU',2,'FALSE','https://live.staticflickr.com/3801/11839706876_f17c8d8e03_b.jpg',48);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (53,-8.02635,-34.9288,'POESIA','Monteiro','"No pátio a noite é sem silêncio.
-        E que é a noite sem silêncio?
-        A noite é sem silêncio e no entanto onde os sinos
-        Do meu Natal sem sinos?
+        // Obra
+        // O Rio','varzea','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLKnRV9oXShszNiRrzTq09jmCBAA2xGICDA&usqp=CAU',2,'FALSE','https://live.staticflickr.com/3801/11839706876_f17c8d8e03_b.jpg',48);
+        // INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (53,-8.02635,-34.9288,'POESIA','Monteiro','"No pátio a noite é sem silêncio.
+        // E que é a noite sem silêncio?
+        // A noite é sem silêncio e no entanto onde os sinos
+        // Do meu Natal sem sinos?
         
         // Ah meninos sinos
         // De quando eu menino!
