@@ -22,8 +22,6 @@ export class Seed1637712575151 implements MigrationInterface {
 
         await queryRunner.query(`INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (1,1,1);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (2,2,1);
-        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (3,3,1);
-        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (4,4,1);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (5,5,1);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (6,6,1);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (7,7,1);
@@ -75,7 +73,9 @@ export class Seed1637712575151 implements MigrationInterface {
         // INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (18,5,3);
         // INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (19,6,3);
         // INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (20,7,3);
-        // INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (21,8,3);`);
+        // INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (21,8,3);
+        // INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (3,3,1);
+        // INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (4,4,1);`);
 
         // await queryRunner.query(`
         // INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (7,'Poesia sobre o Recife: os locais que inspiraram grandes poetas brasileiros','Os recantos da capital pernambucana presentes em obras de autores consagrados da literatura nacional.','https://lh3.googleusercontent.com/proxy/54-kmhYsqU_ckQ7GbYpr_WG1lTJDyjPHoxY1D8E1TpXV_h9v17QcecTeXClhyZJ23_bP30XD1MlOZAtBtqNqNiAEVUALBwaBoPPIPqyQdELRyaRVAht3CYC2RN6SOBmlwEAV4MjvWds_ldFTVxKzDBc2gRsI2KJ4n6dl6qo0gdmLL8gOBmG_PIWs5IjsFYlAs3QpkIWNKj9OmIbQ',6);
