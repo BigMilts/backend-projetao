@@ -15,7 +15,6 @@ export class Seed1637712575151 implements MigrationInterface {
         await queryRunner.query(`
         INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (1,'História do Recife','Um roteiro histórico da cidade do Recife!','https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2018/01/03/736682/20180103085248486138e.jpg',1);
         INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (2,'O Recife Assombrado','Um roteiro sobre algumas lendas urbanas da cidade mais assombrada em linha reta do Brasil!','https://www.portodorecife.pe.gov.br/images/galeria/noticias/cruz.jpg',2);
-        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (3,'As 8 Obras Mais Antigas nos Museus da Região Metropolitana','Um bom roteiro para quem pretende ocupar o final de semana com visitas aos museus.','https://images.adsttc.com/media/images/5c11/967e/08a5/e54b/ad00/0941/newsletter/5MG_4293.jpg?1544656467',3);
         INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (4,'O Recife Pouco Conhecido','Em um raio inferior a dois quilômetros é possível percorrer cinco séculos de história pelo Recife.','https://upload.wikimedia.org/wikipedia/commons/3/3d/Recife_Antigo%2C_Recife_%28PE%29.jpg',1);
         INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (5,'Fortes de Pernambuco','Com passado de lutas, Pernambuco recebeu diversos fortes ao longo da história. Alguns sobreviveram até hoje.','https://uploads.knightlab.com/storymapjs/d5cc53d28ab2db871c39e00a9bdd9e6c/fortes-de-pernambuco/_images/hui.JPG',4);
         INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (6,'O Recife de Burle Marx','Paisagista, arquiteto e artista plástico, Roberto Burle Marx é um dos profissionais com maior expressão no urbanismo nacional.','http://www.ccba.org.br/public/upload/noticias/images/ARTE_Kulturforum_Burle_Marx1.jpg',5);       
@@ -34,14 +33,6 @@ export class Seed1637712575151 implements MigrationInterface {
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (11,4,2);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (12,5,2);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (13,6,2);
-        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (14,1,3);
-        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (15,2,3);
-        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (16,3,3);
-        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (17,4,3);
-        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (18,5,3);
-        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (19,6,3);
-        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (20,7,3);
-        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (21,8,3);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (22,1,4);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (23,2,4);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (24,3,4);
@@ -74,6 +65,17 @@ export class Seed1637712575151 implements MigrationInterface {
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (69,5,8);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (70,6,8);
         INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (71,7,8);`)
+
+        await queryRunner.query(`
+        INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (3,'As 8 Obras Mais Antigas nos Museus da Região Metropolitana','Um bom roteiro para quem pretende ocupar o final de semana com visitas aos museus.','https://images.adsttc.com/media/images/5c11/967e/08a5/e54b/ad00/0941/newsletter/5MG_4293.jpg?1544656467',3);
+        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (14,1,3);
+        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (15,2,3);
+        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (16,3,3);
+        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (17,4,3);
+        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (18,5,3);
+        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (19,6,3);
+        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (20,7,3);
+        INSERT INTO "interest_point_itinerary_order"("id","order","itineraryId") VALUES (21,8,3);`);
 
         // await queryRunner.query(`
         // INSERT INTO "itinerary"("id","title","description","imageUrl","profileId") VALUES (7,'Poesia sobre o Recife: os locais que inspiraram grandes poetas brasileiros','Os recantos da capital pernambucana presentes em obras de autores consagrados da literatura nacional.','https://lh3.googleusercontent.com/proxy/54-kmhYsqU_ckQ7GbYpr_WG1lTJDyjPHoxY1D8E1TpXV_h9v17QcecTeXClhyZJ23_bP30XD1MlOZAtBtqNqNiAEVUALBwaBoPPIPqyQdELRyaRVAht3CYC2RN6SOBmlwEAV4MjvWds_ldFTVxKzDBc2gRsI2KJ4n6dl6qo0gdmLL8gOBmG_PIWs5IjsFYlAs3QpkIWNKj9OmIbQ',6);
