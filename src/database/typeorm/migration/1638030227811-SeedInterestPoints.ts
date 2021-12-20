@@ -176,7 +176,7 @@ export class SeedInterestPoints1638030227811 implements MigrationInterface {
         posse do vencedor das eleições, Júlio Prestes. Em homenagem ao
         falecido, a capital da então Parayba passou a se chamar João
         Pessoa.','joaoPessoa','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLKnRV9oXShszNiRrzTq09jmCBAA2xGICDA&usqp=CAU',2,'FALSE','http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2016/12/Rua-assassinato-Jo%C3%A3o-Pessoa.jpg',27);
-        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (32,-8.05401,-34.87106,'HISTORICO','Captura do Recife pelo inglàs James Lancaster','Local: Porto do Recife
+        INSERT INTO "interest_point" (id,latitude,longitude,category,name,description,badge,"badgeUrl",likes,"isFavorite","imageUrl","itineraryOrderId") VALUES (32,-8.05401,-34.87106,'HISTORICO','Captura do Recife pelo inglês James Lancaster','Local: Porto do Recife
         Ano: 1595
         
         história:  Dois fatos precisam ser entendidos antes dos
